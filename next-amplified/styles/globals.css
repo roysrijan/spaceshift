@@ -1,16 +1,328 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400&family=Rubik:wght@400;500;600;700&display=swap");
+
+/* 
+
+import googleStreetviewImg from "../public/images/google-street-header-banner.png";
+
+<Image src={aboutVideo} alt="Spaceshift" />
+
+<br></br>
+
+<div className={stylesHome.whatWeOfferTitle}></div>
+
+   <section className={stylesHome["aboutUsContainer"] + " " + "blockPadding"} >
+        <Container>
+          <Row>
+            <Col lg="7">
+             </Col>
+          </Row>
+        </Container>
+      </section>
+
+ */
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Karla", sans-serif !important;
+  /* font-family: 'Rubik', sans-serif; */
 }
-
+p {
+  font-family: "Karla", sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+}
+.globalWrap h1 {
+  font-size: 45px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+}
+.globalWrap h2 {
+  font-family: "Rubik", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+}
+.globalWrap h3 {
+  font-family: "Rubik", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+}
 a {
   color: inherit;
   text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+a:hover {
+  color: #3ec0b9 !important;
+}
+
+/* //GLobal class */
+.seeMoreBt {
+  border: 1px solid #3ec0b9;
+  padding: 8px 35px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #3ec0b9;
+  margin-top: 19px;
+  text-decoration: none;
+}
+.seeMoreBt:hover {
+  background-color: #3ec0b9;
+}
+.seeMoreBt:hover img {
+  filter: brightness(0) invert(1);
+}
+
+.seeMoreBt:hover p {
+  color: #fff;
+}
+.seeMoreBt p {
+  margin: 0;
+  text-transform: uppercase;
+  margin-right: 7px;
+}
+.coloredBt {
+  background: rgb(255, 2, 102);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 2, 102, 1) 0%,
+    rgba(91, 96, 207, 1) 100%
+  );
+  padding: 11px 22px;
+  display: inline-flex;
+  color: #fff;
+  text-decoration: unset;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.blockPadding {
+  padding: 100px 0;
+}
+.tinyTitle h5 {
+  font-size: 22px;
+  font-family: "Rubik", sans-serif;
+}
+.tinyTitle {
+  position: relative;
+  margin-bottom: 30px;
+  display: inline-flex;
+}
+.tinyTitle:after {
+  content: "";
+  width: 40px;
+  height: 2px;
+  background: #3ec0b9;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.innerPageHeaderTitle {
+  width: 600px;
+  padding: 25px 48px;
+  border-radius: 10px;
+
+  position: relative;
+  z-index: 99;
+  background: #fff;
+  margin: 0 auto;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.34);
+  -moz-box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.34);
+  box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.34);
+  margin-top: -60px;
+  text-align: center;
+}
+
+/* //TAB STYLE */
+.react-tabs__tab {
+  padding: 0 !important;
+  border: 0 !important;
+}
+
+.react-tabs__tab--selected {
+  background: none !important;
+  border: none !important;
+  color: black !important;
+  border-radius: 5px 5px 0 0;
+  color: #3ec0b9 !important;
+}
+
+.react-tabs__tab .whyGViewTabTitle span {
+  border-top: 1px solid #ccc;
+  padding: 15px 0;
+  margin-top: 15px;
+  padding-right: 54px;
+}
+.react-tabs__tab--selected .whyGViewTabTitle span {
+  border-top: 1px solid #3ec0b9;
+}
+.react-tabs__tab--selected .whyGViewTabTitle svg path {
+  fill: #3ec0b9;
+}
+.react-tabs__tab-list {
+  border: none !important;
+  margin-bottom: 0 !important;
+}
+.tabContentMain {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding-top: 50px;
+}
+.tabContentMainInner {
+  width: 78%;
+  display: flex;
+}
+.tabContentLeftCol {
+  padding-right: 160px;
+  text-align: left;
+  width: 60%;
+}
+.tabContentLeftCol p{
+  margin-top: 15px;
+}
+.tabContentLeftColImg > div {
+  height: 100%;
+}
+.whyGViewTabWrap{
+  padding: 50px 0 0;
+}
+/* //TAB STYLE END */
+
+
+
+/* //TAB 2 */
+.moreAboutProjectMapping .react-tabs__tab{
+  border-bottom: 1px solid #ccc !important;
+  padding: 15px 46px !important;
+}
+
+.moreAboutProjectMapping .react-tabs__tab--selected{
+  border-bottom: 1px solid #3ec0b9 !important;
+  font-weight: 600;
+}
+.moreAboutProjectMappingTabContent .react-tabs__tab-panel{
+  margin: 0 102px;
+
+}
+.moreAboutProjectMappingTabContent{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* margin-top: 40px; */
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(73, 25, 25, 0.15);
+-moz-box-shadow:    0px 0px 5px 0px rgba(5, 1, 1, 0.15);
+box-shadow:         0px 0px 5px 0px rgba(50, 50, 50, 0.15);
+}
+.moreAboutProjectMappingTabContentImg{
+  width: 40%;
+  padding: 0 80px 0 0;
+}
+.moreAboutProjectMappingTabContentImg > div{
+  height: 100%;
+  display: flex !important;
+}
+.moreAboutProjectMappingTabContentText{
+  width: 60%;
+  padding-right: 100px;
+  text-align: left;
+}
+.moreAboutProjectMapping .react-tabs__tab:focus{
+  box-shadow: unset !important;
+  border-bottom: 1px solid #3ec0b9 !important;
+}
+
+
+.whyGViewTabTitle {
+  display: flex;
+  flex-direction: column;
 }
 
 * {
   box-sizing: border-box;
+}
+
+.navBarTop {
+  justify-content: flex-end;
+}
+.navBarTop .me-auto {
+  margin-right: 0 !important;
+}
+.navbar-nav .nav-link {
+  text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000 !important;
+  /* height: 48px; */
+  min-width: 60px;
+  text-align: center;
+}
+.navbar {
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.17);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.17);
+  box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.17);
+}
+.newsletterForm .form-control {
+  height: 45px;
+  background-color: red;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  display: inline-block;
+  background: rgb(255, 2, 102);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 2, 102, 1) 0%,
+    rgba(91, 96, 207, 1) 100%
+  );
+  padding-left: 16px;
+}
+.nav-pills .nav-link {
+  color: #fff;
+  border-radius: 0 !important;
+  font-family: "Karla", sans-serif;
+  /* margin-bottom: 11px; */
+  padding-left: 0;
+  font-size: 20px;
+}
+.innerPageHeaderWrap.black-bg{
+background-color: #343434;
+}
+.innerPageHeaderTitle.black-bg{
+  background-color: #4D4D4D;
+  color: #fff;
+}
+
+.accordion-item{
+  margin-bottom: 15px !important;
+  border: none !important;
+  background-color: #F6F8FB !important;
+  border-radius: 10px !important;
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.11);
+  -moz-box-shadow:    0px 1px 5px 0px rgba(50, 50, 50, 0.11);
+  box-shadow:         0px 1px 5px 0px rgba(50, 50, 50, 0.11);
+}
+.accordion-button{
+  background-color: #F6F8FB !important;
+  box-shadow:unset !important;
+  border-radius: 10px !important;
+  color: #546172 !important;
+  font-weight: 600;
+ 
+}
+.accordion-body{
+  background-color: #fff !important;
+
+}
+.accordion-button:not(.collapsed){
+  background-color: #fff !important;
+  color: #0F2137 !important;
+}
+.accordion-button::after{
+  background-image: url(../public//images/right-arrow-small.png) !important;
+  background-size: 17px auto !important;
 }

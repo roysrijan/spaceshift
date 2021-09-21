@@ -1,0 +1,106 @@
+.contactUsContainer {
+  background-color: #404040;
+  color: #fff;
+  text-align: center;
+  background-image: url(../public/images/img-27.png);
+  background-repeat: no-repeat;
+  background-position: top 28px right 89px;
+  background-size: 57%;
+
+
+  li {
+    list-style: none;
+  }
+}
+.contactUsBox {
+  padding: 100px 0 0;
+  ul {
+    display: flex;
+    align-items: flex-start;
+    padding-left: 0;
+    li {
+      width: 33%;
+      h3 {
+        font-size: 20px;
+        margin-top: 20px;
+      }
+    }
+  }
+  > p {
+    margin: 20px 0 80px;
+  }
+}
+.contactGenQues{
+    background-color: #3EC0B9;
+    color:#fff;
+    padding-top: 0;
+    background-image: url(../public/images/img-26.png);
+    background-repeat: no-repeat;
+    background-position: bottom left 43px;
+    background-size: 14%;
+    text-align: center;
+}
+.contactGenQuesBoxContainer{
+    
+    display: flex;
+    align-items: flex-start;
+    padding-left: 90px;
+    
+    .contactGenQuesBox1{
+        width: 40%;
+        background: #fff;
+        color: #333;
+        padding: 98px 59px 56px;
+        margin-right: 53px;
+        text-align: left;
+    }
+    
+    .contactGenQuesBox2{
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        input{
+            background-color: #3BB8B1;
+            border-radius: 5px;
+            padding: 0 8px;
+            border: none;
+            margin-bottom: 15px;
+            height: 44px;
+        }
+        textarea{
+            background-color: #3BB8B1;
+            border-radius: 5px;
+            padding: 0 8px;
+            border: none;
+            margin-bottom: 15px;
+           
+        }
+        button{
+            background-color: #000;
+            height: 44px;
+            line-height: 29px;
+            width: 117px;
+            text-align: center;
+        }
+    }
+}
+.contactGenQuesBox2 input::placeholder {
+    color: #fff !important;
+    opacity: 1;
+  }
+  .contactGenQuesBox2 textarea::placeholder {
+    color: #fff !important;
+    opacity: 1;
+  }
+  .contactGenQuesBox2 input:focus, .contactGenQuesBox2 textarea:focus{
+    background-color:#3BB8B1 !important;
+    box-shadow: unset !important;
+    color: #fff !important;
+    border-color:  #3BB8B1 !important;
+    outline: unset;
+  }
+.contactGenQuesMain{
+    background-color: #404040;
+    padding: 0 0 70px 70px;
+}

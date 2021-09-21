@@ -1,0 +1,64 @@
+
+.introductionBox{
+    display: flex;
+    align-items: center;
+}
+.introductionContent{
+    padding-left: 80px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.introductionImg{
+    width: 40%;
+}
+.whatAreThey{
+    display: flex;
+    flex-direction: column;
+    background-color: #6ACBC6;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 33px;
+    text-align: center;
+    width: 25%;
+    height: 270px;
+    color: #fff;
+    h3{
+        font-size: 45px;
+        font-weight: 800;
+        color: rgba(255, 255, 255, 0.227);
+    }
+    h4{
+        font-weight: 800;
+    }
+    &:nth-child(2){
+        background-color: #57C5BF;
+    }
+    &:nth-child(3){
+        background-color:#33C3BC;
+    }
+    &:nth-child(4){
+        background-color:#28CBC3;
+    }
+}
+.whatAreTheyBox{
+    text-align: center;
+   
+    h2{
+        margin-bottom: 30px;
+    }
+}
+.whatAreTheyBoxContent{
+    display: flex;
+    align-items: center;
+}
+.whatAreTheyContainer{
+    padding-top: 0;
+}
+.moreAboutProjectMappingContainer{
+    padding-top: 0;
+    text-align: center;
+    h2{
+        margin-bottom: 30px;
+    }
+}

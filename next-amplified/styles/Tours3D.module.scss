@@ -1,0 +1,89 @@
+.Tour3dContentBox {
+    display: -moz-box;
+    display: flex;
+    -moz-box-align: center;
+    align-items: center;
+    
+}
+.Tour3dContentBoxInfo{
+    width: 60%;
+    padding-left: 50px;
+   h2{
+       margin-bottom: 15px;
+   }
+}
+.Tour3dContentBoxImg{
+    width: 40%;
+}
+.storeContainer{
+    background-color: #2B2B2B;
+    color:#fff
+}
+.storeBox{
+h5{
+
+    margin: 20px 0;
+    font-size: 23px;
+    font-weight: 600;
+
+}
+p{
+    margin: 20px 0; 
+    padding-right: 30px;
+}
+}
+.storeBoxImg{
+   
+    border-radius: 10px;
+  
+}
+.storeContainerFbox .storeContainerFboxInner .storeBox{
+    padding-right: 30px;
+}
+.storeContainerFbox .storeContainerFboxInner:nth-child(2n) .storeBox{
+    padding-left: 30px;
+    padding-right: 0;
+}
+.matterportBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 100px;
+}
+.matterportLogo{
+    width: 60%;
+}
+.matterportBoxImg > div{
+    width: 60%;
+   
+}
+.matterportBoxInfo{
+    padding: 84px 40px 40px;
+   
+    margin-top: -68px;
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.11);
+-moz-box-shadow:    0px 1px 5px 0px rgba(50, 50, 50, 0.11);
+box-shadow:         0px 1px 5px 0px rgba(50, 50, 50, 0.11);
+}
+.whatisMatterportBox{
+    background: #525252;
+    padding: 35px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    margin: 0 100px;
+    h2{
+        margin-bottom: 15px;
+    }
+}
+.whatisMatterportContainer{
+    padding-top: 0;
+}
+.whyGViewContainer{
+    background-color: #343434;
+    color:#fff;
+    text-align: center;
+    padding-bottom: 0;
+}
