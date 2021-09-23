@@ -93,7 +93,7 @@ export default function index() {
           </Row>
 
           <Row className={stylesThreeDTours.storeContainerFbox}>
-            <Col lg="6" className={stylesThreeDTours.storeContainerFboxInner}>
+            <Col lg="6" sm="6" className={stylesThreeDTours.storeContainerFboxInner}>
               <div className={stylesThreeDTours.storeBox}>
                 <h5>Dollhouse View</h5>
                 <Image
@@ -109,7 +109,7 @@ export default function index() {
               </div>
             </Col>
 
-            <Col lg="6" className={stylesThreeDTours.storeContainerFboxInner}>
+            <Col lg="6" sm="6" className={stylesThreeDTours.storeContainerFboxInner}>
               <div className={stylesThreeDTours.storeBox}>
                 <h5>Inside View</h5>
                 <Image
@@ -125,7 +125,7 @@ export default function index() {
               </div>
             </Col>
 
-            <Col lg="6" className={stylesThreeDTours.storeContainerFboxInner}>
+            <Col lg="6" sm="6" className={stylesThreeDTours.storeContainerFboxInner}>
               <div className={stylesThreeDTours.storeBox}>
                 <h5>FloorPlan View</h5>
                 <Image
@@ -141,7 +141,7 @@ export default function index() {
               </div>
             </Col>
 
-            <Col lg="6" className={stylesThreeDTours.storeContainerFboxInner}>
+            <Col lg="6" sm="6" className={stylesThreeDTours.storeContainerFboxInner}>
               <div className={stylesThreeDTours.storeBox}>
                 <h5>VR View</h5>
                 <Image

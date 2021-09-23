@@ -62,3 +62,26 @@
         margin-bottom: 30px;
     }
 }
+
+
+@media(max-width:767px){
+    .introductionBox{
+        flex-direction: column;
+    }
+    .introductionImg{
+        width: 100%;
+    }
+    .introductionContent{
+        width: 100%;
+        padding-left: 0;
+        padding-top: 20px;
+    }
+    .whatAreTheyBoxContent{
+        flex-direction: column;
+    }
+
+    .whatAreThey{
+        width: 100%;
+        height: auto;
+    }
+}

@@ -87,3 +87,33 @@ box-shadow:         0px 1px 5px 0px rgba(50, 50, 50, 0.11);
     text-align: center;
     padding-bottom: 0;
 }
+@media(max-width:900px){
+    .whatisMatterportBox {
+        padding: 26px;
+        margin: 0;
+    }  
+    .matterportBox{
+        padding: 0 0;
+    }
+}
+@media(max-width:767px){
+    .Tour3dContentBoxImg {
+        width: 100%;
+    }
+    .Tour3dContentBoxInfo {
+      width: 100%;
+      padding-left: 0;
+      padding-top: 37px;
+    }
+    .Tour3dContentBox{
+        flex-direction: column;
+    }
+    .storeContainerFbox .storeContainerFboxInner .storeBox {
+        padding-right: 0;
+    }
+    .storeContainerFbox .storeContainerFboxInner:nth-child(2n) .storeBox {
+        padding-left: 0;
+    }
+  
+ 
+}

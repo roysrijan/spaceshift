@@ -32,3 +32,47 @@
 .ToursForBussinessAccor{
     margin-top: 40px;
 }
+@media(max-width:1100px){
+    .virtualToursForBussinessContainer{
+        padding: 64px 35px;
+       
+    }
+    .virtualToursForBussinessBox1{
+        padding-right: 0;
+    }
+    .virtualToursForBussinessBox2{
+      
+        padding-left:30px;
+    }
+}
+@media(max-width:900px){
+    .customVirtualTourContainer{
+        margin-top: -1px;
+    }
+    
+}
+
+@media(max-width:767px){
+    .customVirtualTourContentBox{
+        flex-direction: column;
+    }
+    .customVirtualTourContentBoxImg{
+        width: 100%;
+    }
+    .customVirtualTourContentBox p{
+        width: 100%;
+        padding-left: 0;
+    }
+    .virtualToursForBussinessContainer{
+        padding: 64px 15px;
+        flex-direction: column;
+    }
+    .virtualToursForBussinessBox1{
+        width: 100%;
+    }
+    .virtualToursForBussinessBox2{
+        width: 100%;
+        padding-left: 0;
+    }
+   
+}

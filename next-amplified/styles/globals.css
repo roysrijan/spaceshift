@@ -327,16 +327,52 @@ background-color: #343434;
   background-size: 17px auto !important;
 }
 
+@media(max-width:1100px){
+  .tabContentLeftCol{
+    padding-right: 40px;
+  }
+}
+
 
 @media(max-width:800px){
   .blockPadding {
-    padding: 60px 0;
+    padding: 60px 5px;
 }
 .aboutUsVideo {
   margin-top: 60px;
 }
-
-
+.globalWrap h2 {
+  font-size: 24px;
+}
+.innerPageHeaderTitle{
+  width: 90%;
+  padding: 25px;
+}
+.react-tabs__tab-list {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: auto;
+  align-items: baseline;
+  justify-content: center;
+}
+.whyGViewTabWrap {
+  padding: 50px 8px 0;
+}
+.tabContentMain{
+  justify-content: flex-start;
+}
+.tabContentMainInner {
+  width: 100%;
+  
+}
+.tabContentLeftCol {
+  padding-right: 0;
+ 
+  padding: 0 15px;
+}
+.innerPageHeaderWrap {
+  margin-top: 74px;
+}
 }
 
 @media(max-width:767px){
@@ -352,5 +388,29 @@ background-color: #343434;
     text-align: left;
     white-space: nowrap;
   }
-
+  .react-tabs__tab-list {
+    justify-content: flex-start;
+  }
+  .react-tabs__tab{
+    white-space: nowrap;
+  }
+  .tabContentLeftCol{
+    width: 100%;
+  }
+  .tabContentMainInner {
+    width: 100%;
+    flex-direction: column;
+  }
+  .moreAboutProjectMappingTabContent{
+flex-direction: column;
+  }
+  .moreAboutProjectMappingTabContentImg {
+    width: 100%;
+    padding: 0;
+}
+.moreAboutProjectMappingTabContentText{
+  width: 100%;
+  padding-right: 0;
+  padding-top: 20px;
+}
 }
