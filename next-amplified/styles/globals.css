@@ -326,3 +326,31 @@ background-color: #343434;
   background-image: url(../public//images/right-arrow-small.png) !important;
   background-size: 17px auto !important;
 }
+
+
+@media(max-width:800px){
+  .blockPadding {
+    padding: 60px 0;
+}
+.aboutUsVideo {
+  margin-top: 60px;
+}
+
+
+}
+
+@media(max-width:767px){
+  .flex-column.nav.nav-pills {
+    flex-direction: row !important;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    margin-bottom: 30px;
+  }
+  .nav-link{
+    width: auto;
+    margin-right: 15px;
+    text-align: left;
+    white-space: nowrap;
+  }
+
+}

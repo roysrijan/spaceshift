@@ -56,7 +56,7 @@ export default function Home() {
       <section className={stylesHome.topPartContainer}>
         <Container>
           <Row>
-            <Col lg="6">
+            <Col lg="6" sm="8">
               <section className={stylesHome.topPart}>
                 <h1>Sparks of imagination light up every design</h1>
                 <p>
@@ -121,7 +121,7 @@ export default function Home() {
             </Col>
           </Row>
           <Row className={stylesHome.whatWeOfferBoxMain}>
-            <Col lg="6" className={stylesHome.whatWeOfferCol6}>
+            <Col lg="6" sm="6" className={stylesHome.whatWeOfferCol6}>
               <div className={stylesHome.whatWeOfferBox}>
                 <Image src={whatWeOfferImg1} alt="Spaceshift" />
                 <h3>Google street view</h3>
@@ -135,7 +135,7 @@ export default function Home() {
               </div>
             </Col>
 
-            <Col lg="6" className={stylesHome.whatWeOfferCol6}>
+            <Col lg="6" sm="6" className={stylesHome.whatWeOfferCol6}>
               <div className={stylesHome.whatWeOfferBox}>
                 <Image src={whatWeOfferImg2} alt="Spaceshift" />
                 <h3>3D Tours</h3>
@@ -149,7 +149,7 @@ export default function Home() {
               </div>
             </Col>
 
-            <Col lg="6" className={stylesHome.whatWeOfferCol6}>
+            <Col lg="6" sm="6" className={stylesHome.whatWeOfferCol6}>
               <div className={stylesHome.whatWeOfferBox}>
                 <Image src={whatWeOfferImg3} alt="Spaceshift" />
                 <h3>Custom virtual tours</h3>
@@ -163,7 +163,7 @@ export default function Home() {
               </div>
             </Col>
 
-            <Col lg="6" className={stylesHome.whatWeOfferCol6}>
+            <Col lg="6" sm="6" className={stylesHome.whatWeOfferCol6}>
               <div className={stylesHome.whatWeOfferBox}>
                 <Image src={whatWeOfferImg4} alt="Spaceshift" />
                 <h3>Professional VR films</h3>
@@ -178,7 +178,7 @@ export default function Home() {
               </div>
             </Col>
 
-            <Col lg="6" className={stylesHome.whatWeOfferCol6}>
+            <Col lg="6" sm="6" className={stylesHome.whatWeOfferCol6}>
               <div className={stylesHome.whatWeOfferBox}>
                 <Image src={whatWeOfferImg5} alt="Spaceshift" />
                 <h3>3D Projection mapping</h3>
@@ -194,7 +194,7 @@ export default function Home() {
               </div>
             </Col>
 
-            <Col lg="6" className={stylesHome.whatWeOfferCol6}>
+            <Col lg="6" sm="6" className={stylesHome.whatWeOfferCol6}>
               <div className={stylesHome.whatWeOfferBox}>
                 <Image src={whatWeOfferImg6} alt="Spaceshift" />
                 <h3>Photogrammetry</h3>
@@ -226,7 +226,7 @@ export default function Home() {
               <div className={stylesHome.industriesWrap}>
                 <Tab.Container defaultActiveKey="restaraunts">
                   <Row>
-                    <Col sm={3}>
+                    <Col lg={3} sm={5}>
                       <div className={stylesHome.whatWeOfferTitle}>
                         <h2>Industries</h2>
                       </div>
@@ -280,7 +280,7 @@ export default function Home() {
                         </Nav.Item>
                       </Nav>
                     </Col>
-                    <Col sm={9}>
+                    <Col lg={9} sm={7} >
                       <Tab.Content>
                         <Tab.Pane eventKey="restaraunts">
                           <div className={stylesHome.indusTabBox}>

@@ -214,3 +214,73 @@
 .testimonialsContainer{
   padding-left: 150px;
 }
+
+
+@media(max-width:800px){
+
+  .whatWeOfferBoxMain .whatWeOfferCol6   {
+    padding-right: 0;
+}
+  .topPartContainer{
+    background-size: 100% auto;
+  }
+  .topPart {
+    padding: 230px 0 40px 0;
+}
+
+.whatWeOfferBox a {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.whatWeOfferBoxMain{
+  padding: 0 15px;
+}
+
+.whatWeOfferContainer{
+  padding-bottom: 38px;
+}
+.indusTabBox{
+  padding-left: 0;
+  margin: 0;
+  margin-top: 0;
+}
+.manyReasonBox{
+  padding: 25px 0;
+  width: 100%;
+}
+.manyReasonBox p {
+  padding: 15px;
+}
+.manyReasonBoxForm{
+  padding: 0 15px;
+}
+.testimonialsContainer {
+  padding-left: 0;
+}
+.testimonialBox{
+width: auto;
+margin-right: 19px;
+}
+.indusTabBoxImageInfo{
+  right: 0;
+}
+.indusTabBoxBg {
+  right: 0;
+}
+}
+
+@media(max-width:767px){
+  .whatWeOfferBoxMain .whatWeOfferCol6 {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .whatWeOfferBoxMain .whatWeOfferCol6:nth-child(2n) {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top:0;
+  }
+  .indusTabBoxBg {
+    display: none;
+
+  }
+}

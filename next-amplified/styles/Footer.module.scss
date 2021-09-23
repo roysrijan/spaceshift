@@ -123,3 +123,12 @@ input{
     }
   }
 }
+
+@media(max-width:800px){
+  .footerBoxServices span ul:last-child{
+padding-left: 56px;
+  }
+  .footerBoxServices{
+    margin-top: 30px;
+  }
+}
