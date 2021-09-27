@@ -331,6 +331,16 @@ background-color: #343434;
   .tabContentLeftCol{
     padding-right: 40px;
   }
+  .moreAboutProjectMappingTabContentText p{
+margin-bottom: 0;
+  }
+  .moreAboutProjectMapping .react-tabs__tab{
+    padding: 15px 42px !important;
+  }
+  .moreAboutProjectMappingTabContentText {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
 }
 
 
@@ -373,6 +383,9 @@ background-color: #343434;
 .innerPageHeaderWrap {
   margin-top: 74px;
 }
+.moreAboutProjectMapping .react-tabs__tab{
+  white-space: nowrap;
+}
 }
 
 @media(max-width:767px){
@@ -412,5 +425,15 @@ flex-direction: column;
   width: 100%;
   padding-right: 0;
   padding-top: 20px;
+  padding: 12px;
+}
+.faqTab .react-tabs__tab-list{
+  justify-content: center !important;
+}
+.faqTab .react-tabs__tab{
+bottom: 0;
+}
+.react-multiple-carousel__arrow{
+  bottom: 12px !important;
 }
 }

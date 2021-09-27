@@ -4,6 +4,8 @@
     background-position: bottom left 43px;
     background-size: 14%;
     text-align: center;
+    padding-bottom: 0;
+    
 
     &:after{
         background-image: url(../public/images/img-24.png);
@@ -12,7 +14,7 @@
         right: 108px;
         top: 2px;
         width: 800px;
-        z-index: 99;
+        z-index: -1;
         height: 800px;
         background-size: cover;
     }
@@ -48,3 +50,22 @@
 //     background-position: top right 43px; 
 //     background-size: 14%;
 // }
+@media(max-width:800px){
+  
+    .howWeCanHelpYouContainerInner h1 {
+        margin-top: 57px;
+    }
+    .faqTabContent {
+        padding: 0;
+    }
+    .howWeCanHelpYouContainerInner > p {
+        padding: 0;
+        margin-top: 18px;
+    }
+   
+    
+}
+@media(max-width:767px){
+   
+   
+}

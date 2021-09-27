@@ -104,6 +104,7 @@ box-shadow:         0px 1px 5px 0px rgba(50, 50, 50, 0.11);
       width: 100%;
       padding-left: 0;
       padding-top: 37px;
+      p{margin-bottom: 0;}
     }
     .Tour3dContentBox{
         flex-direction: column;
@@ -116,4 +117,10 @@ box-shadow:         0px 1px 5px 0px rgba(50, 50, 50, 0.11);
     }
   
  
+    .storeBox p {
+        margin: 20px 0 0;
+    }
+    .matterportBoxInfo{
+        padding: 84px 20px 0;
+    }
 }

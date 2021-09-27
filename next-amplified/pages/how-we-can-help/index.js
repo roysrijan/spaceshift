@@ -37,7 +37,7 @@ export default function index() {
                 </p>
               </div>
 
-              <div className={stylesFaq["moreAboutProjectMappingForFaq"] + " " + "moreAboutProjectMapping"}>
+              <div className={stylesFaq["moreAboutProjectMappingForFaq"] + " " + "moreAboutProjectMapping"+ " " + "faqTab"}>
                 <Tabs>
                   <TabList>
                     <Tab>General</Tab>

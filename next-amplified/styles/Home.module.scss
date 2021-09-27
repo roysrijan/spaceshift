@@ -209,7 +209,7 @@
   }
 }
 .carouselWrap{
-  padding-left: 40px;
+  padding-left: 0;
 }
 .testimonialsContainer{
   padding-left: 150px;
@@ -225,19 +225,19 @@
     background-size: 100% auto;
   }
   .topPart {
-    padding: 230px 0 40px 0;
+    padding: 120px 0 40px 0;
 }
 
 .whatWeOfferBox a {
   margin-top: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 .whatWeOfferBoxMain{
-  padding: 0 15px;
+ // padding: 0 15px;
 }
 
 .whatWeOfferContainer{
-  padding-bottom: 38px;
+  padding-bottom: 4px;
 }
 .indusTabBox{
   padding-left: 0;
@@ -254,18 +254,17 @@
 .manyReasonBoxForm{
   padding: 0 15px;
 }
-.testimonialsContainer {
-  padding-left: 0;
-}
-.testimonialBox{
-width: auto;
-margin-right: 19px;
-}
+
+
 .indusTabBoxImageInfo{
   right: 0;
 }
 .indusTabBoxBg {
   right: 0;
+}
+.testimonialsContainer {
+  padding-left: 0;
+
 }
 }
 
@@ -283,4 +282,16 @@ margin-right: 19px;
     display: none;
 
   }
+  .testimonialBox{
+    width: 100%;
+    margin-right: 0;
+    padding-bottom: px;
+    }
+    .testimonialsContainer {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .whatWeOfferBoxMain{
+      padding: 0 13px;
+    }
 }

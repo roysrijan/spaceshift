@@ -104,3 +104,60 @@
     background-color: #404040;
     padding: 0 0 70px 70px;
 }
+
+@media(max-width:1100px){
+  .contactGenQuesMain {
+    padding: 0 0 90px 17px;
+}
+.contactGenQuesBoxContainer .contactGenQuesBox2{
+  width: 50%;
+  }
+  .contactGenQuesBoxContainer .contactGenQuesBox1{
+    margin-right: 19px;
+    padding-top: 59px;
+    
+    }
+    .contactUsContainer{
+      margin-top: 76px;
+      padding: 0;
+    }
+    .contactUsBox{
+      padding: 60px 0 27px;
+  }
+
+}
+
+@media(max-width:767px){
+  .contactUsBox ul {
+    align-items: center;
+    padding-left: 0;
+    flex-direction: column;
+}
+.contactUsBox ul li{
+  width: 100%;
+  margin-top: 25px;
+}
+.contactGenQuesBoxContainer {
+  display: -moz-box;
+  display: flex;
+  -moz-box-align: start;
+  align-items: flex-start;
+  padding-left: 15px;
+  flex-direction: column;
+}
+.contactGenQuesBoxContainer .contactGenQuesBox1{
+  width: 100%;
+  
+  }
+  .contactGenQuesBoxContainer .contactGenQuesBox2{
+    width: 100%;
+    padding: 20px 0 0;
+    }
+
+    .contactUsBox > p {
+      margin: 20px 0 15px;
+  }
+  .contactGenQuesMain{
+    padding: 0 0 74px 17px;
+}
+}

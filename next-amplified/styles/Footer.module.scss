@@ -124,6 +124,12 @@ input{
   }
 }
 
+
+@media(max-width:1024px){
+  .footer{
+    padding: 70px 0 60px;
+}
+}
 @media(max-width:800px){
   .footerBoxServices span ul:last-child{
 padding-left: 56px;
@@ -131,4 +137,11 @@ padding-left: 56px;
   .footerBoxServices{
     margin-top: 30px;
   }
+ 
+}
+@media(max-width:767px){
+  .footer{
+    padding: 60px 3px;
+  }
+
 }

@@ -30,7 +30,12 @@
 .whyGViewTabWrapfg {
   font-size: 25px;
 }
+@media(max-width:1024px){
+  .gstreetCol2Container{
+    padding-bottom: 35px;
+  }
 
+}
 @media(max-width:800px){
    
     .gstreetCol1Container{
@@ -41,4 +46,21 @@
         padding: 30px;
         width: 100%;
     }
+    .gstreetCol1Container{
+      padding: 60px 0 0;
+    }
+    .gstreetCol2Container{
+      padding-bottom: 23px;
+    }
+}
+@media(max-width:767px){
+ 
+  .gstreetCol1Content {
+      padding: 30px 20px 0;
+     
+  }
+  .gstreetCol2Container{
+    padding-bottom: 35px;
+  }
+
 }
