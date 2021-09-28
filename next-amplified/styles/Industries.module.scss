@@ -1,0 +1,130 @@
+.industriesTopPadding {
+  margin-top: 35px;
+}
+.industriesTopPadding2{
+    padding-top: 100px !important;
+}
+.educationBox {
+  text-align: center;
+  h2 {
+    margin-bottom: 0;
+  }
+  p {
+    margin: 26px 0 37px 0;
+  }
+}
+.highlightContainer {
+  padding-top: 0;
+}
+.highlightBox {
+  display: flex;
+  align-items: center;
+  .highlightBoxImg {
+    width: 40%;
+  }
+  .highlightBoxContent {
+    width: 60%;
+    padding-left: 50px;
+
+    > div {
+      margin-top: 25px !important;
+    }
+  }
+}
+.traveltBox{
+.highlightBoxContent{
+    padding-left: 0;
+    padding-right: 50px;
+}
+}
+.benefitContainer {
+  border-radius: 40px 40px 0 0;
+  background: rgb(220, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(220, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  position: relative;
+  &:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: url(../public/images/education-pattern.png);
+    width: 327px;
+    height: 636px;
+    z-index: 1008;
+  }
+  &:before {
+    content: "";
+    position: absolute;
+    top: -38px;
+    left: 0;
+    background: url(../public/images/education-pattern-2.png);
+    width: 161px;
+    height: 373px;
+    z-index: 9;
+  }
+}
+.benefitTitle {
+    margin-bottom: 55px;
+  h2 {
+   
+    padding-right: 50%;
+    position: relative;
+    z-index: 99;
+  }
+  p{
+    margin-top: 37px;
+  }
+}
+.benefitBox {
+  margin-bottom: 30px;
+  span {
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 80px;
+    color: #7b61ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  h4 {
+    margin: 23px 0 15px;
+    font-weight: 600;
+  }
+}
+.benefitList {
+  .benefitListInner:nth-child(1n) {
+    padding-right: 50px;
+  }
+  .benefitListInner:nth-child(2n) {
+    padding-left: 50px;
+    padding-right: 0;
+  }
+}
+.travelHosTitle{
+    h1{
+        margin-bottom: 30px;
+    }
+}
+.travelContentP{
+    padding:30px 0;
+    text-align: center;
+}
+.travelBottomImg > div{
+  height: 100% !important;
+  display: block !important;
+}
+
+.restaurantsImgWrap{
+  display: flex;
+  justify-content: space-between;
+  .restaurantsImgCol1{
+    width: 45%;
+  }
+}

@@ -52,10 +52,10 @@ export default function Header() {
               </NavDropdown>
 
               <NavDropdown title="Industries" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">
+                <NavDropdown.Item href="/restaurants-n-cafes">
                   Restaraunts & Cafes
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
+                <NavDropdown.Item href="/travel-n-hospitality">
                   Travel & Hospitality
                 </NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.3">
@@ -66,7 +66,7 @@ export default function Header() {
                   Retails & Showrooms
                 </NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.4">Tourism</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.4">
+                <NavDropdown.Item href="/educational-institutes">
                   Educational Institutes
                 </NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.4">Events</NavDropdown.Item>
