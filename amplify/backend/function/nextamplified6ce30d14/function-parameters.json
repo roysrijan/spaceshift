@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "hosting": {
+      "S3AndCloudFront": [
+        "create"
+      ]
+    }
+  },
+  "lambdaLayers": [],
+  "environmentVariableList": [
+    {
+      "cloudFormationParameterName": "host",
+      "environmentVariableName": "host"
+    }
+  ]
+}

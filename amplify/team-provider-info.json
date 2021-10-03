@@ -11,5 +11,28 @@
       "StackId": "arn:aws:cloudformation:ap-south-1:375468512774:stack/amplify-nextamplified-dev-143657/f58cad20-1471-11ec-ac65-06418f3882f0",
       "AmplifyAppId": "d25wg4vcvg5w8y"
     }
+  },
+  "spaceshift": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-nextamplified-spaceshift-14056-authRole",
+      "UnauthRoleArn": "arn:aws:iam::375468512774:role/amplify-nextamplified-spaceshift-14056-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::375468512774:role/amplify-nextamplified-spaceshift-14056-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-nextamplified-spaceshift-14056-deployment",
+      "UnauthRoleName": "amplify-nextamplified-spaceshift-14056-unauthRole",
+      "StackName": "amplify-nextamplified-spaceshift-14056",
+      "StackId": "arn:aws:cloudformation:ap-south-1:375468512774:stack/amplify-nextamplified-spaceshift-14056/07763e10-2486-11ec-8fa8-0642550d535a",
+      "AmplifyAppId": "d1b35lnssa1w98"
+    },
+    "categories": {
+      "function": {
+        "nextamplified6ce30d14": {
+          "host": "spacesfit"
+        }
+      },
+      "auth": {
+        "cognitob5bd35bb": {}
+      }
+    }
   }
 }
