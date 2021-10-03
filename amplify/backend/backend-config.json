@@ -1,41 +1,26 @@
 {
   "hosting": {
-    "S3AndCloudFront": {
-      "service": "S3AndCloudFront",
-      "providerPlugin": "awscloudformation"
+    "amplifyhosting": {
+      "service": "amplifyhosting",
+      "type": "cicd"
     }
   },
   "function": {
-    "nextamplified6ce30d14": {
+    "maadurgavr5b6c3980": {
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda",
-      "dependsOn": [
-        {
-          "category": "hosting",
-          "resourceName": "S3AndCloudFront",
-          "attributes": [
-            "HostingBucketName"
-          ]
-        }
-      ]
-    }
-  },
-  "auth": {
-    "cognitob5bd35bb": {
-      "service": "Cognito",
-      "serviceType": "managed",
-      "providerPlugin": "awscloudformation"
+      "dependsOn": []
     }
   },
   "api": {
-    "api9e6d13a2": {
+    "maadurgavrapi": {
       "service": "API Gateway",
       "providerPlugin": "awscloudformation",
       "dependsOn": [
         {
           "category": "function",
-          "resourceName": "nextamplified6ce30d14",
+          "resourceName": "maadurgavr5b6c3980",
           "attributes": [
             "Name",
             "Arn"

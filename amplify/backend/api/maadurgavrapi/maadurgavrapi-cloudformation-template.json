@@ -8,15 +8,15 @@
         },
     
     
-          "functionnextamplified6ce30d14Name": {
+          "functionmaadurgavr5b6c3980Name": {
             "Type": "String",
-            "Default": "functionnextamplified6ce30d14Name"
+            "Default": "functionmaadurgavr5b6c3980Name"
           },
 
           
-          "functionnextamplified6ce30d14Arn": {
+          "functionmaadurgavr5b6c3980Arn": {
             "Type": "String",
-            "Default": "functionnextamplified6ce30d14Arn"
+            "Default": "functionmaadurgavr5b6c3980Arn"
           }
 
           
@@ -37,16 +37,16 @@
         
         
         
-      "api9e6d13a2": {
+      "maadurgavrapi": {
         "Type": "AWS::ApiGateway::RestApi",
         "Properties": {
           "Description": "",
-          "Name": "api9e6d13a2",
+          "Name": "maadurgavrapi",
           "Body": {
             "swagger": "2.0",
             "info": {
               "version": "2018-05-24T17:52:00Z",
-              "title": "api9e6d13a2"
+              "title": "maadurgavrapi"
             },
             "host": {
                 "Fn::Join": [
@@ -150,12 +150,6 @@
                     }
                   },
                   
-                    "security": [
-                        {
-                          "sigv4": []
-                        }
-                      ],
-                  
                   "x-amazon-apigateway-integration": {
                     "responses": {
                       "default": {
@@ -174,7 +168,7 @@
                             
                             {
 
-                                "Ref": "functionnextamplified6ce30d14Arn"
+                                "Ref": "functionmaadurgavr5b6c3980Arn"
                             },
                             
                             "/invocations"
@@ -255,12 +249,6 @@
                     }
                   },
                   
-                    "security": [
-                        {
-                          "sigv4": []
-                        }
-                      ],
-                  
                   "x-amazon-apigateway-integration": {
                     "responses": {
                       "default": {
@@ -279,7 +267,7 @@
                           
                           {
 
-                            "Ref": "functionnextamplified6ce30d14Arn"
+                            "Ref": "functionmaadurgavr5b6c3980Arn"
                           },
                           
                           "/invocations"
@@ -336,12 +324,12 @@
       
         
 
-        "functionnextamplified6ce30d14Permissionapi9e6d13a2": {
+        "functionmaadurgavr5b6c3980Permissionmaadurgavrapi": {
             "Type": "AWS::Lambda::Permission",
             "Properties": {
                 "FunctionName": 
                     {
-                        "Ref":  "functionnextamplified6ce30d14Name"
+                        "Ref":  "functionmaadurgavr5b6c3980Name"
                     },
                     
                     "Action": "lambda:InvokeFunction",
@@ -360,7 +348,7 @@
                             },
                             ":",
                             {
-                                "Ref": "api9e6d13a2"
+                                "Ref": "maadurgavrapi"
                             },
                             "/*/*/*"
                         ]
@@ -371,7 +359,7 @@
         
         
 
-      "DeploymentAPIGWapi9e6d13a2": {
+      "DeploymentAPIGWmaadurgavrapi": {
         "Type": "AWS::ApiGateway::Deployment",
         "Properties": {
           "Description": "The Development stage deployment of your API.",
@@ -385,7 +373,7 @@
             ]
           },
           "RestApiId": {
-            "Ref": "api9e6d13a2"
+            "Ref": "maadurgavrapi"
           }
         }
       }
@@ -393,15 +381,15 @@
     "Outputs": {
         "RootUrl": {
             "Description": "Root URL of the API gateway",
-            "Value": {"Fn::Join": ["", ["https://", {"Ref": "api9e6d13a2"}, ".execute-api.", {"Ref": "AWS::Region"}, ".amazonaws.com/", {"Fn::If": ["ShouldNotCreateEnvResources","Prod", {"Ref": "env"} ]}]]}
+            "Value": {"Fn::Join": ["", ["https://", {"Ref": "maadurgavrapi"}, ".execute-api.", {"Ref": "AWS::Region"}, ".amazonaws.com/", {"Fn::If": ["ShouldNotCreateEnvResources","Prod", {"Ref": "env"} ]}]]}
         },
         "ApiName": {
           "Description": "API Friendly name",
-          "Value": "api9e6d13a2"
+          "Value": "maadurgavrapi"
         },
         "ApiId": {
           "Description": "API ID (prefix of API URL)",
-          "Value": {"Ref": "api9e6d13a2"}
+          "Value": {"Ref": "maadurgavrapi"}
         }
     }
   }

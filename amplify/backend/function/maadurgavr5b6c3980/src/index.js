@@ -1,8 +1,6 @@
 /* Amplify Params - DO NOT EDIT
 	ENV
 	REGION
-	HOSTING_S3ANDCLOUDFRONT_HOSTINGBUCKETNAME
-	host
 Amplify Params - DO NOT EDIT */
 
 exports.handler = async (event) => {
@@ -10,10 +8,10 @@ exports.handler = async (event) => {
     const response = {
         statusCode: 200,
     //  Uncomment below to enable CORS requests
-    //  headers: {
-    //      "Access-Control-Allow-Origin": "*",
-    //      "Access-Control-Allow-Headers": "*"
-    //  }, 
+     headers: {
+         "Access-Control-Allow-Origin": "*",
+         "Access-Control-Allow-Headers": "*"
+     }, 
         body: JSON.stringify('Hello from Lambda!'),
     };
     return response;
