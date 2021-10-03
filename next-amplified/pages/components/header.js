@@ -58,22 +58,22 @@ export default function Header() {
                 <NavDropdown.Item href="/travel-n-hospitality">
                   Travel & Hospitality
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
+                <NavDropdown.Item href="/real-estate"> 
                   Real Estate
                 </NavDropdown.Item>
 
-                <NavDropdown.Item href="#action/3.4">
+                <NavDropdown.Item href="/retails">
                   Retails & Showrooms
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.4">Tourism</NavDropdown.Item>
+                <NavDropdown.Item href="/tourism">Tourism</NavDropdown.Item>
                 <NavDropdown.Item href="/educational-institutes">
                   Educational Institutes
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.4">Events</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.4">
+                <NavDropdown.Item href="/events">Events</NavDropdown.Item>
+                <NavDropdown.Item href="/hospitals-n-clinic">
                   Hospials & Clinics
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.4">
+                <NavDropdown.Item href="/restoration">
                   Restoration
                 </NavDropdown.Item>
               </NavDropdown>

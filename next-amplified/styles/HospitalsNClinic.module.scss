@@ -1,0 +1,150 @@
+.hospitalsTop{
+    display: flex;
+    align-items: center;
+}
+.hospitalsTopImg {
+    width: 40%;
+  }
+  .hospitalsTopContent {
+    width: 60%;
+    padding-right: 70px;
+    p {
+      margin-top: 25px;
+    }
+  }
+  .hospitalsTopContainer {
+    background-image: url(../public/images/hospitals-banner-bg.png);
+    background-repeat: no-repeat;
+    right: 0;
+    top: 0;
+    background-size: 35%;
+    background-position: right top;
+  }
+  .hospitalBottomMain{
+      display: flex;
+  }
+  .hospitalBottomImgCol{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+.hospitalBottomInfo{
+    width: 60%;
+    padding-left: 70px;
+}
+.hospitalBottomContainer{
+    padding-top: 0;
+    background: rgb(220, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(220, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+    h2{
+        margin: 50px 0;
+        text-align: center;
+    }
+}
+.hospitalBottomInfoBox{
+    margin-bottom: 25px;
+    padding-right: 125px;
+    h5{
+        font-weight: 700;
+    }
+}
+.hospitalBottomImg{
+    position: relative;
+    z-index: 99;
+}
+.hospitalBottomImg:after{
+  content: "";
+  height: 100%;
+  width: 87%;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 75px;
+  bottom: -10px;
+  z-index: -1;
+  background: #3ec0b9;
+  border-radius: 10px;
+}
+.hospitalBottomImg2{
+  position: relative;
+  z-index: 99;
+}
+.hospitalBottomImg2:after{
+content: "";
+height: 100%;
+width: 87%;
+background-repeat: no-repeat;
+position: absolute;
+right: 16px;
+top: -20px;
+z-index: -1;
+background: #3ec0b9;
+border-radius: 10px;
+}
+
+@media(max-width:1100px){
+  .hospitalBottomInfoBox{
+    margin-bottom: 25px;
+    padding-right: 0;
+}
+.hospitalPlainTextContainer{
+  padding-bottom:0;
+  padding-top:0;
+  p{
+    margin-bottom: 52px;
+  }
+  }
+  .hospitalsTopContent p{
+    margin-bottom: 0;
+  }
+}
+
+@media(max-width:767px){
+  .hospitalsTop {
+    flex-direction: column;
+    margin-top: 54px;
+}
+.hospitalsTopContent {
+  width: 100%;
+  padding-right: 0;
+}
+.hospitalsTopImg {
+  width: 100%;
+}
+.hospitalsTopContainer{
+  padding-bottom: 0;
+}
+
+.hospitalBottomMain {
+  flex-direction: column;
+}
+.hospitalBottomImg{
+  margin-bottom: 56px;
+}
+.hospitalBottomInfoBox{
+  margin-bottom: 0;
+  padding-right: 0;
+  margin-top: 25px;
+}
+.hospitalBottomInfo {
+  width: 100%;
+  padding-left: 0;
+}
+.hospitalBottomImgCol{
+  width: 100%;
+}
+.hospitalBottomInfoBox p{
+  margin-bottom: 0;
+}
+.hospitalsTopContent p{
+  margin-bottom: 25px;
+}
+.hospitalPlainTextContainer p {
+  margin-bottom: 52px;
+  margin-top: 15px;
+}
+}

@@ -8,9 +8,9 @@ import googleStreetviewImg from "../public/images/google-street-header-banner.pn
 
 <br></br>
 
-<div className={stylesHome.whatWeOfferTitle}></div>
+<div className={stylesTourism.whatWeOfferTitle}></div>
 
-   <section className={stylesHome["aboutUsContainer"] + " " + "blockPadding"} >
+   <section className={stylesEvents["stylesTourism"] + " " + "blockPadding"} >
         <Container>
           <Row>
             <Col lg="7">
@@ -354,6 +354,9 @@ margin-bottom: 0;
 .globalWrap h2 {
   font-size: 24px;
 }
+/* .globalWrap h1 {
+  font-size: 29px;
+} */
 .innerPageHeaderTitle{
   width: 90%;
   padding: 25px;
@@ -435,5 +438,8 @@ bottom: 0;
 }
 .react-multiple-carousel__arrow{
   bottom: 12px !important;
+}
+.globalWrap h1 {
+  font-size: 29px;
 }
 }

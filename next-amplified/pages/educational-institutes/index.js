@@ -21,6 +21,11 @@ import "bootstrap/dist/css/bootstrap.css";
 import IndustriesImg from "../../public/images/education-banner.jpg";
 import IndustriesImg2 from "../../public/images/img-28.jpg";
 import IndustriesImg3 from "../../public/images/img-29.jpg";
+
+import retailsBannerImg from "../../public/images/retails-banner-1.jpg";
+import retailsBannerImg2 from "../../public/images/retails-banner-2.jpg";
+import retailsBannerImg3 from "../../public/images/img-47.jpg";
+import retailsBannerImg4 from "../../public/images/img-48.jpg";
 // import googleStreetviewImg4 from "../../public/images/img-9.png";
 
 export default function index() {
@@ -103,10 +108,10 @@ export default function index() {
         </Container>
       </section>
       <section
-        className={stylesIndustries["benefitContainer"] + " " + "blockPadding"}
+        className={stylesIndustries["benefitContainer"] + " " + "blockPadding" + " " +stylesIndustries["eduBotContainer"]}
       >
         <Container>
-          <Row>
+          {/* <Row>
             <Col lg="12">
               <div className={stylesIndustries.benefitTitle}>
                 <h2>Benefits of a Virtual Tour For Educational Industries</h2>
@@ -171,7 +176,76 @@ export default function index() {
             </Col>
          
          
+          </Row> */}
+          <Row>
+            <Col lg="12">
+              <div className={stylesIndustries.benefitTitle}>
+                <h2>Benefits of a Virtual Tour For Educational Industries</h2>
+              </div>
+            </Col>
+            </Row>
+          <Row className={stylesIndustries.whatWeOfferBoxMain}>
+            <Col lg="6" sm="6" className={stylesIndustries.whatWeOfferCol6}>
+              <div className={stylesIndustries.whatWeOfferBox}>
+                <span>
+                  <h5>01</h5> <h3>Help Generate Sales</h3>
+                </span>
+
+                <p>
+                Custom Virtual Tours simulate the experience of store browsing and let consumers visualize the products. However, the best part is that your e-commerce store products can be embedded in these tours using clickable hotspots. This enables people to click on any product they are interested in, to be redirected to the product listing on your website or online shop, which makes the experience more seamless. The improved shopping experience puts your business in good light and motivates them to visit your store physically. Thus, Custom Tours helps generate and boost sales both online, as well as, offline.
+
+                </p>
+                <Image src={retailsBannerImg3} alt="Spaceshift" />
+              </div>
+            </Col>
+
+            <Col lg="6" sm="6" className={stylesIndustries.whatWeOfferCol6}>
+              <div className={stylesIndustries.whatWeOfferBox}>
+                <span>
+               
+                  <h5>02</h5> <h3>Write & Understand</h3>
+                </span>
+
+                <p>
+                Matterport tours and 360 virtual tours let users move from one space to another, and look around in 360 views, with just a few clicks. Moreover, Mattertags can be used to embed pop-up notes, links, videos, and e-commerce workflows in the 3D model, which helps provide more information than photographs. The immersive 3D models also deliver accurate visual representations of the showroom, including the exact measurements of the entire store, dimensions of the aisles, and other important details for the location. 
+
+                </p>
+                <Image src={retailsBannerImg4} alt="Spaceshift" />
+              </div>
+            </Col>
+
+            <Col lg="6" sm="6" className={stylesIndustries.whatWeOfferCol6}>
+              <div className={stylesIndustries.whatWeOfferBox}>
+              <span>
+                  <h5>03</h5>  <h3>Crucial Marketing Element</h3>
+                </span>
+              
+                <p>
+                  Custom virtual tours create an immersive experience that is
+                  more powerful and effective than any other form of
+                  advertising. It tends to create familiarity and ease among the
+                  clients before they visit the physical premises.
+                </p>
+                <Image src={retailsBannerImg3} alt="Spaceshift" />
+              </div>
+            </Col>
+
+            <Col lg="6" sm="6" className={stylesIndustries.whatWeOfferCol6}>
+              <div className={stylesIndustries.whatWeOfferBox}>
+                
+                <span>
+                  <h5>04</h5> <h3>Professional VR films</h3>
+                </span>
+                <p>
+                Matterport 3D Tours are excellent marketing elements that are interactive and keep the potential clients engaged with the content online. This means that the tours help reduce the bounce rate of your website considerably, which results in better SEO and generates greater website revenue. Being a top Matterport Service Provider in India, SpaceShift shoots high-quality immersive content that helps captivate the attention of your audience.
+
+                </p>
+                <Image src={retailsBannerImg4} alt="Spaceshift" />
+              </div>
+            </Col>
           </Row>
+        
+        
         </Container>
       </section>
       <Footer />

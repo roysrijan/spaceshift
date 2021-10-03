@@ -1,0 +1,238 @@
+.realestateTop {
+  display: flex;
+  align-items: center;
+}
+.realestateTopImgWrap {
+  width: 40%;
+}
+.realestateTopInfo {
+  width: 60%;
+  padding-left: 70px;
+  p {
+    margin-top: 25px;
+  }
+}
+.realestateTopContainer {
+  background-image: url(../public/images/img-37.jpg);
+  background-repeat: no-repeat;
+  left: 0;
+  top: 0;
+  margin-top: 73px;
+  background-color: #f9f9f9;
+}
+.realEstatePlainTextContainer {
+  text-align: center;
+}
+.realEstateMiddleContainer {
+  padding-top: 0;
+}
+.realEstateMiddle {
+  display: flex;
+  align-items: center;
+  margin-bottom: 45px;
+}
+.realEstateMiddleImg {
+  width: 40%;
+}
+.realEstateMiddleInfo {
+  width: 60%;
+  padding-left: 70px;
+
+  p {
+    margin-top: 25px;
+  }
+}
+.realEstateMiddleRight {
+  .realEstateMiddleInfo {
+    padding-left: 0;
+    padding-right: 70px;
+  }
+}
+.realEstateMiddleLast {
+  margin-bottom: 0;
+}
+
+.realEstateBottom {
+  display: flex;
+ 
+}
+.realEstateBottomImgWrap {
+  width: 40%;
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.realEstateBottomContent {
+  width: 60%;
+  padding-left: 0;
+}
+.realEstateBottomContainer{
+    h2{
+        margin-bottom: 50px;
+    }
+}
+.realEstateBottomContentBox{
+    display: flex;
+    align-items: flex-start;
+    background-color: #5EB4B0;
+    padding: 30px 20px;
+    color: #fff;
+}
+.realEstateBottomContentBoxCol1{
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 80px;
+    color: #7b61ff;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+    font-size: 40px;
+
+}
+.realEstateBottomContentBoxCol2{
+    width: 90%;
+    padding-left: 30px;
+  
+    h5{
+        font-weight: 700;
+    }
+    p{
+        margin:0;
+    }
+}
+.realEstateBottomContent .realEstateBottomContentBox:nth-child(2n){
+background-color: #D7FFFF;
+color: #000;
+}
+.realEstateBottom{
+    display: -webkit-flex; /* Safari */     
+    display: flex; /* Standard syntax */
+    > div{
+        -webkit-flex: 1; /* Safari */
+        -ms-flex: 1; /* IE 10 */
+        flex: 1; /* Standard syntax */
+    }
+}
+.realEstateBottomImg{
+    position: relative;
+}
+.realEstateBottomImg:after{
+    content: "";
+    height: 100%;
+    width: 85%;
+    background-color: #DCFFFF;
+    position: absolute;
+    right: 107px;
+    bottom: -45px;
+    z-index: -1;
+}
+@media(max-width:1100px){
+  .realEstateBottom{
+    flex-direction: column;
+  }
+  .realEstateBottomImgWrap{
+    flex-direction: row;
+    width: 100%;
+  }
+  .realEstateBottomContent{
+    flex-direction: row;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .realEstateBottomContentBox{
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .realEstateBottomContentBoxCol2{
+    width: 100%;
+    padding-left: 0;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .realestateTopContainer{
+    background-size: 30% 100%;
+  }
+}
+
+@media(max-width:767px){
+  .realestateTop{
+    flex-direction: column;
+  }
+  .realestateTopImgWrap{
+    width: 100%;
+  }
+  .realestateTopInfo{
+    width: 100%;
+    padding-left: 0;
+  }
+  .realestateTopContainer{
+    background-size: 71%;
+    padding-bottom: 0;
+    margin-top: 60px;
+  }
+  .realestateTopInfo{
+    margin-top: 70px;
+}
+.realEstatePlainTextContainer{
+  text-align: center;
+  padding-top: 0;
+  padding-bottom: 17px;
+}
+.realEstateMiddle{
+  flex-direction: column;
+  padding: 0 6px;
+  margin-bottom: 0;
+  margin-top: 27px;
+}
+.realEstateMiddleImg{
+  width: 100%;
+}
+.realEstateMiddleInfo{
+  width: 100%;
+  padding-left: 0;
+  margin-top: 19px;
+}
+.realEstateMiddleInfo p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.realEstateMiddleRight .realEstateMiddleInfo{
+  padding-left: 0;
+  padding-right: 0;
+
+}
+.realEstateMiddleRight{
+  .realEstateMiddleInfo{
+    order: 2;
+  }
+}
+.realEstateBottom{
+  flex-direction: column;
+}
+.realEstateBottomImgWrap{
+  width: 100%;
+}
+.realEstateBottomContent{
+  width: 100%;
+}
+.realEstateBottomContentBox{
+  flex-direction: column;
+  align-items: center;
+}
+.realEstateBottomContentBoxCol2{
+  width: 100%;
+  padding-left: 0;
+  text-align: center;
+  margin-top: 24px;
+}
+.realEstateBottomContent{
+  flex-direction: column;
+}
+.realEstateBottomContentBox{
+  width: 100%;
+}
+}

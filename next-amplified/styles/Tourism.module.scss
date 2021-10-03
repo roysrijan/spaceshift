@@ -1,0 +1,97 @@
+.tourismTopBox {
+  display: flex;
+  align-items: center;
+}
+.tourismTopBoxImgWrap {
+  width: 40%;
+  h1 {
+    margin-bottom: 25px;
+  }
+}
+.tourismTopBoxContent {
+  width: 60%;
+  padding-left: 50px;
+}
+.tourismTopBox2 {
+  background-color: #3ec0b9;
+  border-radius: 5px;
+  padding: 50px 50px;
+  margin-top: 50px;
+  p {
+    color: #fff;
+    margin: 0;
+  }
+}
+.tourismBottomContainer {
+  padding-top: 0;
+}
+.tourismBottomTitleWrap {
+  display: flex;
+}
+.whatWeOfferTitleCol1 {
+  width: 30%;
+  h2 {
+    background: rgb(174, 103, 250);
+    background: linear-gradient(
+      100deg,
+      rgba(174, 103, 250, 1) 0%,
+      rgba(244, 152, 103, 1) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+.whatWeOfferTitleCol2 {
+  width: 70%;
+  padding-left: 50px;
+}
+.tourismBottomContentBox {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.tourismBottomContentWrapLeft {
+  width: 60%;
+  padding-right: 80px;
+  h5 {
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+}
+.tourismBottomContentWrapRight {
+  width: 40%;
+}
+
+.tourismBottomContentBoxRe{
+    .tourismBottomContentWrapLeft{
+        padding-right: 0;
+        padding-left: 80px;
+    }
+}
+.tourismBottomContentWrapRight{
+    position: relative;
+}
+.tourismBottomContentWrapRight:after{
+    content: "";
+    background: url(../public/images/tourism-pat.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    position: absolute;
+    top: -57px;
+    z-index: -1;
+    right: -31px;
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+}
+.tourismBottomContentBoxRe{
+    .tourismBottomContentWrapRight:after{
+        top:auto;
+        bottom:-57px;
+        left: -31px;
+    }
+}
+.tourismBottomContentWrap .tourismBottomContentBox:last-child{
+    margin-bottom: 0;
+}
