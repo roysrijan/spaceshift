@@ -54,8 +54,8 @@ export default function index() {
             According to Google, businesses that include images and 360 Virtual
             tours are twice as likely to produce viewer engagement and interest.
             With the increasing number of businesses that are competing for your
-            potential audience's attention online, you would want to ensure that
-            the customer's decision to check out your business is a no-brainer.
+            potential audience&#39;s attention online, you would want to ensure that
+            the customer&#39;s decision to check out your business is a no-brainer.
             <br></br>
             <br></br>
             These tours add to trust-building and credibility in your brand,
@@ -168,9 +168,9 @@ export default function index() {
                   <div className="tabContentMain">
                     <div className="tabContentMainInner">
                       <div className="tabContentLeftCol">
-                        <h3>Address clients' issue for exploring </h3>
+                        <h3>Address client&#39;s issue for exploring </h3>
                         <p>
-                          With Google Maps 360 View you can address clients'
+                          With Google Maps 360 View you can address client&#39;s
                           issues for research by giving them the data they would
                           need to dive for different destinations in a more
                           dependable manner. Additionally, it can build sales as

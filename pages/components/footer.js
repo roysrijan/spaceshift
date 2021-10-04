@@ -9,6 +9,7 @@ import insta from "../../public/images/insta.png";
 import google from "../../public/images/google.png";
 import facebook from "../../public/images/facebook.png";
 import twitter from "../../public/images/twitter.png";
+import Link from "next/link";
 
 import {
   Container,
@@ -84,7 +85,9 @@ export default function Footer() {
                     <a href="#">Blog</a>
                   </li>
                   <li>
-                    <a href="/how-we-can-help">FAQ</a>
+                    <Link href="/how-we-can-help">
+                      <a>FAQ</a>
+                    </Link>
                   </li>
                 </ul>
               </span>
@@ -109,12 +112,24 @@ export default function Footer() {
               </div>
 
               <div className={footerStyles.socialWrap}>
-              <h2>Social networks</h2>
-              <div>
-                <a> <Image src={google} alt="Spaceshift" /></a>
-                <a> <Image src={twitter} alt="Spaceshift" /></a>
-                <a> <Image src={facebook} alt="Spaceshift" /></a>
-                <a> <Image src={insta} alt="Spaceshift" /></a>
+                <h2>Social networks</h2>
+                <div>
+                  <a>
+                    {" "}
+                    <Image src={google} alt="Spaceshift" />
+                  </a>
+                  <a>
+                    {" "}
+                    <Image src={twitter} alt="Spaceshift" />
+                  </a>
+                  <a>
+                    {" "}
+                    <Image src={facebook} alt="Spaceshift" />
+                  </a>
+                  <a>
+                    {" "}
+                    <Image src={insta} alt="Spaceshift" />
+                  </a>
                 </div>
               </div>
             </div>

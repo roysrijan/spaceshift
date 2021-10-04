@@ -124,7 +124,7 @@ export default function index() {
                           normal for a projection mapping display to make use of
                           the contours and architecture of the surface. The
                           reason being the effect is made more powerful by
-                          playing on a viewer's sense of space and gives the
+                          playing on a viewer&#39;s sense of space and gives the
                           capability to produce tricks of light and illusions.
                           Surfaces that usually work out seamlessly include
                           light-colored buildings and walls, cars, staging for
@@ -151,7 +151,7 @@ export default function index() {
                           normal for a projection mapping display to make use of
                           the contours and architecture of the surface. The
                           reason being the effect is made more powerful by
-                          playing on a viewer's sense of space and gives the
+                          playing on a viewer&#39;s sense of space and gives the
                           capability to produce tricks of light and illusions.
                           Surfaces that usually work out seamlessly include
                           light-colored buildings and walls, cars, staging for
@@ -178,7 +178,7 @@ export default function index() {
                           normal for a projection mapping display to make use of
                           the contours and architecture of the surface. The
                           reason being the effect is made more powerful by
-                          playing on a viewer's sense of space and gives the
+                          playing on a viewer&#39;s sense of space and gives the
                           capability to produce tricks of light and illusions.
                           Surfaces that usually work out seamlessly include
                           light-colored buildings and walls, cars, staging for
@@ -205,7 +205,7 @@ export default function index() {
                           normal for a projection mapping display to make use of
                           the contours and architecture of the surface. The
                           reason being the effect is made more powerful by
-                          playing on a viewer's sense of space and gives the
+                          playing on a viewer&#39;s sense of space and gives the
                           capability to produce tricks of light and illusions.
                           Surfaces that usually work out seamlessly include
                           light-colored buildings and walls, cars, staging for

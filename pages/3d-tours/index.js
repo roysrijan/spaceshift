@@ -61,9 +61,9 @@ export default function index() {
                 <div className={stylesThreeDTours.Tour3dContentBoxInfo}>
                   <h2>What is 3D Virtual Tour?</h2>
                   <p>
-                    "Aim of every virtual tour production company should be to
+                  &#34;Aim of every virtual tour production company should be to
                     help the potential audience get a customized digital tour so
-                    that maximum customer engagement can take place"<br></br>
+                    that maximum customer engagement can take place&#34;<br></br>
                     Custom virtual tours are way more interactive and creative
                     as compared to Google 360 tour or Google Virtual Tour,
                     however, have a progression of customizable features that
@@ -186,7 +186,7 @@ export default function index() {
                     viewing your space from various angles, build functionality
                     on top of it, and get precise measures. Putting it another
                     way, it is a sort of active media that puts the viewer in
-                    the driver's seat, which can help in increasing engagement
+                    the driver&#39;s seat, which can help in increasing engagement
                     and contributing in-depth information on the layouts.
                   </p>
                 </div>
@@ -313,7 +313,7 @@ export default function index() {
                   <div className="tabContentLeftCol">
                     <h3>Matterport Digital Twin </h3>
                     <p>
-                    A Matterport digital twin is the most precise virtual 3D model of a location or place - regardless of whether it's anything but a room, a whole structure, or an open air space. Digital twins empower ventures like real estate, construction, and security to improve on how they function and associate with clients and merchants. 
+                    A Matterport digital twin is the most precise virtual 3D model of a location or place - regardless of whether it&#39;s anything but a room, a whole structure, or an open air space. Digital twins empower ventures like real estate, construction, and security to improve on how they function and associate with clients and merchants. 
                     </p>
                   </div>
 

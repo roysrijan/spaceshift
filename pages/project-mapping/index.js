@@ -52,7 +52,7 @@ export default function index() {
                 <div className={stylesProjectMapping.introductionContent}>
                   <h2>Introduction</h2>
                   <p>
-                    3D projection mapping, known as simply "projection mapping"
+                    3D projection mapping, known as simply &#34;projection mapping&#34;
                     or video mapping, is the art and science of utilizing
                     physical spaces and objects as the surface for projection,
                     instead of a traditional screen. The outcome is a visually
@@ -150,7 +150,7 @@ export default function index() {
                           normal for a projection mapping display to make use of
                           the contours and architecture of the surface. The
                           reason being the effect is made more powerful by
-                          playing on a viewer's sense of space and gives the
+                          playing on a viewer&#39;s sense of space and gives the
                           capability to produce tricks of light and illusions.
                           Surfaces that usually work out seamlessly include
                           light-colored buildings and walls, cars, staging for
@@ -178,7 +178,7 @@ export default function index() {
                           normal for a projection mapping display to make use of
                           the contours and architecture of the surface. The
                           reason being the effect is made more powerful by
-                          playing on a viewer's sense of space and gives the
+                          playing on a viewer&#39;s sense of space and gives the
                           capability to produce tricks of light and illusions.
                           Surfaces that usually work out seamlessly include
                           light-colored buildings and walls, cars, staging for
@@ -206,7 +206,7 @@ export default function index() {
                           normal for a projection mapping display to make use of
                           the contours and architecture of the surface. The
                           reason being the effect is made more powerful by
-                          playing on a viewer's sense of space and gives the
+                          playing on a viewer&#39;s sense of space and gives the
                           capability to produce tricks of light and illusions.
                           Surfaces that usually work out seamlessly include
                           light-colored buildings and walls, cars, staging for
@@ -233,7 +233,7 @@ export default function index() {
                           normal for a projection mapping display to make use of
                           the contours and architecture of the surface. The
                           reason being the effect is made more powerful by
-                          playing on a viewer's sense of space and gives the
+                          playing on a viewer&#39;s sense of space and gives the
                           capability to produce tricks of light and illusions.
                           Surfaces that usually work out seamlessly include
                           light-colored buildings and walls, cars, staging for

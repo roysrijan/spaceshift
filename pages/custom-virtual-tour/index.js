@@ -53,9 +53,9 @@ export default function index() {
                   <Image src={customVirtualTourImg2} alt="Spaceshift" />
                 </div>
                 <p>
-                  "Aim of every virtual tour production company should be to
+                &#34;Aim of every virtual tour production company should be to
                   help the potential audience get a customized digital tour so
-                  that maximum customer engagement can take place"<br></br>
+                  that maximum customer engagement can take place&#34;<br></br>
                   Custom virtual tours are way more interactive and creative as
                   compared to Google 360 tour or Google Virtual Tour, however,
                   have a progression of customizable features that make it
