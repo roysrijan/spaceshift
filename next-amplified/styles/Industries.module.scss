@@ -180,7 +180,18 @@
     margin-bottom: 100px;
 }
 
-
+@media(max-width:1100px){
+  .hospitalsTopContent {
+    padding-top: 12px;
+}
+.whatWeOfferBox span {
+  margin-top: 31px;
+}
+.whatWeOfferBoxMain .whatWeOfferCol6 h3 {
+  font-size: 25px;
+  text-align: left;
+}
+}
 @media(max-width:900px){
   .benefitList .benefitListInner:nth-child(1n) {
     padding-right: 0;
@@ -193,6 +204,22 @@
   margin-top: 29px;
   text-align: left;
 } 
+.hospitalsTopContent{
+  padding-top: 57px;
+}
+.hospitalsTopContainer{
+  padding-bottom: 11px;
+}
+
+
+.whatWeOfferBoxMain .whatWeOfferCol6{
+  padding-right: 30px;
+  /* padding-top: 50px; */
+}
+.whatWeOfferBoxMain .whatWeOfferCol6:nth-child(2n) {
+  padding-left: 30px;
+}
+
 }
 @media(max-width:767px){
 
@@ -250,6 +277,8 @@
 .highlightBoxContent p{
   margin-top: 26px;
 }
+
+
 .whatWeOfferBoxMain .whatWeOfferCol6 {
   padding-right: 10px;
   margin-top: 52px;
@@ -257,6 +286,14 @@
 .whatWeOfferBoxMain .whatWeOfferCol6:nth-child(2n) {
   padding-left: 10px;
   padding-right: 10px;
-  padding-top: 70px;
+  padding-top: 0;
+}
+
+.benefitTitle{
+  margin-bottom: 0;
+}
+
+.retailTopContainer{
+  padding-bottom: 10px;
 }
 }

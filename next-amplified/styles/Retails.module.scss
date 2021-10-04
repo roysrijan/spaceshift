@@ -1,81 +1,163 @@
-.retailTopBox{
-    display: flex;
-    margin-bottom: 97px;
+.retailTopBox {
+  display: flex;
+  margin-bottom: 97px;
 }
-.retailTopBoxContent{
-    width: 60%;
-    padding-right: 50px;
+.retailTopBoxContent {
+  width: 60%;
+  padding-right: 50px;
 }
-.retailTopBoxImg{
-    width: 40%;
-    padding: 34px 0;
+.retailTopBoxImg {
+  width: 40%;
+  padding: 34px 0;
 }
-.retailTopBoxImg2{
-    position: relative;
-    left: 70px;
-    top: 27px;
-    > div{
-        width: 50% !important;
-    }
+.retailTopBoxImg2 {
+  position: relative;
+  left: 70px;
+  top: 27px;
+  > div {
+    width: 50% !important;
+  }
 }
-.retailTopContainer{
-    background: url(../public/images/retails-top-banner-bg.png);
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-size: 36% 670px;
+.retailTopContainer {
+  background: url(../public/images/retails-top-banner-bg.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 36% 670px;
 }
-.retailBottomContainer{
-    padding-top: 0;
+.retailBottomContainer {
+  padding-top: 0;
 }
-.retailBottomTitle{
-    h2 {
-       width: 50%;
-        background: rgb(174, 103, 250);
-        background: linear-gradient(
-          100deg,
-          rgba(174, 103, 250, 1) 0%,
-          rgba(244, 152, 103, 1) 100%
-        );
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-      }
+.retailBottomTitle {
+  h2 {
+    width: 50%;
+    background: rgb(174, 103, 250);
+    background: linear-gradient(
+      100deg,
+      rgba(174, 103, 250, 1) 0%,
+      rgba(244, 152, 103, 1) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 }
 
 .whatWeOfferBoxMain .whatWeOfferCol6 {
-    padding-right: 60px;
-   
-   
-    h3{
-        font-size: 25px;
-        text-align: center;
+  padding-right: 60px;
+
+  h3 {
+    font-size: 25px;
+    text-align: center;
+  }
+}
+.whatWeOfferBoxMain .whatWeOfferCol6:nth-child(2n) {
+  padding-left: 60px;
+  padding-right: 0;
+  padding-top: 70px;
+}
+.whatWeOfferBox {
+  p {
+    margin-bottom: 32px;
+  }
+
+  span {
+    display: inline-flex;
+    align-self: center;
+    position: relative;
+    padding-left: 41px;
+    margin-bottom: 10px;
+
+    h5 {
+      color: #3ec0b959;
+      position: absolute;
+      top: -43px;
+      font-size: 57px;
+      left: 0;
+      z-index: -1;
     }
   }
-  .whatWeOfferBoxMain .whatWeOfferCol6:nth-child(2n) {
-    padding-left: 60px;
-    padding-right: 0;
-    padding-top: 70px;
-  }
-  .whatWeOfferBox{
-      p{
-        margin-bottom: 32px;
-      }
+}
+.retailBottomTitle {
+  margin-bottom: 100px;
+}
 
-      span{display: inline-flex;
-        align-self: center;
-        position: relative;
-        padding-left: 41px;
-        margin-bottom: 10px;
-        
-          h5{
-            color: #3ec0b959;
-            position: absolute;
-            top: -43px;
-            font-size: 57px;
-            left: 0;
-            z-index: -1;
-          }
-      }
+@media (max-width: 1100px) {
+  .hospitalsTopContent {
+    padding-top: 12px;
+  }
+  .whatWeOfferBox span {
+    margin-top: 31px;
+  }
+  .whatWeOfferBoxMain .whatWeOfferCol6 h3 {
+    font-size: 25px;
+    text-align: left;
+  }
+  .retailTopContainer{
+    background-size: 36% auto;
+  }
+  .retailTopBox{
+    margin-bottom: 0;
+  }
+  .retailTopBox {
+    margin-top: 50px;
   }
   .retailBottomTitle{
-      margin-bottom: 100px;
+    margin-bottom: 0;
   }
+  .retailTopContainer{
+    p{
+      margin-bottom: 0;
+    }
+  }
+  .retailBottomTitle h2 {
+    width: 100%;
+}
+}
+@media (max-width: 900px) {
+  .whatWeOfferBoxMain .whatWeOfferCol6 {
+    padding-right: 30px;
+    /* padding-top: 50px; */
+  }
+  .whatWeOfferBoxMain .whatWeOfferCol6:nth-child(2n) {
+    padding-left: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .retailTopBoxImg2 {
+    left: 0;
+  }
+  .retailTopBox {
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 12px;
+  }
+  .retailTopBoxContent {
+    width: 100%;
+    padding-right: 0;
+  }
+  .retailTopBoxImg {
+    width: 100%;
+    padding: 0 0 25px;
+  }
+
+  .whatWeOfferBoxMain .whatWeOfferCol6 {
+    padding-right: 10px;
+    margin-top: 52px;
+  }
+  .whatWeOfferBoxMain .whatWeOfferCol6:nth-child(2n) {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0;
+  }
+
+  .benefitTitle {
+    margin-bottom: 0;
+  }
+
+.retailBottomTitle{
+  margin-bottom: 0;
+}
+.whatWeOfferBoxMain .whatWeOfferCol6 h3 {
+  font-size: 25px;
+  text-align: left;
+}
+}
