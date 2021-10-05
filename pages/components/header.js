@@ -9,7 +9,7 @@ import {
   NavDropdown,
 } from "react-bootstrap";
 import Image from "next/image";
-import logo from "/images/logo.png";
+import logo from "../../public/images/logo.png";
 import "bootstrap/dist/css/bootstrap.css";
 
 export default function Header() {
