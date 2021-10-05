@@ -20,7 +20,7 @@ import stylesHome from "../styles/Home.module.scss";
 import Footer from "./components/footer";
 import Header from "./components/header";
 import "bootstrap/dist/css/bootstrap.css";
-//import aboutVideo from "../public/images/about-video.png";
+import aboutVideo from "../public/images/about-video.png";
 
 import whatWeOfferImg1 from "../public/images/img-1.jpg";
 import whatWeOfferImg2 from "../public/images/img-2.jpg";
@@ -99,7 +99,7 @@ export default function Home() {
 
             <Col lg="5">
               <div className={stylesHome.aboutUsVideo}>
-                <Image src="/images/about-video.png" alt="Spaceshift" width={388} height={357}  />
+                <Image src={aboutVideo} alt="Spaceshift" />
               </div>
             </Col>
           </Row>
