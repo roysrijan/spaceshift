@@ -1,5 +1,7 @@
 import Image from "next/image";
 import footerStyles from "../../styles/Footer.module.scss";
+
+
 import footLogo from "../../public/images/logo.png";
 import locationicon from "../../public/images/location-icon.png";
 import contactIcon from "../../public/images/contact-info-icon.png";
@@ -29,7 +31,9 @@ export default function Footer() {
         <Row>
           <Col lg="4">
             <div className={footerStyles.footerBox}>
-              <Image src={footLogo} alt="Spaceshift" />
+              {/* <Image src={footLogo} alt="Spaceshift" /> */}
+<img src="/images/logo.png" alt="Spaceshift"/>
+
               <ul>
                 <li>
                   <p className={footerStyles.p1}>
@@ -38,17 +42,23 @@ export default function Footer() {
                   </p>
                 </li>
                 <li>
-                  <Image src={locationicon} alt="Spaceshift" />
+                  {/* <Image src={locationicon} alt="Spaceshift" /> */}
+<img src="/images/location-icon.png" alt="Spaceshift"/>
+
                   <p>Location</p>
                 </li>
 
                 <li>
-                  <Image src={contactIcon} alt="Spaceshift" />
+                  {/* <Image src={contactIcon} alt="Spaceshift" /> */}
+<img src="/images/contact-info-icon.png" alt="Spaceshift"/>
+
                   <p>Contact Info</p>
                 </li>
 
                 <li>
-                  <Image src={linkIcon} alt="Spaceshift" />
+                  {/* <Image src={linkIcon} alt="Spaceshift" /> */}
+<img src="/images/link-icon.png" alt="Spaceshift"/>
+
                   <p>www.spaceshift.in</p>
                 </li>
               </ul>
@@ -116,19 +126,27 @@ export default function Footer() {
                 <div>
                   <a>
                     {" "}
-                    <Image src={google} alt="Spaceshift" />
+                    {/* <Image src={google} alt="Spaceshift" /> */}
+<img src="/images/insta.png" alt="Spaceshift"/>
+
                   </a>
                   <a>
                     {" "}
-                    <Image src={twitter} alt="Spaceshift" />
+                    {/* <Image src={twitter} alt="Spaceshift" /> */}
+<img src="/images/twitter.png" alt="Spaceshift"/>
+
                   </a>
                   <a>
                     {" "}
-                    <Image src={facebook} alt="Spaceshift" />
+                    {/* <Image src={facebook} alt="Spaceshift" /> */}
+<img src="/images/facebook.png" alt="Spaceshift"/>
+
                   </a>
                   <a>
                     {" "}
-                    <Image src={insta} alt="Spaceshift" />
+                    {/* <Image src={insta} alt="Spaceshift" /> */}
+<img src="/images/insta.png" alt="Spaceshift"/>
+
                   </a>
                 </div>
               </div>

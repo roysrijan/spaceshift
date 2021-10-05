@@ -20,18 +20,18 @@ import stylesHome from "../styles/Home.module.scss";
 import Footer from "./components/footer";
 import Header from "./components/header";
 import "bootstrap/dist/css/bootstrap.css";
-import aboutVideo from "../public/images/about-video.png";
+// import aboutVideo from "../public/images/about-video.png";
 
-import whatWeOfferImg1 from "../public/images/img-1.jpg";
-import whatWeOfferImg2 from "../public/images/img-2.jpg";
-import whatWeOfferImg3 from "../public/images/img-3.jpg";
-import whatWeOfferImg4 from "../public/images/img-4.jpg";
-import whatWeOfferImg5 from "../public/images/img-5.jpg";
-import whatWeOfferImg6 from "../public/images/img-6.jpg";
-import indusTabImage from "../public/images/industries.jpg";
-import rightArrow from "../public/images/right-arrow.png";
-import indusTabBg from "../public/images/industries-bg.png";
-import testimonialAuthor from "../public/images/testimonial-img.jpg";
+// import whatWeOfferImg1 from "../public/images/img-1.jpg";
+// import whatWeOfferImg2 from "../public/images/img-2.jpg";
+// import whatWeOfferImg3 from "../public/images/img-3.jpg";
+// import whatWeOfferImg4 from "../public/images/img-4.jpg";
+// import whatWeOfferImg5 from "../public/images/img-5.jpg";
+// import whatWeOfferImg6 from "../public/images/img-6.jpg";
+// import indusTabImage from "../public/images/industries.jpg";
+// import rightArrow from "../public/images/right-arrow.png";
+// import indusTabBg from "../public/images/industries-bg.png";
+// import testimonialAuthor from "../public/images/testimonial-img.jpg";
 const responsive = {
   desktop: {
     breakpoint: { max: 3000, min: 1024 },
@@ -99,7 +99,9 @@ export default function Home() {
 
             <Col lg="5">
               <div className={stylesHome.aboutUsVideo}>
-                <Image src={aboutVideo} alt="Spaceshift" />
+                {/* <Image src={aboutVideo} alt="Spaceshift" /> */}
+                <img src="/images/about-video.png" alt="Spaceshift" />
+
               </div>
             </Col>
           </Row>
@@ -297,7 +299,11 @@ export default function Home() {
                         <Tab.Pane eventKey="restaraunts">
                           <div className={stylesHome.indusTabBox}>
                             <div className={stylesHome.indusTabBoxBg}>
-                              <Image src={indusTabBg} alt="Spaceshift" />
+                              {/* <Image src={indusTabBg} alt="Spaceshift" /> */}
+                              <img
+                                src="/images/industries-bg.png"
+                                alt="Spaceshift"
+                              />
                             </div>
                             <div className={stylesHome.indusTabBoxImage}>
                               {/* <Image src={indusTabImage} alt="Spaceshift" /> */}
@@ -386,7 +392,12 @@ export default function Home() {
 
                             <a className="seeMoreBt">
                               <p>See more </p>{" "}
-                              <Image src={rightArrow} alt="Spaceshift" />
+                              {/* <Image src={rightArrow} alt="Spaceshift" /> */}
+                              <img
+                                src="/images/right-arrow.png"
+                                alt="Spaceshift"
+                              />
+                              
                             </a>
                           </div>
                         </Tab.Pane>
@@ -416,7 +427,12 @@ export default function Home() {
 
                             <a className="seeMoreBt">
                               <p>See more </p>{" "}
-                              <Image src={rightArrow} alt="Spaceshift" />
+                              {/* <Image src={rightArrow} alt="Spaceshift" /> */}
+
+                              <img
+                                src="/images/right-arrow.png"
+                                alt="Spaceshift"
+                              />
                             </a>
                           </div>
                         </Tab.Pane>
@@ -446,7 +462,11 @@ export default function Home() {
 
                             <a className="seeMoreBt">
                               <p>See more </p>{" "}
-                              <Image src={rightArrow} alt="Spaceshift" />
+                              {/* <Image src={rightArrow} alt="Spaceshift" /> */}
+                              <img
+                                src="/images/right-arrow.png"
+                                alt="Spaceshift"
+                              />
                             </a>
                           </div>
                         </Tab.Pane>
@@ -476,7 +496,11 @@ export default function Home() {
 
                             <a className="seeMoreBt">
                               <p>See more </p>{" "}
-                              <Image src={rightArrow} alt="Spaceshift" />
+                              {/* <Image src={rightArrow} alt="Spaceshift" /> */}
+                              <img
+                                src="/images/right-arrow.png"
+                                alt="Spaceshift"
+                              />
                             </a>
                           </div>
                         </Tab.Pane>
@@ -507,7 +531,11 @@ export default function Home() {
 
                             <a className="seeMoreBt">
                               <p>See more </p>{" "}
-                              <Image src={rightArrow} alt="Spaceshift" />
+                              {/* <Image src={rightArrow} alt="Spaceshift" /> */}
+                              <img
+                                src="/images/right-arrow.png"
+                                alt="Spaceshift"
+                              />
                             </a>
                           </div>
                         </Tab.Pane>
@@ -522,7 +550,12 @@ export default function Home() {
                               />
                             </div>
                             <div className={stylesHome.indusTabBoxImage}>
-                              <Image src={indusTabImage} alt="Spaceshift" />
+                              {/* <Image src={indusTabImage} alt="Spaceshift" /> */}
+
+                              <img
+                                src="/images/industries.jpg"
+                                alt="Spaceshift"
+                              />
                               <div className={stylesHome.indusTabBoxImageInfo}>
                                 <span>01 --- 3D Tours</span>
                                 <span className={stylesHome.projectName}>
@@ -533,7 +566,11 @@ export default function Home() {
 
                             <a className="seeMoreBt">
                               <p>See more </p>{" "}
-                              <Image src={rightArrow} alt="Spaceshift" />
+                              {/* <Image src={rightArrow} alt="Spaceshift" /> */}
+                              <img
+                                src="/images/right-arrow.png"
+                                alt="Spaceshift"
+                              />
                             </a>
                           </div>
                         </Tab.Pane>
@@ -564,7 +601,11 @@ export default function Home() {
 
                             <a className="seeMoreBt">
                               <p>See more </p>{" "}
-                              <Image src={rightArrow} alt="Spaceshift" />
+                              {/* <Image src={rightArrow} alt="Spaceshift" /> */}
+                              <img
+                                src="/images/right-arrow.png"
+                                alt="Spaceshift"
+                              />
                             </a>
                           </div>
                         </Tab.Pane>
@@ -616,7 +657,9 @@ export default function Home() {
 
               <div className={stylesHome.testimonialAuthor}>
                 <div className={stylesHome.testimonialAuthorImgBox}>
-                  <Image src={testimonialAuthor} alt="Spaceshift" />
+                  {/* <Image src={testimonialAuthor} alt="Spaceshift" /> */}
+<img src="/images/testimonial-img.jpg" alt="Spaceshift"/>
+
                 </div>
                 <div className={stylesHome.testimonialAuthorname}>
                   <h4>Mike</h4>
@@ -635,7 +678,9 @@ export default function Home() {
 
               <div className={stylesHome.testimonialAuthor}>
                 <div className={stylesHome.testimonialAuthorImgBox}>
-                  <Image src={testimonialAuthor} alt="Spaceshift" />
+                  {/* <Image src={testimonialAuthor} alt="Spaceshift" /> */}
+<img src="/images/testimonial-img.jpg" alt="Spaceshift"/>
+
                 </div>
                 <div className={stylesHome.testimonialAuthorname}>
                   <h4>Mike</h4>
@@ -654,7 +699,9 @@ export default function Home() {
 
               <div className={stylesHome.testimonialAuthor}>
                 <div className={stylesHome.testimonialAuthorImgBox}>
-                  <Image src={testimonialAuthor} alt="Spaceshift" />
+                  {/* <Image src={testimonialAuthor} alt="Spaceshift" /> */}
+<img src="/images/testimonial-img.jpg" alt="Spaceshift"/>
+
                 </div>
                 <div className={stylesHome.testimonialAuthorname}>
                   <h4>Mike</h4>
@@ -673,7 +720,9 @@ export default function Home() {
 
               <div className={stylesHome.testimonialAuthor}>
                 <div className={stylesHome.testimonialAuthorImgBox}>
-                  <Image src={testimonialAuthor} alt="Spaceshift" />
+                  {/* <Image src={testimonialAuthor} alt="Spaceshift" /> */}
+<img src="/images/testimonial-img.jpg" alt="Spaceshift"/>
+
                 </div>
                 <div className={stylesHome.testimonialAuthorname}>
                   <h4>Mike</h4>
