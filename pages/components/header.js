@@ -24,7 +24,7 @@ export default function Header() {
       <Navbar bg="light" expand="lg" fixed="top">
         <Container>
           <Navbar.Brand href="/">
-            <Image src="/images/logo.png" alt="Spaceshift" width={164} height={40} />
+            <Image src="/logo.png" alt="Spaceshift" width={164} height={40} />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav" className="navBarTop">
