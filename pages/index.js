@@ -123,7 +123,9 @@ export default function Home() {
           <Row className={stylesHome.whatWeOfferBoxMain}>
             <Col lg="6" sm="6" className={stylesHome.whatWeOfferCol6}>
               <div className={stylesHome.whatWeOfferBox}>
-                <Image src={whatWeOfferImg1} alt="Spaceshift" />
+                {/* <Image src={whatWeOfferImg1} alt="Spaceshift" /> */}
+                <img src="/images/img-1.jpg" alt="Spaceshift" />
+
                 <h3>Google street view</h3>
                 <p>
                   Your customers can find you pretty easily with high-quality
@@ -137,7 +139,9 @@ export default function Home() {
 
             <Col lg="6" sm="6" className={stylesHome.whatWeOfferCol6}>
               <div className={stylesHome.whatWeOfferBox}>
-                <Image src={whatWeOfferImg2} alt="Spaceshift" />
+                {/* <Image src={whatWeOfferImg2} alt="Spaceshift" /> */}
+                <img src="/images/img-2.jpg" alt="Spaceshift" />
+
                 <h3>3D Tours</h3>
                 <p>
                   3D tours would ensure that it becomes easier & time-friendly
@@ -151,7 +155,9 @@ export default function Home() {
 
             <Col lg="6" sm="6" className={stylesHome.whatWeOfferCol6}>
               <div className={stylesHome.whatWeOfferBox}>
-                <Image src={whatWeOfferImg3} alt="Spaceshift" />
+                {/* <Image src={whatWeOfferImg3} alt="Spaceshift" /> */}
+                <img src="/images/img-3.jpg" alt="Spaceshift" />
+
                 <h3>Custom virtual tours</h3>
                 <p>
                   Custom virtual tours create an immersive experience that is
@@ -165,7 +171,9 @@ export default function Home() {
 
             <Col lg="6" sm="6" className={stylesHome.whatWeOfferCol6}>
               <div className={stylesHome.whatWeOfferBox}>
-                <Image src={whatWeOfferImg4} alt="Spaceshift" />
+                {/* <Image src={whatWeOfferImg4} alt="Spaceshift" /> */}
+                <img src="/images/img-4.jpg" alt="Spaceshift" />
+
                 <h3>Professional VR films</h3>
                 <p>
                   Virtual reality production showcases the benefits when you
@@ -180,7 +188,9 @@ export default function Home() {
 
             <Col lg="6" sm="6" className={stylesHome.whatWeOfferCol6}>
               <div className={stylesHome.whatWeOfferBox}>
-                <Image src={whatWeOfferImg5} alt="Spaceshift" />
+                {/* <Image src={whatWeOfferImg5} alt="Spaceshift" /> */}
+                <img src="/images/img-5.jpg" alt="Spaceshift" />
+
                 <h3>3D Projection mapping</h3>
                 <p>
                   Posters, banners, lights, and other stuff for an occasion can
@@ -196,7 +206,9 @@ export default function Home() {
 
             <Col lg="6" sm="6" className={stylesHome.whatWeOfferCol6}>
               <div className={stylesHome.whatWeOfferBox}>
-                <Image src={whatWeOfferImg6} alt="Spaceshift" />
+                {/* <Image src={whatWeOfferImg6} alt="Spaceshift" /> */}
+                <img src="/images/img-6.jpg" alt="Spaceshift" />
+
                 <h3>Photogrammetry</h3>
                 <p>
                   Photogrammetry helps to create a 3D model of the object which
@@ -280,7 +292,7 @@ export default function Home() {
                         </Nav.Item>
                       </Nav>
                     </Col>
-                    <Col lg={9} sm={7} >
+                    <Col lg={9} sm={7}>
                       <Tab.Content>
                         <Tab.Pane eventKey="restaraunts">
                           <div className={stylesHome.indusTabBox}>
@@ -288,7 +300,12 @@ export default function Home() {
                               <Image src={indusTabBg} alt="Spaceshift" />
                             </div>
                             <div className={stylesHome.indusTabBoxImage}>
-                              <Image src={indusTabImage} alt="Spaceshift" />
+                              {/* <Image src={indusTabImage} alt="Spaceshift" /> */}
+                              <img
+                                src="/images/industries.jpg"
+                                alt="Spaceshift"
+                              />
+
                               <div className={stylesHome.indusTabBoxImageInfo}>
                                 <span>01 --- 3D Tours</span>
                                 <span className={stylesHome.projectName}>
@@ -299,7 +316,11 @@ export default function Home() {
 
                             <a className="seeMoreBt">
                               <p>See more </p>{" "}
-                              <Image src={rightArrow} alt="Spaceshift" />
+                              {/* <Image src={rightArrow} alt="Spaceshift" /> */}
+                              <img
+                                src="/images/right-arrow.png"
+                                alt="Spaceshift"
+                              />
                             </a>
                           </div>
                         </Tab.Pane>
@@ -307,10 +328,19 @@ export default function Home() {
                         <Tab.Pane eventKey="travel">
                           <div className={stylesHome.indusTabBox}>
                             <div className={stylesHome.indusTabBoxBg}>
-                              <Image src={indusTabBg} alt="Spaceshift" />
+                              {/* <Image src={indusTabBg} alt="Spaceshift" /> */}
+                              <img
+                                src="/images/industries-bg.png"
+                                alt="Spaceshift"
+                              />
                             </div>
                             <div className={stylesHome.indusTabBoxImage}>
-                              <Image src={indusTabImage} alt="Spaceshift" />
+                              {/* <Image src={indusTabImage} alt="Spaceshift" /> */}
+                              <img
+                                src="/images/industries.jpg"
+                                alt="Spaceshift"
+                              />
+
                               <div className={stylesHome.indusTabBoxImageInfo}>
                                 <span>01 --- 3D Tours</span>
                                 <span className={stylesHome.projectName}>
@@ -321,7 +351,11 @@ export default function Home() {
 
                             <a className="seeMoreBt">
                               <p>See more </p>{" "}
-                              <Image src={rightArrow} alt="Spaceshift" />
+                              {/* <Image src={rightArrow} alt="Spaceshift" /> */}
+                              <img
+                                src="/images/right-arrow.png"
+                                alt="Spaceshift"
+                              />
                             </a>
                           </div>
                         </Tab.Pane>
@@ -329,10 +363,19 @@ export default function Home() {
                         <Tab.Pane eventKey="realestate">
                           <div className={stylesHome.indusTabBox}>
                             <div className={stylesHome.indusTabBoxBg}>
-                              <Image src={indusTabBg} alt="Spaceshift" />
+                              {/* <Image src={indusTabBg} alt="Spaceshift" /> */}
+                              <img
+                                src="/images/industries-bg.png"
+                                alt="Spaceshift"
+                              />
                             </div>
                             <div className={stylesHome.indusTabBoxImage}>
-                              <Image src={indusTabImage} alt="Spaceshift" />
+                              {/* <Image src={indusTabImage} alt="Spaceshift" /> */}
+                              <img
+                                src="/images/industries.jpg"
+                                alt="Spaceshift"
+                              />
+
                               <div className={stylesHome.indusTabBoxImageInfo}>
                                 <span>01 --- 3D Tours</span>
                                 <span className={stylesHome.projectName}>
@@ -351,10 +394,18 @@ export default function Home() {
                         <Tab.Pane eventKey="retails">
                           <div className={stylesHome.indusTabBox}>
                             <div className={stylesHome.indusTabBoxBg}>
-                              <Image src={indusTabBg} alt="Spaceshift" />
+                              {/* <Image src={indusTabBg} alt="Spaceshift" /> */}
+                              <img
+                                src="/images/industries-bg.png"
+                                alt="Spaceshift"
+                              />
                             </div>
                             <div className={stylesHome.indusTabBoxImage}>
-                              <Image src={indusTabImage} alt="Spaceshift" />
+                              {/* <Image src={indusTabImage} alt="Spaceshift" /> */}
+                              <img
+                                src="/images/industries.jpg"
+                                alt="Spaceshift"
+                              />
                               <div className={stylesHome.indusTabBoxImageInfo}>
                                 <span>01 --- 3D Tours</span>
                                 <span className={stylesHome.projectName}>
@@ -373,10 +424,18 @@ export default function Home() {
                         <Tab.Pane eventKey="tourism">
                           <div className={stylesHome.indusTabBox}>
                             <div className={stylesHome.indusTabBoxBg}>
-                              <Image src={indusTabBg} alt="Spaceshift" />
+                              {/* <Image src={indusTabBg} alt="Spaceshift" /> */}
+                              <img
+                                src="/images/industries-bg.png"
+                                alt="Spaceshift"
+                              />
                             </div>
                             <div className={stylesHome.indusTabBoxImage}>
-                              <Image src={indusTabImage} alt="Spaceshift" />
+                              {/* <Image src={indusTabImage} alt="Spaceshift" /> */}
+                              <img
+                                src="/images/industries.jpg"
+                                alt="Spaceshift"
+                              />
                               <div className={stylesHome.indusTabBoxImageInfo}>
                                 <span>01 --- 3D Tours</span>
                                 <span className={stylesHome.projectName}>
@@ -395,10 +454,18 @@ export default function Home() {
                         <Tab.Pane eventKey="institutes">
                           <div className={stylesHome.indusTabBox}>
                             <div className={stylesHome.indusTabBoxBg}>
-                              <Image src={indusTabBg} alt="Spaceshift" />
+                              {/* <Image src={indusTabBg} alt="Spaceshift" /> */}
+                              <img
+                                src="/images/industries-bg.png"
+                                alt="Spaceshift"
+                              />
                             </div>
                             <div className={stylesHome.indusTabBoxImage}>
-                              <Image src={indusTabImage} alt="Spaceshift" />
+                              {/* <Image src={indusTabImage} alt="Spaceshift" /> */}
+                              <img
+                                src="/images/industries.jpg"
+                                alt="Spaceshift"
+                              />
                               <div className={stylesHome.indusTabBoxImageInfo}>
                                 <span>01 --- 3D Tours</span>
                                 <span className={stylesHome.projectName}>
@@ -417,10 +484,19 @@ export default function Home() {
                         <Tab.Pane eventKey="events">
                           <div className={stylesHome.indusTabBox}>
                             <div className={stylesHome.indusTabBoxBg}>
-                              <Image src={indusTabBg} alt="Spaceshift" />
+                              <img
+                                src="/images/industries-bg.png"
+                                alt="Spaceshift"
+                              />
+
+                              {/* <Image src={indusTabBg} alt="Spaceshift" /> */}
                             </div>
                             <div className={stylesHome.indusTabBoxImage}>
-                              <Image src={indusTabImage} alt="Spaceshift" />
+                              {/* <Image src={indusTabImage} alt="Spaceshift" /> */}
+                              <img
+                                src="/images/industries.jpg"
+                                alt="Spaceshift"
+                              />
                               <div className={stylesHome.indusTabBoxImageInfo}>
                                 <span>01 --- 3D Tours</span>
                                 <span className={stylesHome.projectName}>
@@ -439,7 +515,11 @@ export default function Home() {
                         <Tab.Pane eventKey="hospials">
                           <div className={stylesHome.indusTabBox}>
                             <div className={stylesHome.indusTabBoxBg}>
-                              <Image src={indusTabBg} alt="Spaceshift" />
+                              {/* <Image src={indusTabBg} alt="Spaceshift" /> */}
+                              <img
+                                src="/images/industries-bg.png"
+                                alt="Spaceshift"
+                              />
                             </div>
                             <div className={stylesHome.indusTabBoxImage}>
                               <Image src={indusTabImage} alt="Spaceshift" />
@@ -461,10 +541,19 @@ export default function Home() {
                         <Tab.Pane eventKey="restoration">
                           <div className={stylesHome.indusTabBox}>
                             <div className={stylesHome.indusTabBoxBg}>
-                              <Image src={indusTabBg} alt="Spaceshift" />
+                              {/* <Image src={indusTabBg} alt="Spaceshift" /> */}
+                              <img
+                                src="/images/industries-bg.png"
+                                alt="Spaceshift"
+                              />
                             </div>
                             <div className={stylesHome.indusTabBoxImage}>
-                              <Image src={indusTabImage} alt="Spaceshift" />
+                              {/* <Image src={indusTabImage} alt="Spaceshift" /> */}
+                              <img
+                                src="/images/industries.jpg"
+                                alt="Spaceshift"
+                              />
+
                               <div className={stylesHome.indusTabBoxImageInfo}>
                                 <span>01 --- 3D Tours</span>
                                 <span className={stylesHome.projectName}>
@@ -505,98 +594,94 @@ export default function Home() {
                 </h2>
               </div>
             </Col>
-           </Row>
+          </Row>
         </Container>
 
         <div className={stylesHome.carouselWrap}>
-       
-              <Carousel
-                responsive={responsive}
-                // autoPlay={true}
-                // autoPlaySpeed={3000}
-                keyBoardControl={true}
-                itemClass="carousel-item-padding-40-px"
-                partialVisbile={true}
-              >
-                <div className={stylesHome.testimonialBox}>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Tincidunt amet eros felis neque blandit fermentum. Mattis
-                    erat non sit lectus egestas suspendisse ultrices. Lorem
-                    ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt{" "}
-                  </p>
+          <Carousel
+            responsive={responsive}
+            // autoPlay={true}
+            // autoPlaySpeed={3000}
+            keyBoardControl={true}
+            itemClass="carousel-item-padding-40-px"
+            partialVisbile={true}
+          >
+            <div className={stylesHome.testimonialBox}>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Tincidunt amet eros felis neque blandit fermentum. Mattis erat
+                non sit lectus egestas suspendisse ultrices. Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit. Tincidunt{" "}
+              </p>
 
-                  <div className={stylesHome.testimonialAuthor}>
-                    <div className={stylesHome.testimonialAuthorImgBox}>
-                      <Image src={testimonialAuthor} alt="Spaceshift" />
-                    </div>
-                    <div className={stylesHome.testimonialAuthorname}>
-                      <h4>Mike</h4>
-                      <p>Lorem ipsum dolor sit amet,</p>
-                    </div>
-                  </div>
+              <div className={stylesHome.testimonialAuthor}>
+                <div className={stylesHome.testimonialAuthorImgBox}>
+                  <Image src={testimonialAuthor} alt="Spaceshift" />
                 </div>
-
-                <div className={stylesHome.testimonialBox}>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Tincidunt amet eros felis neque blandit fermentum. Mattis
-                    erat non sit lectus egestas suspendisse ultrices. Lorem
-                    ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt{" "}
-                  </p>
-
-                  <div className={stylesHome.testimonialAuthor}>
-                    <div className={stylesHome.testimonialAuthorImgBox}>
-                      <Image src={testimonialAuthor} alt="Spaceshift" />
-                    </div>
-                    <div className={stylesHome.testimonialAuthorname}>
-                      <h4>Mike</h4>
-                      <p>Lorem ipsum dolor sit amet,</p>
-                    </div>
-                  </div>
+                <div className={stylesHome.testimonialAuthorname}>
+                  <h4>Mike</h4>
+                  <p>Lorem ipsum dolor sit amet,</p>
                 </div>
-               
-                <div className={stylesHome.testimonialBox}>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Tincidunt amet eros felis neque blandit fermentum. Mattis
-                    erat non sit lectus egestas suspendisse ultrices. Lorem
-                    ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt{" "}
-                  </p>
+              </div>
+            </div>
 
-                  <div className={stylesHome.testimonialAuthor}>
-                    <div className={stylesHome.testimonialAuthorImgBox}>
-                      <Image src={testimonialAuthor} alt="Spaceshift" />
-                    </div>
-                    <div className={stylesHome.testimonialAuthorname}>
-                      <h4>Mike</h4>
-                      <p>Lorem ipsum dolor sit amet,</p>
-                    </div>
-                  </div>
+            <div className={stylesHome.testimonialBox}>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Tincidunt amet eros felis neque blandit fermentum. Mattis erat
+                non sit lectus egestas suspendisse ultrices. Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit. Tincidunt{" "}
+              </p>
+
+              <div className={stylesHome.testimonialAuthor}>
+                <div className={stylesHome.testimonialAuthorImgBox}>
+                  <Image src={testimonialAuthor} alt="Spaceshift" />
                 </div>
-
-                <div className={stylesHome.testimonialBox}>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Tincidunt amet eros felis neque blandit fermentum. Mattis
-                    erat non sit lectus egestas suspendisse ultrices. Lorem
-                    ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt{" "}
-                  </p>
-
-                  <div className={stylesHome.testimonialAuthor}>
-                    <div className={stylesHome.testimonialAuthorImgBox}>
-                      <Image src={testimonialAuthor} alt="Spaceshift" />
-                    </div>
-                    <div className={stylesHome.testimonialAuthorname}>
-                      <h4>Mike</h4>
-                      <p>Lorem ipsum dolor sit amet,</p>
-                    </div>
-                  </div>
+                <div className={stylesHome.testimonialAuthorname}>
+                  <h4>Mike</h4>
+                  <p>Lorem ipsum dolor sit amet,</p>
                 </div>
-               
-              </Carousel>
-           
-          
+              </div>
+            </div>
+
+            <div className={stylesHome.testimonialBox}>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Tincidunt amet eros felis neque blandit fermentum. Mattis erat
+                non sit lectus egestas suspendisse ultrices. Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit. Tincidunt{" "}
+              </p>
+
+              <div className={stylesHome.testimonialAuthor}>
+                <div className={stylesHome.testimonialAuthorImgBox}>
+                  <Image src={testimonialAuthor} alt="Spaceshift" />
+                </div>
+                <div className={stylesHome.testimonialAuthorname}>
+                  <h4>Mike</h4>
+                  <p>Lorem ipsum dolor sit amet,</p>
+                </div>
+              </div>
+            </div>
+
+            <div className={stylesHome.testimonialBox}>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Tincidunt amet eros felis neque blandit fermentum. Mattis erat
+                non sit lectus egestas suspendisse ultrices. Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit. Tincidunt{" "}
+              </p>
+
+              <div className={stylesHome.testimonialAuthor}>
+                <div className={stylesHome.testimonialAuthorImgBox}>
+                  <Image src={testimonialAuthor} alt="Spaceshift" />
+                </div>
+                <div className={stylesHome.testimonialAuthorname}>
+                  <h4>Mike</h4>
+                  <p>Lorem ipsum dolor sit amet,</p>
+                </div>
+              </div>
+            </div>
+          </Carousel>
         </div>
       </section>
 
