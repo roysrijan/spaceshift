@@ -9,7 +9,7 @@ import {
   NavDropdown,
 } from "react-bootstrap";
 import Image from "next/image";
-import logo from "../../public/images/logo.png";
+//import logo from "../../public/images/logo.png";
 import "bootstrap/dist/css/bootstrap.css";
 
 export default function Header() {
@@ -24,7 +24,7 @@ export default function Header() {
       <Navbar bg="light" expand="lg" fixed="top">
         <Container>
           <Navbar.Brand href="/">
-            <Image src={logo} alt="Spaceshift" />
+            <img src="/images/logo.png" alt="Spaceshift" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav" className="navBarTop">
