@@ -2,15 +2,15 @@ import Image from "next/image";
 import footerStyles from "../../styles/Footer.module.scss";
 
 
-import footLogo from "../../public/images/logo.png";
-import locationicon from "../../public/images/location-icon.png";
-import contactIcon from "../../public/images/contact-info-icon.png";
-import linkIcon from "../../public/images/link-icon.png";
-import newsletterSendIcon from "../../public/images/newsletter-send.png";
-import insta from "../../public/images/insta.png";
-import google from "../../public/images/google.png";
-import facebook from "../../public/images/facebook.png";
-import twitter from "../../public/images/twitter.png";
+// import footLogo from "../../public/images/logo.png";
+// import locationicon from "../../public/images/location-icon.png";
+// import contactIcon from "../../public/images/contact-info-icon.png";
+// import linkIcon from "../../public/images/link-icon.png";
+// import newsletterSendIcon from "../../public/images/newsletter-send.png";
+// import insta from "../../public/images/insta.png";
+// import google from "../../public/images/google.png";
+// import facebook from "../../public/images/facebook.png";
+// import twitter from "../../public/images/twitter.png";
 import Link from "next/link";
 
 import {
@@ -116,7 +116,10 @@ export default function Footer() {
                     placeholder="Enter your email"
                   />
                   <Button>
-                    <Image src={newsletterSendIcon} alt="Spaceshift" />
+                    {/* <Image src={newsletterSendIcon} alt="Spaceshift" /> */}
+<img src="/images/newsletter-send.png" alt="Spaceshift"/>
+
+                    
                   </Button>
                 </Form>
               </div>

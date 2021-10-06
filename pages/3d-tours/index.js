@@ -18,25 +18,27 @@ import Footer from "../components/footer";
 import Header from "../components/header";
 import "bootstrap/dist/css/bootstrap.css";
 
-import threedToursBanner from "../../public/images/3d-tours-banner.jpg";
-import threedToursImg from "../../public/images/img-12.jpg";
+// import threedToursBanner from "../../public/images/3d-tours-banner.jpg";
+// import threedToursImg from "../../public/images/img-12.jpg";
 
-import toursStoreImg1 from "../../public/images/img-13.jpg";
-import toursStoreImg2 from "../../public/images/img-14.jpg";
-import toursStoreImg3 from "../../public/images/img-15.jpg";
-import toursStoreImg4 from "../../public/images/img-16.jpg";
-import matterportLogo from "../../public/images/matterport-logo.png";
+// import toursStoreImg1 from "../../public/images/img-13.jpg";
+// import toursStoreImg2 from "../../public/images/img-14.jpg";
+// import toursStoreImg3 from "../../public/images/img-15.jpg";
+// import toursStoreImg4 from "../../public/images/img-16.jpg";
+// import matterportLogo from "../../public/images/matterport-logo.png";
 
-import googleStreetviewImg2 from "../../public/images/img-7.jpg";
-import googleStreetviewImg3 from "../../public/images/img-8.png";
-import googleStreetviewImg4 from "../../public/images/img-9.png";
+// import googleStreetviewImg2 from "../../public/images/img-7.jpg";
+// import googleStreetviewImg3 from "../../public/images/img-8.png";
+// import googleStreetviewImg4 from "../../public/images/img-9.png";
 
 export default function index() {
   return (
     <div className="globalWrap">
       <Header />
       <div className="innerPageHeaderWrap">
-        <Image src={threedToursBanner} alt="Spaceshift" />
+        {/* <Image src={threedToursBanner} alt="Spaceshift" /> */}
+<img src="/images/3d-tours-banner.jpg" alt="Spaceshift"/>
+
         <div className="innerPageHeaderTitle">
           <h2>3D Virtual Tours</h2>
           <p>
@@ -55,7 +57,9 @@ export default function index() {
             <Col lg="12">
               <div className={stylesThreeDTours.Tour3dContentBox}>
                 <div className={stylesThreeDTours.Tour3dContentBoxImg}>
-                  <Image src={threedToursImg} alt="Spaceshift" />
+                  {/* <Image src={threedToursImg} alt="Spaceshift" /> */}
+<img src="/images/img-12.jpg" alt="Spaceshift"/>
+
                 </div>
 
                 <div className={stylesThreeDTours.Tour3dContentBoxInfo}>
@@ -96,11 +100,13 @@ export default function index() {
             <Col lg="6" sm="6" className={stylesThreeDTours.storeContainerFboxInner}>
               <div className={stylesThreeDTours.storeBox}>
                 <h5>Dollhouse View</h5>
-                <Image
+                {/* <Image
                   className={stylesThreeDTours.storeBoxImg}
                   src={toursStoreImg1}
                   alt="Spaceshift"
-                />
+                /> */}
+<img src="/images/img-13.jpg" alt="Spaceshift"/>
+
                 <p>
                   A 3D Dollhouse view on your property allows your watchers to
                   envision the inside space of the entire property and dissect
@@ -112,11 +118,13 @@ export default function index() {
             <Col lg="6" sm="6" className={stylesThreeDTours.storeContainerFboxInner}>
               <div className={stylesThreeDTours.storeBox}>
                 <h5>Inside View</h5>
-                <Image
+                {/* <Image
                   className={stylesThreeDTours.storeBoxImg}
                   src={toursStoreImg2}
                   alt="Spaceshift"
-                />
+                /> */}
+<img src="/images/img-14.jpg" alt="Spaceshift"/>
+
                 <p>
                   This natural 3D visit permits your client to carefully stroll
                   through the property utilizing any device and get an outline
@@ -128,11 +136,13 @@ export default function index() {
             <Col lg="6" sm="6" className={stylesThreeDTours.storeContainerFboxInner}>
               <div className={stylesThreeDTours.storeBox}>
                 <h5>FloorPlan View</h5>
-                <Image
+                {/* <Image
                   className={stylesThreeDTours.storeBoxImg}
                   src={toursStoreImg3}
                   alt="Spaceshift"
-                />
+                /> */}
+<img src="/images/img-15.jpg" alt="Spaceshift"/>
+
                 <p>
                   Get a completely labeled floor plan with the tour and give
                   twofold affirmation to your clients about the estimation of
@@ -144,11 +154,13 @@ export default function index() {
             <Col lg="6" sm="6" className={stylesThreeDTours.storeContainerFboxInner}>
               <div className={stylesThreeDTours.storeBox}>
                 <h5>VR View</h5>
-                <Image
+                {/* <Image
                   className={stylesThreeDTours.storeBoxImg}
                   src={toursStoreImg4}
                   alt="Spaceshift"
-                />
+                /> */}
+<img src="/images/img-16.jpg" alt="Spaceshift"/>
+
                 <p>
                   With the assistance of well-known VR gadgets like Oculus,
                   Samsung Gear VR, and Google Cardboard, give your client a
@@ -170,7 +182,9 @@ export default function index() {
             <Col lg="12">
               <div className={stylesThreeDTours.matterportBox}>
                 <div className={stylesThreeDTours.matterportBoxImg}>
-                  <Image src={matterportLogo} alt="Spaceshift" />
+                  {/* <Image src={matterportLogo} alt="Spaceshift" /> */}
+<img src="/images/matterport-logo.png" alt="Spaceshift"/>
+
                 </div>
 
                 <div className={stylesThreeDTours.matterportBoxInfo}>
@@ -318,7 +332,9 @@ export default function index() {
                   </div>
 
                   <div className="tabContentLeftColImg">
-                    <Image src={googleStreetviewImg4} alt="Spaceshift" />
+                    {/* <Image src={googleStreetviewImg4} alt="Spaceshift" /> */}
+<img src="/images/img-9.png" alt="Spaceshift"/>
+                    
                   </div>
                 </div>
               </div>
@@ -339,7 +355,9 @@ export default function index() {
                   </div>
 
                   <div className="tabContentLeftColImg">
-                    <Image src={googleStreetviewImg4} alt="Spaceshift" />
+                    {/* <Image src={googleStreetviewImg4} alt="Spaceshift" /> */}
+<img src="/images/img-9.png" alt="Spaceshift"/>
+
                   </div>
                 </div>
               </div>
@@ -362,7 +380,9 @@ export default function index() {
                   </div>
 
                   <div className="tabContentLeftColImg">
-                    <Image src={googleStreetviewImg4} alt="Spaceshift" />
+                    {/* <Image src={googleStreetviewImg4} alt="Spaceshift" /> */}
+<img src="/images/img-9.png" alt="Spaceshift"/>
+
                   </div>
                 </div>
               </div>
@@ -384,7 +404,9 @@ export default function index() {
                   </div>
 
                   <div className="tabContentLeftColImg">
-                    <Image src={googleStreetviewImg4} alt="Spaceshift" />
+                    {/* <Image src={googleStreetviewImg4} alt="Spaceshift" /> */}
+<img src="/images/img-9.png" alt="Spaceshift"/>
+
                   </div>
                 </div>
               </div>

@@ -16,16 +16,18 @@ import Footer from "../components/footer";
 import Header from "../components/header";
 import "bootstrap/dist/css/bootstrap.css";
 
-import customVirtualTourImg from "../../public/images/custom-virtual-tour.jpg";
-import customVirtualTourImg2 from "../../public/images/img-10.png";
-import customVirtualTourImg3 from "../../public/images/img-11.png";
+// import customVirtualTourImg from "../../public/images/custom-virtual-tour.jpg";
+// import customVirtualTourImg2 from "../../public/images/img-10.png";
+// import customVirtualTourImg3 from "../../public/images/img-11.png";
 
 export default function index() {
   return (
     <div className="globalWrap">
       <Header />
       <div className="innerPageHeaderWrap black-bg">
-        <Image src={customVirtualTourImg} alt="Spaceshift" />
+        {/* <Image src={customVirtualTourImg} alt="Spaceshift" /> */}
+<img src="/images/custom-virtual-tour.jpg" alt="Spaceshift"/>
+
         <div className="innerPageHeaderTitle black-bg">
           <h2>Custom Virtual Tours</h2>
           <p>
@@ -50,7 +52,9 @@ export default function index() {
                 <div
                   className={stylesVirtualTours.customVirtualTourContentBoxImg}
                 >
-                  <Image src={customVirtualTourImg2} alt="Spaceshift" />
+                  {/* <Image src={customVirtualTourImg2} alt="Spaceshift" /> */}
+<img src="/images/img-10.png" alt="Spaceshift"/>
+               
                 </div>
                 <p>
                 &#34;Aim of every virtual tour production company should be to
@@ -145,7 +149,9 @@ export default function index() {
           </div>
         </div>
         <div className={stylesVirtualTours.virtualToursForBussinessBox2}>
-          <Image src={customVirtualTourImg3} alt="Spaceshift" />
+          {/* <Image src={customVirtualTourImg3} alt="Spaceshift" /> */}
+<img src="/images/img-11.png" alt="Spaceshift"/>
+
         </div>
       </section>
 
