@@ -10,22 +10,26 @@ import {
 } from "react-bootstrap";
 
 import Image from "next/image";
-import vrFlimsBanner from "../../public/images/vrfilms-banner.jpg";
+// import vrFlimsBanner from "../../public/images/vrfilms-banner.jpg";
 import stylesVrFlims from "../../styles/VrFlims.module.scss";
 import Footer from "../components/footer";
 import Header from "../components/header";
 import "bootstrap/dist/css/bootstrap.css";
-import vrFlimsImg1 from "../../public/images/img-17.jpg";
-import vrFlimsImg2 from "../../public/images/img-18.jpg";
-import vrFlimsImg3 from "../../public/images/img-18.jpg";
-import vrFlimsImg4 from "../../public/images/img-19.jpg";
+
+
+// import vrFlimsImg1 from "../../public/images/img-17.jpg";
+// import vrFlimsImg2 from "../../public/images/img-18.jpg";
+// import vrFlimsImg3 from "../../public/images/img-18.jpg";
+// import vrFlimsImg4 from "../../public/images/img-19.jpg";
 
 export default function index() {
   return (
     <div className="globalWrap">
       <Header />
       <div className="innerPageHeaderWrap">
-        <Image src={vrFlimsBanner} alt="Spaceshift" />
+        {/* <Image src={vrFlimsBanner} alt="Spaceshift" /> */}
+<img src="/images/vrfilms-banner.jpg" alt="Spaceshift"/>
+
         <div className="innerPageHeaderTitle">
           <h2>VR Films</h2>
           <p>
@@ -44,7 +48,9 @@ export default function index() {
             <Col lg="12">
               <div className={stylesVrFlims.vrFlimsContainer1Box}>
                 <div className={stylesVrFlims.vrFlimsContainer1Img}>
-                  <Image src={vrFlimsImg1} alt="Spaceshift" />
+                  {/* <Image src={vrFlimsImg1} alt="Spaceshift" /> */}
+<img src="/images/img-17.jpg" alt="Spaceshift"/>
+
                 </div>
                 <div className={stylesVrFlims.vrFlimsContainer1Content}>
                   <h2>Professional VR Films</h2>
@@ -89,7 +95,9 @@ export default function index() {
                 </div>
 
                 <div className={stylesVrFlims.vrFlimsContainer1Img}>
-                  <Image src={vrFlimsImg3} alt="Spaceshift" />
+                  {/* <Image src={vrFlimsImg3} alt="Spaceshift" /> */}
+<img src="/images/img-18.jpg" alt="Spaceshift"/>
+
                 </div>
               </div>
             </Col>
@@ -104,7 +112,9 @@ export default function index() {
               <div className={stylesVrFlims.vrFlimsContainer2Box}>
                 <h2>Observe this use case of vivid VR promoting</h2>
                 <div className={stylesVrFlims.vrFlimsContainer2Img}>
-                  <Image src={vrFlimsImg4} alt="Spaceshift" />
+                  {/* <Image src={vrFlimsImg4} alt="Spaceshift" /> */}
+<img src="/images/img-19.jpg" alt="Spaceshift"/>
+
                 </div>
                 <div className={stylesVrFlims.vrFlimsContainer2Content}>
                   <p>

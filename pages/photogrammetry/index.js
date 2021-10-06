@@ -17,16 +17,18 @@ import Footer from "../components/footer";
 import Header from "../components/header";
 import "bootstrap/dist/css/bootstrap.css";
 
-import projectMappingBanner from "../../public/images/photogrammetry-banner.jpg";
-import projectMappingImg1 from "../../public/images/img-22.jpg";
-import projectMappingImg2 from "../../public/images/img-21.jpg";
+// import projectMappingBanner from "../../public/images/photogrammetry-banner.jpg";
+// import projectMappingImg1 from "../../public/images/img-22.jpg";
+// import projectMappingImg2 from "../../public/images/img-21.jpg";
 
 export default function index() {
   return (
     <div className="globalWrap">
       <Header />
       <div className="innerPageHeaderWrap">
-        <Image src={projectMappingBanner} alt="Spaceshift" />
+        {/* <Image src={projectMappingBanner} alt="Spaceshift" /> */}
+<img src="/images/photogrammetry-banner.jpg" alt="Spaceshift"/>
+
         <div className="innerPageHeaderTitle">
           <h2>Photogrammetry</h2>
           <p>
@@ -47,7 +49,9 @@ export default function index() {
             <Col lg="12">
               <div className={stylesProjectMapping.introductionBox}>
                 <div className={stylesProjectMapping.introductionImg}>
-                  <Image src={projectMappingImg1} alt="Spaceshift" />
+                  {/* <Image src={projectMappingImg1} alt="Spaceshift" /> */}
+<img src="/images/img-22.jpg" alt="Spaceshift"/>
+
                 </div>
                 <div className={stylesProjectMapping.introductionContent}>
                   <h2>Introduction</h2>
@@ -98,7 +102,9 @@ export default function index() {
                   <TabPanel>
                     <div className="moreAboutProjectMappingTabContent">
                       <div className="moreAboutProjectMappingTabContentImg">
-                        <Image src={projectMappingImg2} alt="Spaceshift" fluid />
+                        {/* <Image src={projectMappingImg2} alt="Spaceshift" fluid /> */}
+<img src="/images/img-21.jpg" alt="Spaceshift"/>
+                     
                       </div>
                       <div className="moreAboutProjectMappingTabContentText">
                         <p>
@@ -112,7 +118,9 @@ export default function index() {
                   <TabPanel>
                     <div className="moreAboutProjectMappingTabContent">
                       <div className="moreAboutProjectMappingTabContentImg">
-                        <Image src={projectMappingImg2} alt="Spaceshift" />
+                        {/* <Image src={projectMappingImg2} alt="Spaceshift" /> */}
+<img src="/images/img-21.jpg" alt="Spaceshift"/>
+
                       </div>
                       <div className="moreAboutProjectMappingTabContentText">
                         <p>
@@ -139,7 +147,9 @@ export default function index() {
                   <TabPanel>
                     <div className="moreAboutProjectMappingTabContent">
                       <div className="moreAboutProjectMappingTabContentImg">
-                        <Image src={projectMappingImg2} alt="Spaceshift" />
+                        {/* <Image src={projectMappingImg2} alt="Spaceshift" /> */}
+<img src="/images/img-21.jpg" alt="Spaceshift"/>
+
                       </div>
                       <div className="moreAboutProjectMappingTabContentText">
                         <p>
@@ -166,7 +176,9 @@ export default function index() {
                   <TabPanel>
                     <div className="moreAboutProjectMappingTabContent">
                       <div className="moreAboutProjectMappingTabContentImg">
-                        <Image src={projectMappingImg2} alt="Spaceshift" />
+                        {/* <Image src={projectMappingImg2} alt="Spaceshift" /> */}
+<img src="/images/img-21.jpg" alt="Spaceshift"/>
+
                       </div>
                       <div className="moreAboutProjectMappingTabContentText">
                         <p>
@@ -193,7 +205,9 @@ export default function index() {
                   <TabPanel>
                     <div className="moreAboutProjectMappingTabContent">
                       <div className="moreAboutProjectMappingTabContentImg">
-                        <Image src={projectMappingImg2} alt="Spaceshift" />
+                        {/* <Image src={projectMappingImg2} alt="Spaceshift" /> */}
+<img src="/images/img-21.jpg" alt="Spaceshift"/>
+
                       </div>
                       <div className="moreAboutProjectMappingTabContentText">
                         <p>
