@@ -18,14 +18,14 @@ import Footer from "../components/footer";
 import Header from "../components/header";
 import "bootstrap/dist/css/bootstrap.css";
 
-import IndustriesImg from "../../public/images/education-banner.jpg";
-import IndustriesImg2 from "../../public/images/img-28.jpg";
-import IndustriesImg3 from "../../public/images/img-29.jpg";
+// import IndustriesImg from "../../public/images/education-banner.jpg";
+// import IndustriesImg2 from "../../public/images/img-28.jpg";
+// import IndustriesImg3 from "../../public/images/img-29.jpg";
 
-import retailsBannerImg from "../../public/images/retails-banner-1.jpg";
-import retailsBannerImg2 from "../../public/images/retails-banner-2.jpg";
-import retailsBannerImg3 from "../../public/images/img-47.jpg";
-import retailsBannerImg4 from "../../public/images/img-48.jpg";
+// import retailsBannerImg from "../../public/images/retails-banner-1.jpg";
+// import retailsBannerImg2 from "../../public/images/retails-banner-2.jpg";
+// import retailsBannerImg3 from "../../public/images/img-47.jpg";
+// import retailsBannerImg4 from "../../public/images/img-48.jpg";
 // import googleStreetviewImg4 from "../../public/images/img-9.png";
 
 export default function index() {
@@ -64,7 +64,9 @@ export default function index() {
                   holds.
                 </p>
                 <div className={stylesIndustries.educationBoxImg}>
-                  <Image src={IndustriesImg} alt="Spaceshift" />
+                  {/* <Image src={IndustriesImg} alt="Spaceshift" /> */}
+<img src="/images/education-banner.jpg" alt="Spaceshift"/>
+
                 </div>
               </div>
             </Col>
@@ -81,7 +83,9 @@ export default function index() {
             <Col lg="12">
               <div className={stylesIndustries.highlightBox}>
                 <div className={stylesIndustries.highlightBoxImg}>
-                  <Image src={IndustriesImg2} alt="Spaceshift" />
+                  {/* <Image src={IndustriesImg2} alt="Spaceshift" /> */}
+<img src="/images/img-28.jpg" alt="Spaceshift"/>
+
                 </div>
                 <div className={stylesIndustries.highlightBoxContent}>
                   <h2>What to Highlight in The Virtual Tour?</h2>
@@ -100,7 +104,9 @@ export default function index() {
                     a key factor in their decision-making and helps provide as
                     much visual information as possible, via the internet.
                   </p>
-                  <Image src={IndustriesImg3} alt="Spaceshift" />
+                  {/* <Image src={IndustriesImg3} alt="Spaceshift" /> */}
+<img src="/images/img-29.jpg" alt="Spaceshift"/>
+
                 </div>
               </div>
             </Col>
@@ -195,7 +201,9 @@ export default function index() {
                 Custom Virtual Tours simulate the experience of store browsing and let consumers visualize the products. However, the best part is that your e-commerce store products can be embedded in these tours using clickable hotspots. This enables people to click on any product they are interested in, to be redirected to the product listing on your website or online shop, which makes the experience more seamless. The improved shopping experience puts your business in good light and motivates them to visit your store physically. Thus, Custom Tours helps generate and boost sales both online, as well as, offline.
 
                 </p>
-                <Image src={retailsBannerImg3} alt="Spaceshift" />
+                {/* <Image src={retailsBannerImg3} alt="Spaceshift" /> */}
+<img src="/images/img-29.jpg" alt="Spaceshift"/>
+
               </div>
             </Col>
 
@@ -210,7 +218,9 @@ export default function index() {
                 Matterport tours and 360 virtual tours let users move from one space to another, and look around in 360 views, with just a few clicks. Moreover, Mattertags can be used to embed pop-up notes, links, videos, and e-commerce workflows in the 3D model, which helps provide more information than photographs. The immersive 3D models also deliver accurate visual representations of the showroom, including the exact measurements of the entire store, dimensions of the aisles, and other important details for the location. 
 
                 </p>
-                <Image src={retailsBannerImg4} alt="Spaceshift" />
+                {/* <Image src={retailsBannerImg4} alt="Spaceshift" /> */}
+<img src="/images/img-48.jpg" alt="Spaceshift"/>
+
               </div>
             </Col>
 
@@ -226,7 +236,9 @@ export default function index() {
                   advertising. It tends to create familiarity and ease among the
                   clients before they visit the physical premises.
                 </p>
-                <Image src={retailsBannerImg3} alt="Spaceshift" />
+                {/* <Image src={retailsBannerImg3} alt="Spaceshift" /> */}
+<img src="/images/img-47.jpg" alt="Spaceshift"/>
+
               </div>
             </Col>
 
@@ -240,7 +252,9 @@ export default function index() {
                 Matterport 3D Tours are excellent marketing elements that are interactive and keep the potential clients engaged with the content online. This means that the tours help reduce the bounce rate of your website considerably, which results in better SEO and generates greater website revenue. Being a top Matterport Service Provider in India, SpaceShift shoots high-quality immersive content that helps captivate the attention of your audience.
 
                 </p>
-                <Image src={retailsBannerImg4} alt="Spaceshift" />
+                {/* <Image src={retailsBannerImg4} alt="Spaceshift" /> */}
+<img src="/images/img-48.jpg" alt="Spaceshift"/>
+
               </div>
             </Col>
           </Row>

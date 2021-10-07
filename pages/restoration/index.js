@@ -18,9 +18,9 @@ import Footer from "../components/footer";
 import Header from "../components/header";
 import "bootstrap/dist/css/bootstrap.css";
 
-import restorationBannerImg from "../../public/images/restoration-banner.jpg";
-import restorationImg from "../../public/images/img-45.jpg";
-import restorationImg2 from "../../public/images/img-46.jpg";
+// import restorationBannerImg from "../../public/images/restoration-banner.jpg";
+// import restorationImg from "../../public/images/img-45.jpg";
+// import restorationImg2 from "../../public/images/img-46.jpg";
 
 export default function index() {
   return (
@@ -57,7 +57,9 @@ export default function index() {
                   process.
                 </p>
 
-                <Image src={restorationBannerImg} alt="Spaceshift" />
+                {/* <Image src={restorationBannerImg} alt="Spaceshift" /> */}
+<img src="/images/restoration-banner.jpg" alt="Spaceshift"/>
+
 
                 <p>
                   Technology has helped transform every aspect of the human
@@ -90,12 +92,16 @@ export default function index() {
                   <div
                     className={stylesRestoration.restorationBottomPartLeftImg1}
                   >
-                    <Image src={restorationImg} alt="Spaceshift" />
+                    {/* <Image src={restorationImg} alt="Spaceshift" /> */}
+<img src="/images/img-45.jpg" alt="Spaceshift"/>
+                    
                   </div>
                   <div
                     className={stylesRestoration.restorationBottomPartLeftImg2}
                   >
-                    <Image src={restorationImg2} alt="Spaceshift" />
+                    {/* <Image src={restorationImg2} alt="Spaceshift" /> */}
+<img src="/images/img-46.jpg" alt="Spaceshift"/>
+                    
                   </div>
                 </div>
                 <div className={stylesRestoration.restorationBottomPartRight}>

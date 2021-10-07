@@ -71,19 +71,19 @@ export default function Footer() {
               <span>
                 <ul>
                   <li>
-                    <a href="#">Virtual Tour</a>
+                    <a href="/custom-virtual-tour">Virtual Tour</a>
                   </li>
                   <li>
-                    <a href="#">Professional VR Films</a>
+                    <a href="/vr-flims">Professional VR Films</a>
                   </li>
                   <li>
-                    <a href="#">Photogrammetry</a>
+                    <a href="/photogrammetry">Photogrammetry</a>
                   </li>
                   <li>
-                    <a href="#">3D Projection Mapping</a>
+                    <a href="/project-mapping">3D Projection Mapping</a>
                   </li>
                   <li>
-                    <a href="#">Web Design</a>
+                    <a href="/3d-tours">3D Tours</a>
                   </li>
                 </ul>
 

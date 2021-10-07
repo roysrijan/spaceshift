@@ -18,11 +18,11 @@ import Footer from "../components/footer";
 import Header from "../components/header";
 import "bootstrap/dist/css/bootstrap.css";
 
-import eventsImg from "../../public/images/events-1.jpg";
-import eventsImg2 from "../../public/images/events-2.jpg";
-import eventsImg3 from "../../public/images/events-3.jpg";
-import eventsImg4 from "../../public/images/img-53.jpg";
-import eventsImg5 from "../../public/images/img-54.jpg";
+// import eventsImg from "../../public/images/events-1.jpg";
+// import eventsImg2 from "../../public/images/events-2.jpg";
+// import eventsImg3 from "../../public/images/events-3.jpg";
+// import eventsImg4 from "../../public/images/img-53.jpg";
+// import eventsImg5 from "../../public/images/img-54.jpg";
 
 export default function index() {
   return (
@@ -37,13 +37,19 @@ export default function index() {
               <div className={stylesEvents.eventsTopBox}>
                 <div className={stylesEvents.eventsTopImg}>
                   <div className={stylesEvents.eventsTopImg1}>
-                    <Image src={eventsImg} alt="Spaceshift" />
+                    {/* <Image src={eventsImg} alt="Spaceshift" /> */}
+<img src="/images/events-1.jpg" alt="Spaceshift"/>
+
                   </div>
                   <div className={stylesEvents.eventsTopImg2}>
-                    <Image src={eventsImg2} alt="Spaceshift" />
+                    {/* <Image src={eventsImg2} alt="Spaceshift" /> */}
+<img src="/images/events-2.jpg" alt="Spaceshift"/>
+
                   </div>
                   <div className={stylesEvents.eventsTopImg3}>
-                    <Image src={eventsImg3} alt="Spaceshift" />
+                    {/* <Image src={eventsImg3} alt="Spaceshift" /> */}
+<img src="/images/events-3.jpg" alt="Spaceshift"/>
+
                   </div>
                 </div>
                 <div className={stylesEvents.eventsTopInfo}>
@@ -98,7 +104,9 @@ export default function index() {
                 <div className={stylesEvents.EventsTitleLeft}>
                   {/* <h2>Benefits of Virtual Sets and 3D Projection Mapping</h2> */}
 
-                  <Image src={eventsImg4} alt="Spaceshift" />
+                  {/* <Image src={eventsImg4} alt="Spaceshift" /> */}
+<img src="/images/img-53.jpg" alt="Spaceshift"/>
+
                 </div>
                 <div className={stylesEvents.EventsTitleRight}>
                   <h2>Benefits of Virtual Sets and 3D Projection Mapping</h2>
@@ -158,7 +166,9 @@ export default function index() {
                     </p>
                   </div>
                   <div className={stylesEvents.eventsBottomContentRight}>
-                  <Image src={eventsImg5} alt="Spaceshift" />
+                  {/* <Image src={eventsImg5} alt="Spaceshift" /> */}
+<img src="/images/img-54.jpg" alt="Spaceshift"/>
+                  
                   </div>
                 </div>
               </div>

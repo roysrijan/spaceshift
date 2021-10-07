@@ -18,13 +18,10 @@ import Footer from "../components/footer";
 import Header from "../components/header";
 import "bootstrap/dist/css/bootstrap.css";
 
-import HospitalBannerImg from "../../public/images/hospitals-banner.png";
-import HospitalImg from "../../public/images/img-43.jpg";
-import HospitalImg2 from "../../public/images/img-44.jpg";
-// import realestateImg2 from "../../public/images/img-39.jpg";
-// import realestateImg3 from "../../public/images/img-40.jpg";
-// import realestateImg4 from "../../public/images/img-41.jpg";
-// import realestateImg5 from "../../public/images/img-42.jpg";
+// import HospitalBannerImg from "../../public/images/hospitals-banner.png";
+// import HospitalImg from "../../public/images/img-43.jpg";
+// import HospitalImg2 from "../../public/images/img-44.jpg";
+
 
 export default function index() {
   return (
@@ -58,7 +55,9 @@ export default function index() {
                   </p>
                 </div>
                 <div className={stylesHospitalsNClinic.hospitalsTopImg}>
-                  <Image src={HospitalBannerImg} alt="Spaceshift" />
+                  {/* <Image src={HospitalBannerImg} alt="Spaceshift" /> */}
+<img src="/images/hospitals-banner.png" alt="Spaceshift"/>
+
                 </div>
               </div>
             </Col>
@@ -107,10 +106,14 @@ export default function index() {
 
               <div className={stylesHospitalsNClinic.hospitalBottomImgCol}>
                 <div className={stylesHospitalsNClinic.hospitalBottomImg}>
-                  <Image src={HospitalImg} alt="Spaceshift" />
+                  {/* <Image src={HospitalImg} alt="Spaceshift" /> */}
+<img src="/images/img-43.jpg" alt="Spaceshift"/>
+
                 </div>
                 <div className={stylesHospitalsNClinic.hospitalBottomImg2}>
-                  <Image src={HospitalImg2} alt="Spaceshift" />
+                  {/* <Image src={HospitalImg2} alt="Spaceshift" /> */}
+<img src="/images/img-44.jpg" alt="Spaceshift"/>
+
                 </div>
               </div>
               <div className={stylesHospitalsNClinic.hospitalBottomInfo}>

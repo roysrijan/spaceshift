@@ -18,11 +18,11 @@ import Footer from "../components/footer";
 import Header from "../components/header";
 import "bootstrap/dist/css/bootstrap.css";
 
-import IndustriesImg from "../../public/images/education-banner.jpg";
-import IndustriesImg2 from "../../public/images/img-30.jpg";
-import IndustriesImg3 from "../../public/images/img-31.jpg";
-import IndustriesImg4 from "../../public/images/img-32.jpg";
-import IndustriesImg5 from "../../public/images/img-33.jpg";
+// import IndustriesImg from "../../public/images/education-banner.jpg";
+// import IndustriesImg2 from "../../public/images/img-30.jpg";
+// import IndustriesImg3 from "../../public/images/img-31.jpg";
+// import IndustriesImg4 from "../../public/images/img-32.jpg";
+// import IndustriesImg5 from "../../public/images/img-33.jpg";
 
 export default function index() {
   return (
@@ -68,10 +68,14 @@ export default function index() {
                     is one of the best ways to attract your target audience and
                     increase your market reach.
                   </p>
-                  <Image src={IndustriesImg3} alt="Spaceshift" />
+                  {/* <Image src={IndustriesImg3} alt="Spaceshift" /> */}
+<img src="/images/img-31.jpg" alt="Spaceshift"/>
+
                 </div>
                 <div className={stylesIndustries.highlightBoxImg}>
-                  <Image src={IndustriesImg2} alt="Spaceshift" />
+                  {/* <Image src={IndustriesImg2} alt="Spaceshift" /> */}
+<img src="/images/img-30.jpg" alt="Spaceshift"/>
+
                 </div>
               </div>
             </Col>
@@ -133,7 +137,9 @@ export default function index() {
                   </p>
                 </div>
                 <div className={stylesIndustries.highlightBoxImg}>
-                  <Image src={IndustriesImg4} alt="Spaceshift" />
+                  {/* <Image src={IndustriesImg4} alt="Spaceshift" /> */}
+<img src="/images/img-32.jpg" alt="Spaceshift"/>
+
                 </div>
               </div>
             </Col>
@@ -225,7 +231,9 @@ export default function index() {
 
       <section>
         <div className={stylesIndustries.travelBottomImg}>
-          <Image src={IndustriesImg5} alt="Spaceshift" />
+          {/* <Image src={IndustriesImg5} alt="Spaceshift" /> */}
+<img src="/images/img-33.jpg" alt="Spaceshift"/>
+
         </div>
       </section>
       <Footer />

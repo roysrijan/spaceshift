@@ -18,11 +18,11 @@ import Footer from "../components/footer";
 import Header from "../components/header";
 import "bootstrap/dist/css/bootstrap.css";
 
-import tourismBannerImg from "../../public/images/tourism-banner.jpg";
-import tourismImg1 from "../../public/images/img-49.jpg";
-import tourismImg2 from "../../public/images/img-50.jpg";
-import tourismImg3 from "../../public/images/img-51.jpg";
-import tourismImg4 from "../../public/images/img-52.jpg";
+// import tourismBannerImg from "../../public/images/tourism-banner.jpg";
+// import tourismImg1 from "../../public/images/img-49.jpg";
+// import tourismImg2 from "../../public/images/img-50.jpg";
+// import tourismImg3 from "../../public/images/img-51.jpg";
+// import tourismImg4 from "../../public/images/img-52.jpg";
 
 export default function index() {
   return (
@@ -38,7 +38,9 @@ export default function index() {
                 <div className={stylesTourism.tourismTopBoxImgWrap}>
                   <h1>Tourism</h1>
                   <div className={stylesTourism.tourismTopBoxImg}>
-                    <Image src={tourismBannerImg} alt="Spaceshift" />
+                    {/* <Image src={tourismBannerImg} alt="Spaceshift" /> */}
+<img src="/images/tourism-banner.jpg" alt="Spaceshift"/>
+
                   </div>
                 </div>
                 <div className={stylesTourism.tourismTopBoxContent}>
@@ -127,13 +129,17 @@ export default function index() {
                     </p>
                   </div>
                   <div className={stylesTourism.tourismBottomContentWrapRight}>
-                    <Image src={tourismImg1} alt="Spaceshift" />
+                    {/* <Image src={tourismImg1} alt="Spaceshift" /> */}
+<img src="/images/img-49.jpg" alt="Spaceshift"/>
+                    
                   </div>
                 </div>
               
                 <div className={stylesTourism["tourismBottomContentBox"]+ " " + stylesTourism["tourismBottomContentBoxRe"]}>
                 <div className={stylesTourism.tourismBottomContentWrapRight}>
-                    <Image src={tourismImg2} alt="Spaceshift" />
+                    {/* <Image src={tourismImg2} alt="Spaceshift" /> */}
+<img src="/images/img-50.jpg" alt="Spaceshift"/>
+
                   </div>
                   <div className={stylesTourism.tourismBottomContentWrapLeft}>
                     <h5>Find Tourist Attractions</h5>
@@ -154,13 +160,17 @@ export default function index() {
                     </p>
                   </div>
                   <div className={stylesTourism.tourismBottomContentWrapRight}>
-                    <Image src={tourismImg3} alt="Spaceshift" />
+                    {/* <Image src={tourismImg3} alt="Spaceshift" /> */}
+<img src="/images/img-51.jpg" alt="Spaceshift"/>
+
                   </div>
                 </div>
               
                 <div className={stylesTourism["tourismBottomContentBox"]+ " " + stylesTourism["tourismBottomContentBoxRe"]}>
                 <div className={stylesTourism.tourismBottomContentWrapRight}>
-                    <Image src={tourismImg4} alt="Spaceshift" />
+                    {/* <Image src={tourismImg4} alt="Spaceshift" /> */}
+<img src="/images/img-52.jpg" alt="Spaceshift"/>
+
                   </div>
                   <div className={stylesTourism.tourismBottomContentWrapLeft}>
                     <h5>Can be Integrated with Websites</h5>

@@ -18,12 +18,12 @@ import Footer from "../components/footer";
 import Header from "../components/header";
 import "bootstrap/dist/css/bootstrap.css";
 
-import RealestateBannerImg from "../../public/images/real-estate-banner.jpg";
-import realestateImg from "../../public/images/img-38.jpg";
-import realestateImg2 from "../../public/images/img-39.jpg";
-import realestateImg3 from "../../public/images/img-40.jpg";
-import realestateImg4 from "../../public/images/img-41.jpg";
-import realestateImg5 from "../../public/images/img-42.jpg";
+// import RealestateBannerImg from "../../public/images/real-estate-banner.jpg";
+// import realestateImg from "../../public/images/img-38.jpg";
+// import realestateImg2 from "../../public/images/img-39.jpg";
+// import realestateImg3 from "../../public/images/img-40.jpg";
+// import realestateImg4 from "../../public/images/img-41.jpg";
+// import realestateImg5 from "../../public/images/img-42.jpg";
 
 export default function index() {
   return (
@@ -39,7 +39,9 @@ export default function index() {
             <Col lg="12">
               <div className={stylesRealEstate.realestateTop}>
                 <div className={stylesRealEstate.realestateTopImgWrap}>
-                  <Image src={RealestateBannerImg} alt="Spaceshift" />
+                  {/* <Image src={RealestateBannerImg} alt="Spaceshift" /> */}
+<img src="/images/real-estate-banner.jpg" alt="Spaceshift"/>
+
                 </div>
                 <div className={stylesRealEstate.realestateTopInfo}>
                   <h1>Real Estate</h1>
@@ -94,7 +96,9 @@ export default function index() {
             <Col lg="12">
               <div className={stylesRealEstate.realEstateMiddle}>
                 <div className={stylesRealEstate.realEstateMiddleImg}>
-                  <Image src={realestateImg} alt="Spaceshift" />
+                  {/* <Image src={realestateImg} alt="Spaceshift" /> */}
+<img src="/images/img-38.jpg" alt="Spaceshift"/>
+
                 </div>
                 <div className={stylesRealEstate.realEstateMiddleInfo}>
                   <h2>
@@ -140,7 +144,10 @@ export default function index() {
                 </div>
 
                 <div className={stylesRealEstate.realEstateMiddleImg}>
-                  <Image src={realestateImg2} alt="Spaceshift" />
+                  {/* <Image src={realestateImg2} alt="Spaceshift" /> */}
+                  <img src="/images/img-39.jpg" alt="Spaceshift"/>
+
+
                 </div>
               </div>
             </Col>
@@ -153,7 +160,10 @@ export default function index() {
                 }
               >
                 <div className={stylesRealEstate.realEstateMiddleImg}>
-                  <Image src={realestateImg3} alt="Spaceshift" />
+                  {/* <Image src={realestateImg3} alt="Spaceshift" /> */}
+                  <img src="/images/img-40.jpg" alt="Spaceshift"/>
+
+
                 </div>
                 <div className={stylesRealEstate.realEstateMiddleInfo}>
                   <p>
@@ -187,10 +197,14 @@ export default function index() {
               <div className={stylesRealEstate.realEstateBottom}>
                 <div className={stylesRealEstate.realEstateBottomImgWrap}>
                   <div className={stylesRealEstate.realEstateBottomImg}>
-                    <Image src={realestateImg4} alt="Spaceshift" />
+                    {/* <Image src={realestateImg4} alt="Spaceshift" /> */}
+<img src="/images/img-41.jpg" alt="Spaceshift"/>
+
                   </div>
                   <div className={stylesRealEstate.realEstateBottomImg}>
-                    <Image src={realestateImg5} alt="Spaceshift" />
+                    {/* <Image src={realestateImg5} alt="Spaceshift" /> */}
+<img src="/images/img-42.jpg" alt="Spaceshift"/>
+
                   </div>
                 </div>
                 <div className={stylesRealEstate.realEstateBottomContent}>

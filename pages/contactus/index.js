@@ -12,9 +12,10 @@ import Image from "next/image";
 import stylesContact from "../../styles/Contact.module.scss";
 import Footer from "../components/footer";
 import Header from "../components/header";
-import contactIcon1 from "../../public/images/contact-icon-1.png";
-import contactIcon2 from "../../public/images/contact-icon-2.png";
-import contactIcon3 from "../../public/images/contact-icon-3.png";
+
+// import contactIcon1 from "../../public/images/contact-icon-1.png";
+// import contactIcon2 from "../../public/images/contact-icon-2.png";
+// import contactIcon3 from "../../public/images/contact-icon-3.png";
 
 export default function Home() {
   return (
@@ -38,19 +39,25 @@ export default function Home() {
                 <div className={stylesContact.addressEmailwrap}>
                   <ul>
                     <li>
-                      <Image src={contactIcon1} alt="Spaceshift" />
+                      {/* <Image src={contactIcon1} alt="Spaceshift" /> */}
+<img src="/images/contact-icon-1.png" alt="Spaceshift"/>
+
                       <h3>Address</h3>
                       <p>Lorem ipsum dolor sit amet, consectetur </p>
                     </li>
 
                     <li>
-                      <Image src={contactIcon2} alt="Spaceshift" />
+                      {/* <Image src={contactIcon2} alt="Spaceshift" /> */}
+<img src="/images/contact-icon-2.png" alt="Spaceshift"/>
+
                       <h3>Call Us</h3>
                       <p>(236) 236-6236 </p>
                     </li>
 
                     <li>
-                      <Image src={contactIcon3} alt="Spaceshift" />
+                      {/* <Image src={contactIcon3} alt="Spaceshift" /> */}
+<img src="/images/contact-icon-3.png" alt="Spaceshift"/>
+
                       <h3>Email</h3>
                       <p>Info@Spaceshift.in </p>
                     </li>

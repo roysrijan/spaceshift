@@ -18,10 +18,10 @@ import Footer from "../components/footer";
 import Header from "../components/header";
 import "bootstrap/dist/css/bootstrap.css";
 
-import IndustriesImg from "../../public/images/education-banner.jpg";
-import IndustriesImg2 from "../../public/images/img-34.jpg";
-import IndustriesImg3 from "../../public/images/img-35.jpg";
-import IndustriesImg4 from "../../public/images/img-36.jpg";
+// import IndustriesImg from "../../public/images/education-banner.jpg";
+// import IndustriesImg2 from "../../public/images/img-34.jpg";
+// import IndustriesImg3 from "../../public/images/img-35.jpg";
+// import IndustriesImg4 from "../../public/images/img-36.jpg";
 // import googleStreetviewImg4 from "../../public/images/img-9.png";
 
 export default function index() {
@@ -55,10 +55,15 @@ export default function index() {
                 </p>
                 <div className={stylesIndustries.restaurantsImgWrap}>
                   <div className={stylesIndustries.restaurantsImgCol1}>
-                    <Image src={IndustriesImg2} alt="Spaceshift" />
+                    {/* <Image src={IndustriesImg2} alt="Spaceshift" /> */}
+<img src="/images/img-34.jpg" alt="Spaceshift"/>
+
                   </div>
                   <div className={stylesIndustries.restaurantsImgCol1}>
-                    <Image src={IndustriesImg3} alt="Spaceshift" />
+                    {/* <Image src={IndustriesImg3} alt="Spaceshift" /> */}
+<img src="/images/img-35.jpg" alt="Spaceshift"/>
+
+                    
                   </div>
                 </div>
 
@@ -78,7 +83,9 @@ export default function index() {
             <Col lg="12">
               <div className={stylesIndustries.highlightBox}>
                 <div className={stylesIndustries.highlightBoxImg}>
-                  <Image src={IndustriesImg4} alt="Spaceshift" />
+                  {/* <Image src={IndustriesImg4} alt="Spaceshift" /> */}
+<img src="/images/img-36.jpg" alt="Spaceshift"/>
+
                 </div>
                 <div className={stylesIndustries.highlightBoxContent}>
                   <h2>How Can You Benefit With Google Street View?</h2>
