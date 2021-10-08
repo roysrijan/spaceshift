@@ -1,7 +1,6 @@
 import Image from "next/image";
 import footerStyles from "../../styles/Footer.module.scss";
 
-
 // import footLogo from "../../public/images/logo.png";
 // import locationicon from "../../public/images/location-icon.png";
 // import contactIcon from "../../public/images/contact-info-icon.png";
@@ -32,7 +31,7 @@ export default function Footer() {
           <Col lg="4">
             <div className={footerStyles.footerBox}>
               {/* <Image src={footLogo} alt="Spaceshift" /> */}
-<img src="/images/logo.png" alt="Spaceshift"/>
+              <img src="/images/logo.png" alt="Spaceshift" />
 
               <ul>
                 <li>
@@ -43,21 +42,21 @@ export default function Footer() {
                 </li>
                 <li>
                   {/* <Image src={locationicon} alt="Spaceshift" /> */}
-<img src="/images/location-icon.png" alt="Spaceshift"/>
+                  <img src="/images/location-icon.png" alt="Spaceshift" />
 
                   <p>Location</p>
                 </li>
 
                 <li>
                   {/* <Image src={contactIcon} alt="Spaceshift" /> */}
-<img src="/images/contact-info-icon.png" alt="Spaceshift"/>
+                  <img src="/images/contact-info-icon.png" alt="Spaceshift" />
 
                   <p>Contact Info</p>
                 </li>
 
                 <li>
                   {/* <Image src={linkIcon} alt="Spaceshift" /> */}
-<img src="/images/link-icon.png" alt="Spaceshift"/>
+                  <img src="/images/link-icon.png" alt="Spaceshift" />
 
                   <p>www.spaceshift.in</p>
                 </li>
@@ -71,19 +70,29 @@ export default function Footer() {
               <span>
                 <ul>
                   <li>
-                    <a href="/custom-virtual-tour">Virtual Tour</a>
+                    <Link href="/custom-virtual-tour">
+                      <a>Virtual Tour</a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="/vr-flims">Professional VR Films</a>
+                    <Link href="/vr-flims">
+                      <a>Professional VR Films</a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="/photogrammetry">Photogrammetry</a>
+                    <Link href="/photogrammetry">
+                      <a>Photogrammetry</a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="/project-mapping">3D Projection Mapping</a>
+                    <Link href="/project-mapping">
+                      <a>3D Projection Mapping</a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="/3d-tours">3D Tours</a>
+                    <Link href="/3d-tours">
+                      <a>3D Tours</a>
+                    </Link>
                   </li>
                 </ul>
 
@@ -92,7 +101,9 @@ export default function Footer() {
                     <a href="#">Industries</a>
                   </li>
                   <li>
-                    <a href="#">Blog</a>
+                    <Link href="#!">
+                      <a>Blog</a>
+                    </Link>
                   </li>
                   <li>
                     <Link href="/how-we-can-help">
@@ -117,9 +128,7 @@ export default function Footer() {
                   />
                   <Button>
                     {/* <Image src={newsletterSendIcon} alt="Spaceshift" /> */}
-<img src="/images/newsletter-send.png" alt="Spaceshift"/>
-
-                    
+                    <img src="/images/newsletter-send.png" alt="Spaceshift" />
                   </Button>
                 </Form>
               </div>
@@ -130,26 +139,22 @@ export default function Footer() {
                   <a>
                     {" "}
                     {/* <Image src={google} alt="Spaceshift" /> */}
-<img src="/images/insta.png" alt="Spaceshift"/>
-
+                    <img src="/images/insta.png" alt="Spaceshift" />
                   </a>
                   <a>
                     {" "}
                     {/* <Image src={twitter} alt="Spaceshift" /> */}
-<img src="/images/twitter.png" alt="Spaceshift"/>
-
+                    <img src="/images/twitter.png" alt="Spaceshift" />
                   </a>
                   <a>
                     {" "}
                     {/* <Image src={facebook} alt="Spaceshift" /> */}
-<img src="/images/facebook.png" alt="Spaceshift"/>
-
+                    <img src="/images/facebook.png" alt="Spaceshift" />
                   </a>
                   <a>
                     {" "}
                     {/* <Image src={insta} alt="Spaceshift" /> */}
-<img src="/images/insta.png" alt="Spaceshift"/>
-
+                    <img src="/images/insta.png" alt="Spaceshift" />
                   </a>
                 </div>
               </div>
