@@ -217,7 +217,12 @@
 .testimonialsContainer{
   padding-left: 150px;
 }
-
+.topPartContainerForHome{
+  background-position: top 65px right;
+  .topPart {
+    padding: 270px 0 185px 0;
+}
+}
 
 @media(max-width:800px){
 

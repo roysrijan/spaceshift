@@ -53,7 +53,7 @@ export default function Home() {
   return (
     <div className="globalWrap">
       <Header />
-      <section className={stylesHome.topPartContainer}>
+      <section className={stylesHome["topPartContainer"] + " " + stylesHome["topPartContainerForHome"]}>
         <Container>
           <Row>
             <Col lg="6" sm="8">
