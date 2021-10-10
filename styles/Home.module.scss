@@ -223,7 +223,11 @@
     padding: 270px 0 185px 0;
 }
 }
-
+.testimonialsContainer{
+  .container{
+    margin: 0;
+  }
+}
 @media(max-width:800px){
 
   .whatWeOfferBoxMain .whatWeOfferCol6   {

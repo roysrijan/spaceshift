@@ -3,10 +3,12 @@
   background-repeat: no-repeat;
   background-position: left 44px top 179px;
   background-size: 31% auto;
+  padding-bottom: 0;
 }
 
 .eventsTopBox {
   display: flex;
+  align-items: center;
 }
 
 .eventsBottomContainer {
@@ -23,8 +25,8 @@
 }
 .eventsTopImg2 {
   position: relative;
-  top: -9px;
-  right: -251px;
+  top: -13px;
+  right: -223px;
 }
 .eventsTopImg3 {
   position: relative;
@@ -35,6 +37,7 @@
 .EventsTitleWrap {
   display: flex;
   margin-bottom: 50px;
+  align-items: center;
 }
 .EventsTitleLeft {
   width: 40%;
@@ -79,6 +82,9 @@
   > div {
     border-radius: 0 0 200px 0;
   }
+}
+.thevalueText{
+  margin-bottom: 0;
 }
 @media(max-width:1100px){
     .eventsTopInfo{
@@ -140,6 +146,7 @@
 }
 .EventsTitleLeft{
     width: 100%;
+    margin: 20px 0;
 }
 .EventsTitleRight{
     width: 100%;

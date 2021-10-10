@@ -1,3 +1,6 @@
+.tourismTopContainer{
+  margin-top: 44px;
+}
 .tourismTopBox {
   display: flex;
   align-items: center;
@@ -103,7 +106,7 @@
 @media(max-width:767px){
   .tourismTopBox{
     flex-direction: column;
-    margin-top: 50px;
+    // margin-top: 50px;
   }
   .tourismTopBoxImgWrap{
     width: 100%;
@@ -150,5 +153,6 @@ margin-bottom: 25px;
 }
 .tourismBottomContentBoxRe .tourismBottomContentWrapLeft{
   padding-top: 50px;
+  padding-left: 0;
 }
 }

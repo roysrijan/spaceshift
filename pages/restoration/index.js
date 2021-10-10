@@ -61,7 +61,7 @@ export default function index() {
 <img src="/images/restoration-banner.jpg" alt="Spaceshift"/>
 
 
-                <p>
+                <p className={stylesRestoration.technolgytext}>
                   Technology has helped transform every aspect of the human
                   world, including the restoration industry. 3D photogrammetry
                   is one of the most complete and flexible techniques available

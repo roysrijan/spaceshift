@@ -75,7 +75,7 @@ export default function index() {
         <Container>
           <Row>
             <Col lg="12">
-              <p>
+              <p className={stylesHospitalsNClinic.virtualText}>
                 Virtual walkthroughs are interactive and are accessible through
                 all devices, which makes it easier for prospective patients to
                 get more comfortable with the services. Most people feel

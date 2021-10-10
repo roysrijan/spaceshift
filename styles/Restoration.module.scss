@@ -12,6 +12,10 @@
   text-align: center;
   p {
     margin: 17px 0 36px;
+    &.technolgytext{
+      margin-bottom: 0;
+      margin-top: 35px;
+    }
   }
   > div {
     margin-bottom: 30px !important;
@@ -43,6 +47,7 @@
   width: 30%;
   position: relative;
   margin-top: 22px;
+  padding-right: 25px;
   &:before {
     content: "";
     position: absolute;
@@ -129,11 +134,14 @@
   //   width: 100%;
   // }
   .restorationTopPartWrap p{
-    margin: 0;
+    // margin: 0;
       }
       .restorationTopPartWrap > div{
         margin-top: 30px !important;
       }
+      .restorationTopPartWrap{
+        text-align: left;
+    } 
 }
 
 @media(max-width:767px){

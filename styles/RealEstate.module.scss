@@ -22,6 +22,9 @@
 }
 .realEstatePlainTextContainer {
   text-align: center;
+  p{
+    margin-bottom: 0;
+  }
 }
 .realEstateMiddleContainer {
   padding-top: 0;
@@ -33,6 +36,9 @@
 }
 .realEstateMiddleImg {
   width: 40%;
+  img{
+    width: 100%;
+  }
 }
 .realEstateMiddleInfo {
   width: 60%;
@@ -178,7 +184,7 @@ color: #000;
     margin-top: 70px;
 }
 .realEstatePlainTextContainer{
-  text-align: center;
+  text-align: left;
   padding-top: 0;
   padding-bottom: 17px;
 }

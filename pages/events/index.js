@@ -76,7 +76,7 @@ export default function index() {
               </div>
             </Col>
             <Col lg="12">
-              <p>
+              <p className={stylesEvents.thevalueText}>
                 The value of real-life interaction never goes away, but there
                 are certain times when hosting an event online becomes
                 necessary. Wouldn’t it be great if the natural dynamics and

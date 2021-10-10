@@ -67,7 +67,7 @@ export default function index() {
                   </div>
                 </div>
 
-             <p>Surveys show that people are 130% more likely to book a table with businesses offering Google 360 virtual tours. Moreover, media-rich interactive map listings double one’s interest in a business, and on average, 41% of these searches result in a footfall. Google favors the 360 thumbnails of Google My Business listings with virtual tours and displays it in the search results, which can boost your restaurant’s visibility. SpaceShift has a team of experienced Google trusted photographers who use industry standard equipment to shoot high-quality interactive Google Street View 360 degree tours.</p>
+             <p className={stylesIndustries.surveyText}>Surveys show that people are 130% more likely to book a table with businesses offering Google 360 virtual tours. Moreover, media-rich interactive map listings double one’s interest in a business, and on average, 41% of these searches result in a footfall. Google favors the 360 thumbnails of Google My Business listings with virtual tours and displays it in the search results, which can boost your restaurant’s visibility. SpaceShift has a team of experienced Google trusted photographers who use industry standard equipment to shoot high-quality interactive Google Street View 360 degree tours.</p>
               </div>
             </Col>
           </Row>
@@ -89,7 +89,7 @@ export default function index() {
                 </div>
                 <div className={stylesIndustries.highlightBoxContent}>
                   <h2>How Can You Benefit With Google Street View?</h2>
-                  <p>
+                  <p className={stylesIndustries.surveyText}>
                   Surveys suggest that virtual tours help increase one’s interest in a business by two times and attracting the attention of people is exactly what you need. Visiting the institute for in-depth scrutiny is not possible for every parent and virtual tours come in really handy. Parents and students analyze the location and accessibility of the institute, along with its facilities such as the hostel, library, playground, laboratory, art rooms, etc. before choosing an institute for their child. Always make sure that your virtual tour highlights these key components along with the location and surroundings. The visual experience becomes a key factor in their decision-making and helps provide as much visual information as possible, via the internet.
                   </p>
                   

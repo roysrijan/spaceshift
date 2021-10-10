@@ -1,19 +1,20 @@
 .retailTopBox {
   display: flex;
-  margin-bottom: 97px;
+  margin-bottom: 55px;
+  align-items: center;
 }
 .retailTopBoxContent {
-  width: 60%;
+  width: 50%;
   padding-right: 50px;
 }
 .retailTopBoxImg {
-  width: 40%;
-  padding: 34px 0;
+  width: 50%;
+  padding: 34px 0 0;
 }
 .retailTopBoxImg2 {
   position: relative;
   left: 70px;
-  top: 27px;
+  top: -33px;
   > div {
     width: 50% !important;
   }
@@ -124,6 +125,8 @@
 @media (max-width: 767px) {
   .retailTopBoxImg2 {
     left: 0;
+    top: 0;
+    margin-top: 14px;
   }
   .retailTopBox {
     flex-direction: column;
@@ -136,7 +139,7 @@
   }
   .retailTopBoxImg {
     width: 100%;
-    padding: 0 0 25px;
+    padding: 20px 0 0;
   }
 
   .whatWeOfferBoxMain .whatWeOfferCol6 {
