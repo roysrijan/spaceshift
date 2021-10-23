@@ -1,5 +1,5 @@
 .topPart {
-  padding:230px 0 125px 0;
+  padding: 230px 0 125px 0;
 
   p {
     margin-top: 25px;
@@ -34,12 +34,15 @@
 .whatWeOfferTitle {
   h2 {
     margin-bottom: 30px;
+    span {
+      color: #00e4d8;
+    }
   }
 }
 .whatWeOfferBox {
   width: 100%;
-  a{
-      margin-top: 15px;
+  a {
+    margin-top: 15px;
   }
   > div {
     width: 100%;
@@ -62,24 +65,23 @@
   padding-right: 0;
   padding-top: 70px;
 }
-.industriesContainer{
+.industriesContainer {
   background-color: #343536;
   color: #fff;
 }
-.indusTabBox{
+.indusTabBox {
   padding-left: 100px;
   margin: 50px 50px 0;
   margin-top: 0;
   position: relative;
- 
 }
-.indusTabBoxImage{
+.indusTabBoxImage {
   position: relative;
-  img{
+  img {
     width: 100%;
   }
 }
-.indusTabBoxImageInfo{
+.indusTabBoxImageInfo {
   position: absolute;
   right: -19px;
   background: rgba(255, 255, 255, 0.8);
@@ -88,50 +90,48 @@
   bottom: -11px;
   display: flex;
   flex-direction: column;
-  span{
+  span {
     font-size: 14px;
   }
-  .projectName{
+  .projectName {
     font-weight: 700;
     font-size: 20px;
-    
   }
 }
 
-.indusTabBoxBg{
+.indusTabBoxBg {
   position: absolute;
   right: -92px;
   top: -60px;
 }
 
-.newsletterContainer{
-  background:#383636 url(../public/images/newsletter-bg.png);
+.newsletterContainer {
+  background: #383636 url(../public/images/newsletter-bg.png);
   // background: rgb(48,48,48);
   // background: linear-gradient(90deg, rgba(48,48,48,1) 0%, rgba(80,77,77,1) 100%);
 
   background-repeat: no-repeat;
   background-position: top right;
   background-size: cover;
-
 }
-.manyReasonBox{
+.manyReasonBox {
   padding: 25px 25px;
   border-radius: 5px;
-  background-color: #3EC0B9;
+  background-color: #3ec0b9;
   width: 90%;
   margin: 0 auto;
   text-align: center;
   color: #fff;
-  p{
-    padding:15px 162px;
+  p {
+    padding: 15px 162px;
   }
 }
-.manyReasonBoxForm{
+.manyReasonBoxForm {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 12px;
-  input{
+  input {
     height: 40px;
     background-color: rgba(255, 255, 255, 0.489);
     border: none;
@@ -139,7 +139,7 @@
     border-radius: 5px 0 0 5px;
     width: 250px;
   }
-  button{
+  button {
     height: 40px;
     background-color: #000000;
     text-transform: uppercase;
@@ -147,52 +147,52 @@
     border: none;
     border-radius: 0 5px 5px 0;
     padding: 0 33px;
-    &:hover{
+    &:hover {
       background-color: #000000;
     }
   }
 }
-.manyReasonBoxForm input:focus{
-  background-color:rgba(255, 255, 255, 0.489) !important;
+.manyReasonBoxForm input:focus {
+  background-color: rgba(255, 255, 255, 0.489) !important;
   box-shadow: unset !important;
   color: #fff !important;
-  border-color:  rgba(255, 255, 255, 0.489) !important;
+  border-color: rgba(255, 255, 255, 0.489) !important;
   outline: unset;
 }
 .manyReasonBoxForm input::placeholder {
   color: #fff !important;
   opacity: 1;
 }
-.testimonialBox{
-  background-color: #2D6A67;
+.testimonialBox {
+  background-color: #2d6a67;
   padding: 25px;
   width: 370px;
-  p{
+  p {
     color: #fff;
     margin: 0;
   }
 }
-.testimonialAuthor{
+.testimonialAuthor {
   display: flex;
   align-items: center;
   margin-top: 51px;
 }
-.testimonialAuthorImgBox{
-  height:60px;
+.testimonialAuthorImgBox {
+  height: 60px;
   width: 60px;
   border-radius: 80px;
   overflow: hidden;
   margin-right: 30px;
 
-  > div{
+  > div {
     width: 100%;
     height: 100%;
   }
 }
-.testimonialAuthorname{
+.testimonialAuthorname {
   position: relative;
   padding-left: 0;
-  &:before{
+  &:before {
     content: "";
     position: absolute;
     background-image: url(../public/images/testi-line.jpg);
@@ -204,83 +204,118 @@
     margin-right: 25px;
     background-size: cover;
   }
-  h4{
+  h4 {
     font-size: 18px;
     font-weight: 600;
     color: #fff;
     margin: 0;
   }
 }
-.carouselWrap{
+.carouselWrap {
   padding-left: 0;
 }
-.testimonialsContainer{
+.testimonialsContainer {
   padding-left: 150px;
 }
-.topPartContainerForHome{
+.topPartContainerForHome {
   background-position: top 65px right;
   .topPart {
     padding: 270px 0 185px 0;
+  }
 }
-}
-.testimonialsContainer{
-  .container{
+.testimonialsContainer {
+  .container {
     margin: 0;
   }
 }
-@media(max-width:800px){
-
-  .whatWeOfferBoxMain .whatWeOfferCol6   {
-    padding-right: 0;
+.projectUndertakenBox {
+  display: flex;
+  align-items: flex-start;
 }
-  .topPartContainer{
+.projectUndertakenBox1 {
+  width: 30%;
+  p {
+    display: block;
+  }
+}
+.projectUndertakenBox2 {
+  width: 70%;
+  padding-left: 50px;
+}
+.projectUndertakenContainer {
+  background-color: #d2efee;
+}
+
+@media (min-width: 1500px) {
+  .testimonialsContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 0;
+  }
+}
+
+@media(max-width:1100px){
+  .projectUndertakenBox1 {
+    width: 50%;
+}
+.projectUndertakenBox2 {
+  width: 50%;
+ 
+
+}
+
+}
+@media (max-width: 800px) {
+  .whatWeOfferBoxMain .whatWeOfferCol6 {
+    padding-right: 0;
+  }
+  .topPartContainer {
     background-size: 100% auto;
   }
   .topPart {
     padding: 120px 0 40px 0;
+  }
+
+  .whatWeOfferBox a {
+    margin-top: 15px;
+    margin-bottom: 60px;
+  }
+  .whatWeOfferBoxMain {
+    // padding: 0 15px;
+  }
+
+  .whatWeOfferContainer {
+    padding-bottom: 4px;
+  }
+  .indusTabBox {
+    padding-left: 0;
+    margin: 0;
+    margin-top: 0;
+  }
+  .manyReasonBox {
+    padding: 25px 0;
+    width: 100%;
+  }
+  .manyReasonBox p {
+    padding: 15px;
+  }
+  .manyReasonBoxForm {
+    padding: 0 15px;
+  }
+
+  .indusTabBoxImageInfo {
+    right: 0;
+  }
+  .indusTabBoxBg {
+    right: 0;
+  }
+  .testimonialsContainer {
+    padding-left: 0;
+  }
+
 }
 
-.whatWeOfferBox a {
-  margin-top: 15px;
-  margin-bottom: 60px;
-}
-.whatWeOfferBoxMain{
- // padding: 0 15px;
-}
-
-.whatWeOfferContainer{
-  padding-bottom: 4px;
-}
-.indusTabBox{
-  padding-left: 0;
-  margin: 0;
-  margin-top: 0;
-}
-.manyReasonBox{
-  padding: 25px 0;
-  width: 100%;
-}
-.manyReasonBox p {
-  padding: 15px;
-}
-.manyReasonBoxForm{
-  padding: 0 15px;
-}
-
-
-.indusTabBoxImageInfo{
-  right: 0;
-}
-.indusTabBoxBg {
-  right: 0;
-}
-.testimonialsContainer {
-  padding-left: 0;
-
-}
-}
-
-@media(max-width:767px){
+@media (max-width: 767px) {
   .whatWeOfferBoxMain .whatWeOfferCol6 {
     padding-right: 0;
     padding-left: 0;
@@ -288,22 +323,32 @@
   .whatWeOfferBoxMain .whatWeOfferCol6:nth-child(2n) {
     padding-left: 0;
     padding-right: 0;
-    padding-top:0;
+    padding-top: 0;
   }
   .indusTabBoxBg {
     display: none;
-
   }
-  .testimonialBox{
+  .testimonialBox {
     width: 100%;
     margin-right: 0;
     padding-bottom: px;
-    }
-    .testimonialsContainer {
-      padding-left: 0;
-      padding-right: 0;
-    }
-    .whatWeOfferBoxMain{
-      padding: 0 13px;
-    }
+  }
+  .testimonialsContainer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .whatWeOfferBoxMain {
+    padding: 0 13px;
+  }
+  .projectUndertakenBox{
+    flex-direction: column;
+  }
+    .projectUndertakenBox1 {
+      width: 100%;
+  }
+  .projectUndertakenBox2 {
+    width: 100%;
+    padding-left: 0;
+    padding-top: 25px;
+  }
 }

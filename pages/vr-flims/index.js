@@ -16,7 +16,6 @@ import Footer from "../components/footer";
 import Header from "../components/header";
 import "bootstrap/dist/css/bootstrap.css";
 
-
 // import vrFlimsImg1 from "../../public/images/img-17.jpg";
 // import vrFlimsImg2 from "../../public/images/img-18.jpg";
 // import vrFlimsImg3 from "../../public/images/img-18.jpg";
@@ -28,7 +27,7 @@ export default function index() {
       <Header />
       <div className="innerPageHeaderWrap">
         {/* <Image src={vrFlimsBanner} alt="Spaceshift" /> */}
-<img src="/images/vrfilms-banner.jpg" alt="Spaceshift"/>
+        <img src="/images/vrfilms-banner.jpg" alt="Spaceshift" />
 
         <div className="innerPageHeaderTitle">
           <h2>VR Films</h2>
@@ -49,8 +48,7 @@ export default function index() {
               <div className={stylesVrFlims.vrFlimsContainer1Box}>
                 <div className={stylesVrFlims.vrFlimsContainer1Img}>
                   {/* <Image src={vrFlimsImg1} alt="Spaceshift" /> */}
-<img src="/images/img-17.jpg" alt="Spaceshift"/>
-
+                  <img src="/images/img-17.jpg" alt="Spaceshift" />
                 </div>
                 <div className={stylesVrFlims.vrFlimsContainer1Content}>
                   <h2>Professional VR Films</h2>
@@ -62,7 +60,7 @@ export default function index() {
                     to check out the entire location. Contrary to standard
                     recordings, VR videos give a vivid, interactive experience.
                     The client often encounters the sensation of really being
-                    there.
+                    there. 
                   </p>
                 </div>
               </div>
@@ -83,21 +81,46 @@ export default function index() {
                     As a general marketing rule, you should keep testing new
                     platforms regularly. On the off chance that you use Facebook
                     for your business, you will develop while Facebook itself is
+                    developing.
                     <br></br>
                     <br></br>
-                    developing.  70% of advertisers who have utilized 360 videos
-                    say it has expanded engagement for them. If you distribute
-                    360 pictures and videos on renowned social media platforms
-                    you are entering another surge of attention. Using VR
-                    content on such platforms that acknowledge it will nearly
-                    guarantee more eyes on your posts.
+                    70% of advertisers who have utilized 360 videos say it has
+                    expanded engagement for them. If you distribute 360 pictures
+                    and videos on renowned social media platforms you are
+                    entering another surge of attention. Using VR content on
+                    such platforms that acknowledge it will nearly guarantee
+                    more eyes on your posts. 
+                    <br></br>
+                    <br></br>
+                    Observe this use case of vivid VR promoting: Try before you
+                    FLY by Thomas Cook is a program that utilizes virtual
+                    reality to allow potential clients to investigate their
+                    dream destinations. By and large, the travel service saw an
+                    increment in their ROI by 40% and a 190% increment in
+                    appointments in New York City.
+                  </p>
+                  <h5>Consumer Loyalty</h5>
+                  <p>
+                    At the point when organizations put forth a noticeable
+                    attempt to post new types of media and substance, they ask
+                    for customers' consideration; on that note, investing a
+                    little energy does go a long way.  <br></br>
+                    <br></br>
+                    Posting new content tells your crowd you are continually
+                    developing. As a rule, continually innovating means you will
+                    be here and not vanish tomorrow. It's a decent pointer of a
+                    marvelous brand that has most people's consideration. 
+                    <br></br>
+                    <br></br>
+                    New research recommends putting resources into VR
+                    (360-degree media) will pay off in brand value and increment
+                    purchases over 2-3 years. 
                   </p>
                 </div>
 
                 <div className={stylesVrFlims.vrFlimsContainer1Img}>
                   {/* <Image src={vrFlimsImg3} alt="Spaceshift" /> */}
-<img src="/images/img-18.jpg" alt="Spaceshift"/>
-
+                  <img src="/images/img-18.jpg" alt="Spaceshift" />
                 </div>
               </div>
             </Col>
@@ -113,8 +136,7 @@ export default function index() {
                 <h2>Observe this use case of vivid VR promoting</h2>
                 <div className={stylesVrFlims.vrFlimsContainer2Img}>
                   {/* <Image src={vrFlimsImg4} alt="Spaceshift" /> */}
-<img src="/images/img-19.jpg" alt="Spaceshift"/>
-
+                  <img src="/images/img-19.jpg" alt="Spaceshift" />
                 </div>
                 <div className={stylesVrFlims.vrFlimsContainer2Content}>
                   <p>

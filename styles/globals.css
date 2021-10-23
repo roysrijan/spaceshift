@@ -2,7 +2,7 @@
 
 /* 
 <img src="/images/logo.png" alt="Spaceshift"/>
-
+<b></b>
 import googleStreetviewImg from "../public/images/google-street-header-banner.png";
 
 <Image src={aboutVideo} alt="Spaceshift" />
@@ -44,12 +44,15 @@ p {
   font-size: 36px;
   font-weight: 600;
 }
+.globalWrap p b{
+  font-weight: 800;
+}
 .globalWrap h3 {
   font-family: "Rubik", sans-serif;
   font-size: 30px;
   font-weight: 500;
 }
-.globalWrap img{
+.globalWrap img {
   max-width: 100% !important;
   /* width: 100%; */
 }
@@ -189,63 +192,59 @@ a:hover {
   text-align: left;
   width: 60%;
 }
-.tabContentLeftCol p{
+.tabContentLeftCol p {
   margin-top: 15px;
 }
 .tabContentLeftColImg > div {
   height: 100%;
 }
-.tabContentLeftColImg img{
+.tabContentLeftColImg img {
   width: 100%;
 }
-.whyGViewTabWrap{
+.whyGViewTabWrap {
   padding: 50px 0 0;
 }
 /* //TAB STYLE END */
 
-
-
 /* //TAB 2 */
-.moreAboutProjectMapping .react-tabs__tab{
+.moreAboutProjectMapping .react-tabs__tab {
   border-bottom: 1px solid #ccc !important;
   padding: 15px 46px !important;
 }
 
-.moreAboutProjectMapping .react-tabs__tab--selected{
+.moreAboutProjectMapping .react-tabs__tab--selected {
   border-bottom: 1px solid #3ec0b9 !important;
   font-weight: 600;
 }
-.moreAboutProjectMappingTabContent .react-tabs__tab-panel{
+.moreAboutProjectMappingTabContent .react-tabs__tab-panel {
   margin: 0 102px;
-
 }
-.moreAboutProjectMappingTabContent{
+.moreAboutProjectMappingTabContent {
   display: flex;
   flex-direction: row;
   align-items: center;
   /* margin-top: 40px; */
   -webkit-box-shadow: 0px 0px 5px 0px rgba(73, 25, 25, 0.15);
--moz-box-shadow:    0px 0px 5px 0px rgba(5, 1, 1, 0.15);
-box-shadow:         0px 0px 5px 0px rgba(50, 50, 50, 0.15);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(5, 1, 1, 0.15);
+  box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.15);
 }
-.moreAboutProjectMappingTabContentImg{
+.moreAboutProjectMappingTabContentImg {
   width: 40%;
   padding: 0 80px 0 0;
 }
-.moreAboutProjectMappingTabContentImg > div{
+.moreAboutProjectMappingTabContentImg > div {
   height: 100%;
   display: flex !important;
 }
-.moreAboutProjectMappingTabContentText{
+.moreAboutProjectMappingTabContentText {
   width: 60%;
   padding-right: 100px;
   text-align: left;
 }
-.moreAboutProjectMapping .react-tabs__tab:focus{
+.moreAboutProjectMapping .react-tabs__tab:focus {
   box-shadow: unset !important;
   border-bottom: 1px solid #3ec0b9 !important;
 }
-
 
 .whyGViewTabTitle {
   display: flex;
@@ -301,121 +300,196 @@ box-shadow:         0px 0px 5px 0px rgba(50, 50, 50, 0.15);
   padding-left: 0;
   font-size: 20px;
 }
-.innerPageHeaderWrap.black-bg{
-background-color: #343434;
+.innerPageHeaderWrap.black-bg {
+  background-color: #343434;
 }
-.innerPageHeaderTitle.black-bg{
-  background-color: #4D4D4D;
+.innerPageHeaderTitle.black-bg {
+  background-color: #4d4d4d;
   color: #fff;
 }
 
-.accordion-item{
+.accordion-item {
   margin-bottom: 15px !important;
   border: none !important;
-  background-color: #F6F8FB !important;
+  background-color: #f6f8fb !important;
   border-radius: 10px !important;
   -webkit-box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.11);
-  -moz-box-shadow:    0px 1px 5px 0px rgba(50, 50, 50, 0.11);
-  box-shadow:         0px 1px 5px 0px rgba(50, 50, 50, 0.11);
+  -moz-box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.11);
+  box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.11);
 }
-.accordion-button{
-  background-color: #F6F8FB !important;
-  box-shadow:unset !important;
+.accordion-button {
+  background-color: #f6f8fb !important;
+  box-shadow: unset !important;
   border-radius: 10px !important;
   color: #546172 !important;
   font-weight: 600;
- 
 }
-.accordion-body{
+.accordion-body {
   background-color: #fff !important;
-
 }
-.accordion-button:not(.collapsed){
+.accordion-button:not(.collapsed) {
   background-color: #fff !important;
-  color: #0F2137 !important;
+  color: #0f2137 !important;
 }
-.accordion-button::after{
+.accordion-button::after {
   background-image: url(../public//images/right-arrow-small.png) !important;
   background-size: 17px auto !important;
 }
-@media(min-width:1400px){
- .globalWrap .container{
-  max-width:1200px !important;
- }
+
+.alice-carousel__stage-item {
+  overflow: hidden;
+  height: 290px !important;
+  padding-right: 10px !important;
+  /* margin-right: 10px !important; */
+}
+.alice-carousel__stage-item {
+}
+.alice-carousel__stage-item.__active.__target {
+  height: 100% !important;
+  overflow: hidden;
+}
+.alice-carousel__stage-item.__active.__target .indusTabBoxImageInfoNew {
+  opacity: 1;
+}
+.alice-carousel__stage-item {
+  height: unset;
+}
+.undertakenImgWrap {
+  position: relative;
+}
+.indusTabBoxImageInfoNew {
+  position: absolute;
+  bottom: 11px !important;
+  left: 10px;
+  width: 72%;
+  opacity: 0;
+}
+/* .alice-carousel__prev-btn {
+  position: relative;
+  top: -109px;
+} */
+.alice-carousel__next-btn {
+  position: absolute;
+  top: 35%;
+  width: auto !important;
+  right: 207px;
+  z-index: 999;
+}
+.alice-carousel__prev-btn {
+  position: absolute !important;
+  top: 35% !important;
+  width: auto !important;
+  right: 235px;
+  z-index: 999;
+}
+.alice-carousel__prev-btn [data-area]::after{
+
+}
+.alice-carousel__prev-btn{
+  margin-right: 15px;
+}
+.alice-carousel__prev-btn-item, .alice-carousel__next-btn-item{
+  font-size: 25px;
+  background-color: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 80px;
+  line-height: 22px;
+  text-align: center;
+  color: #3EC0B9 !important;
+}
+.alice-carousel__dots{
+  display: none;
+}
+@media (min-width: 1400px) {
+  .globalWrap .container {
+    max-width: 1200px !important;
+  }
 }
 
-@media(max-width:1100px){
-  .tabContentLeftCol{
+@media (max-width: 1100px) {
+  .tabContentLeftCol {
     padding-right: 40px;
   }
-  .moreAboutProjectMappingTabContentText p{
-margin-bottom: 0;
+  .moreAboutProjectMappingTabContentText p {
+    margin-bottom: 0;
   }
-  .moreAboutProjectMapping .react-tabs__tab{
+  .moreAboutProjectMapping .react-tabs__tab {
     padding: 15px 42px !important;
   }
   .moreAboutProjectMappingTabContentText {
     padding-top: 15px;
     padding-bottom: 15px;
-}
+  }
+  .indusTabBoxImageInfoNew{
+    width:70%
+  }
+  .alice-carousel__prev-btn{
+    right: 35px;
+  }
+  .alice-carousel__next-btn{
+    right: 10px;
+  }
 }
 
-
-@media(max-width:800px){
+@media (max-width: 800px) {
   .blockPadding {
     padding: 60px 5px;
-}
-.aboutUsVideo {
-  margin-top: 60px;
-}
-.globalWrap h2 {
-  font-size: 24px;
-}
-/* .globalWrap h1 {
+  }
+  .aboutUsVideo {
+    margin-top: 60px;
+  }
+  .globalWrap h2 {
+    font-size: 24px;
+  }
+  /* .globalWrap h1 {
   font-size: 29px;
 } */
-.innerPageHeaderTitle{
-  width: 90%;
-  padding: 25px;
-}
-.react-tabs__tab-list {
-  display: flex;
-  flex-wrap: nowrap;
-  overflow: auto;
-  align-items: baseline;
-  justify-content: center;
-}
-.whyGViewTabWrap {
-  padding: 50px 8px 0;
-}
-.tabContentMain{
-  justify-content: flex-start;
-}
-.tabContentMainInner {
-  width: 100%;
-  
-}
-.tabContentLeftCol {
-  padding-right: 0;
+  .innerPageHeaderTitle {
+    width: 90%;
+    padding: 25px;
+  }
+  .react-tabs__tab-list {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: auto;
+    align-items: baseline;
+    justify-content: center;
+  }
+  .whyGViewTabWrap {
+    padding: 50px 8px 0;
+  }
+  .tabContentMain {
+    justify-content: flex-start;
+  }
+  .tabContentMainInner {
+    width: 100%;
+  }
+  .tabContentLeftCol {
+    padding-right: 0;
+
+    padding: 0 15px;
+  }
+  .innerPageHeaderWrap {
+    margin-top: 66px;
+  }
+  .moreAboutProjectMapping .react-tabs__tab {
+    white-space: nowrap;
+  }
+  .indusTabBoxImageInfoNew{
+    width:70%
+  }
  
-  padding: 0 15px;
-}
-.innerPageHeaderWrap {
-  margin-top: 66px;
-}
-.moreAboutProjectMapping .react-tabs__tab{
-  white-space: nowrap;
-}
 }
 
-@media(max-width:767px){
+@media (max-width: 767px) {
   .flex-column.nav.nav-pills {
     flex-direction: row !important;
     flex-wrap: nowrap;
     overflow-x: auto;
     margin-bottom: 30px;
   }
-  .nav-link{
+  .nav-link {
     width: auto;
     margin-right: 15px;
     text-align: left;
@@ -424,41 +498,51 @@ margin-bottom: 0;
   .react-tabs__tab-list {
     justify-content: flex-start;
   }
-  .react-tabs__tab{
+  .react-tabs__tab {
     white-space: nowrap;
   }
-  .tabContentLeftCol{
+  .tabContentLeftCol {
     width: 100%;
   }
   .tabContentMainInner {
     width: 100%;
     flex-direction: column;
   }
-  .moreAboutProjectMappingTabContent{
-flex-direction: column;
+  .moreAboutProjectMappingTabContent {
+    flex-direction: column;
   }
   .moreAboutProjectMappingTabContentImg {
     width: 100%;
     padding: 0;
-}
-.moreAboutProjectMappingTabContentText{
-  width: 100%;
-  padding-right: 0;
-  padding-top: 20px;
-  padding: 12px;
-}
-.faqTab .react-tabs__tab-list{
-  justify-content: center !important;
-}
-.faqTab .react-tabs__tab{
-bottom: 0;
-}
-.react-multiple-carousel__arrow{
-  bottom: 12px !important;
-}
-.globalWrap h1 {
-  font-size: 29px;
-}
+  }
+  .moreAboutProjectMappingTabContentText {
+    width: 100%;
+    padding-right: 0;
+    padding-top: 20px;
+    padding: 12px;
+  }
+  .faqTab .react-tabs__tab-list {
+    justify-content: center !important;
+  }
+  .faqTab .react-tabs__tab {
+    bottom: 0;
+  }
+  .react-multiple-carousel__arrow {
+    bottom: 12px !important;
+  }
+  .globalWrap h1 {
+    font-size: 29px;
+  }
+
+  .alice-carousel__prev-btn{
+    right: 18px;
+  }
+  .alice-carousel__next-btn{
+    right: 0;
+  }
+  .indusTabBoxImageInfoNew{
+    width:70%
+  }
 }
 
 /* .navbar-light .navbar-toggler-icon {

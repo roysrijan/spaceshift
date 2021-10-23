@@ -37,7 +37,7 @@ export default function index() {
       <Header />
       <div className="innerPageHeaderWrap">
         {/* <Image src={threedToursBanner} alt="Spaceshift" /> */}
-<img src="/images/3d-tours-banner.jpg" alt="Spaceshift"/>
+        <img src="/images/3d-tours-banner.jpg" alt="Spaceshift" />
 
         <div className="innerPageHeaderTitle">
           <h2>3D Virtual Tours</h2>
@@ -58,26 +58,25 @@ export default function index() {
               <div className={stylesThreeDTours.Tour3dContentBox}>
                 <div className={stylesThreeDTours.Tour3dContentBoxImg}>
                   {/* <Image src={threedToursImg} alt="Spaceshift" /> */}
-<img src="/images/img-12.jpg" alt="Spaceshift"/>
-
+                  <img src="/images/img-12.jpg" alt="Spaceshift" />
                 </div>
 
                 <div className={stylesThreeDTours.Tour3dContentBoxInfo}>
-                  <h2>What is 3D Virtual Tour?</h2>
+                  <h2>Introduction</h2>
                   <p>
-                  &#34;Aim of every virtual tour production company should be to
-                    help the potential audience get a customized digital tour so
-                    that maximum customer engagement can take place&#34;<br></br>
-                    Custom virtual tours are way more interactive and creative
-                    as compared to Google 360 tour or Google Virtual Tour,
-                    however, have a progression of customizable features that
-                    make it significantly more interactive and function as
-                    extraordinary marketing material. Furthermore, these custom
-                    virtual tours are an excellent choice as they are profoundly
-                    adjustable to the particular necessities of businesses.
-                    These tours are, actually, in the form of an html format and
-                    they tend to be embedded as another page of a website rather
-                    than being embedded as a portion of a page.
+                    A <b>3D virtual tour</b> is a sequential display of
+                    panoramic images that are "sewed" together to produce a
+                    &#34;virtual&#34; experience or an encounter of any
+                    location. When created, the viewers can experience the
+                    presence of a particular location without being there.
+                    Viewers are shown to be 150% more engaged and interested
+                    with a virtual tour than they are with 2D imagery.<br></br>
+                    <br></br>
+                    Our <b>3D virtual tours</b> include sound effects, for
+                    instance, music or a voiceover describing the product or the
+                    point of interest. We also offer buttons that can be clicked
+                    on by viewers who want to take a still picture of a specific
+                    part of the tour.
                   </p>
                 </div>
               </div>
@@ -97,7 +96,11 @@ export default function index() {
           </Row>
 
           <Row className={stylesThreeDTours.storeContainerFbox}>
-            <Col lg="6" sm="6" className={stylesThreeDTours.storeContainerFboxInner}>
+            <Col
+              lg="6"
+              sm="6"
+              className={stylesThreeDTours.storeContainerFboxInner}
+            >
               <div className={stylesThreeDTours.storeBox}>
                 <h5>Dollhouse View</h5>
                 {/* <Image
@@ -105,7 +108,7 @@ export default function index() {
                   src={toursStoreImg1}
                   alt="Spaceshift"
                 /> */}
-<img src="/images/img-13.jpg" alt="Spaceshift"/>
+                <img src="/images/img-13.jpg" alt="Spaceshift" />
 
                 <p>
                   A 3D Dollhouse view on your property allows your watchers to
@@ -115,7 +118,11 @@ export default function index() {
               </div>
             </Col>
 
-            <Col lg="6" sm="6" className={stylesThreeDTours.storeContainerFboxInner}>
+            <Col
+              lg="6"
+              sm="6"
+              className={stylesThreeDTours.storeContainerFboxInner}
+            >
               <div className={stylesThreeDTours.storeBox}>
                 <h5>Inside View</h5>
                 {/* <Image
@@ -123,7 +130,7 @@ export default function index() {
                   src={toursStoreImg2}
                   alt="Spaceshift"
                 /> */}
-<img src="/images/img-14.jpg" alt="Spaceshift"/>
+                <img src="/images/img-14.jpg" alt="Spaceshift" />
 
                 <p>
                   This natural 3D visit permits your client to carefully stroll
@@ -133,7 +140,11 @@ export default function index() {
               </div>
             </Col>
 
-            <Col lg="6" sm="6" className={stylesThreeDTours.storeContainerFboxInner}>
+            <Col
+              lg="6"
+              sm="6"
+              className={stylesThreeDTours.storeContainerFboxInner}
+            >
               <div className={stylesThreeDTours.storeBox}>
                 <h5>FloorPlan View</h5>
                 {/* <Image
@@ -141,17 +152,19 @@ export default function index() {
                   src={toursStoreImg3}
                   alt="Spaceshift"
                 /> */}
-<img src="/images/img-15.jpg" alt="Spaceshift"/>
+                <img src="/images/img-15.jpg" alt="Spaceshift" />
 
                 <p>
-                  Get a completely labeled floor plan with the tour and give
-                  twofold affirmation to your clients about the estimation of
-                  the space.
+                Get a completely labeled floor plan with the tour and give twofold affirmation to your clients about the estimation of the space. 
                 </p>
               </div>
             </Col>
 
-            <Col lg="6" sm="6" className={stylesThreeDTours.storeContainerFboxInner}>
+            <Col
+              lg="6"
+              sm="6"
+              className={stylesThreeDTours.storeContainerFboxInner}
+            >
               <div className={stylesThreeDTours.storeBox}>
                 <h5>VR View</h5>
                 {/* <Image
@@ -159,12 +172,10 @@ export default function index() {
                   src={toursStoreImg4}
                   alt="Spaceshift"
                 /> */}
-<img src="/images/img-16.jpg" alt="Spaceshift"/>
+                <img src="/images/img-16.jpg" alt="Spaceshift" />
 
                 <p>
-                  With the assistance of well-known VR gadgets like Oculus,
-                  Samsung Gear VR, and Google Cardboard, give your client a
-                  completely drenched 3D visit.
+                With the assistance of well-known VR gadgets like Oculus, Samsung Gear VR, and Google Cardboard, give your client a completely drenched 3D visit.
                 </p>
               </div>
             </Col>
@@ -183,15 +194,21 @@ export default function index() {
               <div className={stylesThreeDTours.matterportBox}>
                 <div className={stylesThreeDTours.matterportBoxImg}>
                   {/* <Image src={matterportLogo} alt="Spaceshift" /> */}
-<img src="/images/matterport-logo.png" alt="Spaceshift"/>
-
+                  <img src="/images/matterport-logo.png" alt="Spaceshift" />
                 </div>
 
                 <div className={stylesThreeDTours.matterportBoxInfo}>
                   <h2>Matterport Service</h2>
                   <br></br>
                   <p>
-                    Being a Matterport service provider, one thing organizations
+                  Being a <b>Matterport service provider</b>, one thing organizations can generally be guaranteed of, i.e., a-list and consistent experience with regards to virtual visiting. Matterport 3D real estate services are among perhaps the best ones. <br></br>
+                    <br></br>
+
+                    <b>Matterport 3D virtual tours</b> digitize and enable fully immersive three-dimensional settings that can support viewing your space from various angles, build functionality on top of it, and get precise measures. Putting it another way, it is a sort of active media that puts the viewer in the driver&#39;s seat, which can help in increasing engagement and contributing in-depth information on the layouts.
+
+
+
+                    {/* Being a Matterport service provider, one thing organizations
                     can generally be guaranteed of, i.e., a-list and consistent
                     experience with regards to virtual visiting. Matterport 3D
                     real estate services are among perhaps the best ones.
@@ -200,8 +217,9 @@ export default function index() {
                     viewing your space from various angles, build functionality
                     on top of it, and get precise measures. Putting it another
                     way, it is a sort of active media that puts the viewer in
-                    the driver&#39;s seat, which can help in increasing engagement
-                    and contributing in-depth information on the layouts.
+                    the driver&#39;s seat, which can help in increasing
+                    engagement and contributing in-depth information on the
+                    layouts. */}
                   </p>
                 </div>
               </div>
@@ -221,17 +239,7 @@ export default function index() {
               <div className={stylesThreeDTours.whatisMatterportBox}>
                 <h2>What is Matterport?</h2>
                 <p>
-                  Matterport, a three-dimensional camera system, is the
-                  technology that produces fully immersive virtual experiences.
-                  The potential viewers can explore the location from various
-                  viewpoints and obtain a feel for space without the need to
-                  travel. The unparalleled 3D capture technology of Matterport
-                  produces the spatial data layer on which the industries can
-                  interoperate and their all-in-one 3D data platform makes it
-                  much easier to turn any physical space into a precise and
-                  immersive digital twin. Matterport, much more than just
-                  panoramic scans, allows people to capture and combine rooms to
-                  produce truly interactive 3D models of spaces.
+                Matterport, a three-dimensional camera system, is the technology that produces fully immersive virtual experiences. The potential viewers can explore the location from various viewpoints and obtain a feel for space without the need to travel. The unparalleled 3D capture technology of Matterport produces the spatial data layer on which the industries can interoperate and their all-in-one 3D data platform makes it much easier to turn any physical space into a precise and immersive digital twin. Matterport, much more than just panoramic scans, allows people to capture and combine rooms to produce truly interactive 3D models of spaces.
                 </p>
               </div>
             </Col>
@@ -327,14 +335,21 @@ export default function index() {
                   <div className="tabContentLeftCol">
                     <h3>Matterport Digital Twin </h3>
                     <p>
-                    A Matterport digital twin is the most precise virtual 3D model of a location or place - regardless of whether it&#39;s anything but a room, a whole structure, or an open air space. Digital twins empower ventures like real estate, construction, and security to improve on how they function and associate with clients and merchants. 
+                     
+
+                      A Matterport digital twin is the most precise virtual 3D model of a location or place - regardless of whether it&#39;s anything but a room, a whole structure, or an open air space. Digital twins empower ventures like real estate, construction, and security to improve on how they function and associate with clients and merchants. With Matterport digital twin you can:
                     </p>
+
+                    <ul>
+                      <li> Capture and test cycles and thoughts with full visual context </li>
+                      <li> Report communications and work together productively with teams </li>
+                      <li> Welcome prospects to your space and fast-track sales </li>
+                    </ul>
                   </div>
 
                   <div className="tabContentLeftColImg">
                     {/* <Image src={googleStreetviewImg4} alt="Spaceshift" /> */}
-<img src="/images/img-9.png" alt="Spaceshift"/>
-                    
+                    <img src="/images/img-9.png" alt="Spaceshift" />
                   </div>
                 </div>
               </div>
@@ -346,18 +361,15 @@ export default function index() {
                   <div className="tabContentLeftCol">
                     <h3>Matterport SDK </h3>
                     <p>
-                      Praesent sapien massa, convallis a pellentesque nec,
-                      egestas non nisi. Donec sollicitudin molestie malesuada.
-                      Curabitur arcu erat, accumsan id imperdiet et, porttitor
-                      at sem. Nulla porttitor accumsan tincidunt. Lorem ipsum
-                      dolor sit amet, consectetur adipiscing elit.
+                    We make use of the Matterport SDK which helps us to integrate Matterport with your applications to ensure that unique and interesting experiences are created, for instance, online booking. To explain it further, you can find the virtual tour of Flexworx, a workspace solution, done by Matterport. We, using Matterport’s software development kit (SDK) added 2 extra features in it, i.e., a navigation menu and bookings option. So, the crux of the entire explanation is that Matterport SDK helps you add extra and unique features and helps you stand apart from the competition.<br></br><br></br>
+To view the virtual tour of Flexworx by Matterport, <a href="#!"> click here</a>
+To view the application of Matterport SDK by Spaceshift to custom-create features and experience, <a href="#!"> click here</a>
                     </p>
                   </div>
 
                   <div className="tabContentLeftColImg">
                     {/* <Image src={googleStreetviewImg4} alt="Spaceshift" /> */}
-<img src="/images/img-9.png" alt="Spaceshift"/>
-
+                    <img src="/images/img-9.png" alt="Spaceshift" />
                   </div>
                 </div>
               </div>
@@ -369,20 +381,13 @@ export default function index() {
                   <div className="tabContentLeftCol">
                     <h3> Precision</h3>
                     <p>
-                      Nulla porttitor accumsan tincidunt. Vivamus suscipit
-                      tortor eget felis porttitor volutpat. Pellentesque in
-                      ipsum id orci porta dapibus. Praesent sapien massa,
-                      convallis a pellentesque nec, egestas non nisi. Vestibulum
-                      ante ipsum primis in faucibus orci luctus et ultrices
-                      posuere cubilia Curae; Donec velit neque, auctor sit amet
-                      aliquam vel, ullamcorper sit amet ligula.
+                    The incredible, precise camera framework permits you to look over 10,000 square feet for each project. The results of the sweep are dimensionally exact, within 1%, and can create spatially precise schematic floor plans. This exactness empowers your clients to know precisely the thing they're getting before they even show up. 
                     </p>
                   </div>
 
                   <div className="tabContentLeftColImg">
                     {/* <Image src={googleStreetviewImg4} alt="Spaceshift" /> */}
-<img src="/images/img-9.png" alt="Spaceshift"/>
-
+                    <img src="/images/img-9.png" alt="Spaceshift" />
                   </div>
                 </div>
               </div>
@@ -394,19 +399,13 @@ export default function index() {
                   <div className="tabContentLeftCol">
                     <h3>Versatility</h3>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Vivamus suscipit tortor eget felis porttitor volutpat.
-                      Curabitur arcu erat, accumsan id imperdiet et, porttitor
-                      at sem. Vivamus magna justo, lacinia eget consectetur sed,
-                      convallis at tellus. Lorem ipsum dolor sit amet,
-                      consectetur adipiscing elit.
+                    <b> Matterport 3D walkthrough</b> is amazingly versatile and permits you to scan any space. You can add the data you need and effectively share it. The only constraint is your creative mind. 
                     </p>
                   </div>
 
                   <div className="tabContentLeftColImg">
                     {/* <Image src={googleStreetviewImg4} alt="Spaceshift" /> */}
-<img src="/images/img-9.png" alt="Spaceshift"/>
-
+                    <img src="/images/img-9.png" alt="Spaceshift" />
                   </div>
                 </div>
               </div>

@@ -57,19 +57,8 @@ export default function index() {
                
                 </div>
                 <p>
-                &#34;Aim of every virtual tour production company should be to
-                  help the potential audience get a customized digital tour so
-                  that maximum customer engagement can take place&#34;<br></br>
-                  Custom virtual tours are way more interactive and creative as
-                  compared to Google 360 tour or Google Virtual Tour, however,
-                  have a progression of customizable features that make it
-                  significantly more interactive and function as extraordinary
-                  marketing material. Furthermore, these custom virtual tours
-                  are an excellent choice as they are profoundly adjustable to
-                  the particular necessities of businesses. These tours are,
-                  actually, in the form of an html format and they tend to be
-                  embedded as another page of a website rather than being
-                  embedded as a portion of a page.
+                &#34;Aim of every virtual tour production company should be to help the potential audience get a customized digital tour so that maximum customer engagement can take place&#34;<br></br><br></br>
+                <b>Custom virtual tours</b> are way more interactive and creative as compared to <b>Google 360 tour </b>or<b>Google Virtual Tour</b> , however, have a progression of customizable features that make it significantly more interactive and function as extraordinary marketing material. Furthermore, these custom virtual tours are an excellent choice as they are profoundly adjustable to the particular necessities of businesses. These tours are, actually, in the form of an html format and they tend to be embedded as another page of a website rather than being embedded as a portion of a page.
                 </p>
               </div>
             </Col>
@@ -95,54 +84,30 @@ export default function index() {
               <Accordion.Item eventKey="0">
                 <Accordion.Header>Greater Permeability</Accordion.Header>
                 <Accordion.Body>
-                  Considering that these tours are extremely interactive, they
-                  further increment site traffic, and time spent on a page.
-                  While businesses should try to showcase their custom tour on
-                  their main website, these tours can likewise be effortlessly
-                  installed to online media for an additional lift in
-                  engagement.
+                Considering that these tours are extremely interactive, they further increment site traffic, and time spent on a page. While businesses should try to showcase their custom tour on their main website, these tours can likewise be effortlessly installed to online media for an additional lift in engagement.
                 </Accordion.Body>
               </Accordion.Item>
 
               <Accordion.Item eventKey="1">
                 <Accordion.Header>Organized Spaces</Accordion.Header>
                 <Accordion.Body>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
+                With <b>custom virtual tours</b>, we help you display different parts of your space and connect them to a custom navigation menu within the tour where the client can teleport from one part to the other by a click of a button. If you look at the floorplan image of the business outlet on the<b> [right or left]</b>, you can see that it has labeled its different rooms so the viewers can easily move from one space to another by accessing them from the navigation menu.
                 </Accordion.Body>
               </Accordion.Item>
 
-              <Accordion.Item eventKey="1">
+              <Accordion.Item eventKey="2">
                 <Accordion.Header>Added Features</Accordion.Header>
                 <Accordion.Body>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
+                The virtual tour stages support customized features for every business, like a FAQ for clients or showing an organization's contact data to make it open for expected customers. 
                 </Accordion.Body>
               </Accordion.Item>
 
-              <Accordion.Item eventKey="1">
+              <Accordion.Item eventKey="3">
                 <Accordion.Header>More Intuitive</Accordion.Header>
                 <Accordion.Body>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
+                Businesses that sell items can without much of a stretch add data labels, which show item data when clicked, with media types including video, photograph, text, and hotspots. Viewers can explore the hotspots to know more about the product offerings in terms of images, videos, external links, and more.<br></br><br></br>
+
+                SpaceShift works with your business to provide the best possible option and results for your needs. For more info <a href="#!">click here</a>
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
