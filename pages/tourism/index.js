@@ -45,23 +45,7 @@ export default function index() {
                 </div>
                 <div className={stylesTourism.tourismTopBoxContent}>
                   <p>
-                    Tourism is a multi-billion dollar industry that is
-                    continuously growing as more and more people travel. In this
-                    digital era, people have become more involved with
-                    technology and about 74% of people plan their trips using
-                    the Internet. As people are looking for different ways to
-                    explore the world around digitally, the tourism industry
-                    needs to adapt to these changes and developments to cater to
-                    everyone. The industry was also highly affected by the
-                    travel ban due to the COVID pandemic, which makes it all the
-                    more important to focus on using these advanced technologies
-                    to motivate people towards booking their next vacation. This
-                    is where Virtual Reality comes in. The technology can
-                    benefit the destination by providing an immersive experience
-                    that texts, photos, and videos don’t. Research shows that
-                    around 62% of people like to consider a virtual tour for
-                    travel planning, which shows exactly why stakeholders need
-                    to invest in it as soon as possible!
+                  Tourism is a multi-billion dollar industry that is continuously growing as more and more people travel. In this digital era, people have become more involved with technology and about 74% of people plan their trips using the Internet. As people are looking for different ways to explore the world around digitally, the tourism industry needs to adapt to these changes and developments to cater to everyone. The industry was also highly affected by the travel ban due to the COVID pandemic, which makes it all the more important to focus on using these advanced technologies to motivate people towards booking their next vacation. This is where <b>Virtual Reality</b> comes in. The technology can benefit the destination by providing an immersive experience that texts, photos, and videos don’t. Research shows that around 62% of people like to consider a <b>virtual tour</b> for travel planning, which shows exactly why stakeholders need to invest in it as soon as possible!
                   </p>
                 </div>
               </div>
@@ -69,17 +53,8 @@ export default function index() {
             <Col lg="12">
               <div className={stylesTourism.tourismTopBox2}>
                 <p>
-                  {" "}
-                  <b> Virtual Reality Technology </b> offers a sense of being
-                  physically present at the location, which stimulates the urge
-                  to travel and experience the destination physically. Moreover,
-                  tourists can interact with and explore the projected
-                  surroundings, which motivates them to choose the place as
-                  their next travel destination. SpaceShift has a team of
-                  experienced photographers and virtual reality developers in
-                  India, who shoot engaging and high-quality virtual tours and
-                  8k VR films to help you leverage these technologies and stand
-                  out among others.
+                  
+                  <b> Virtual Reality Technology </b> offers a sense of being physically present at the location, which stimulates the urge to travel and experience the destination physically. Moreover, tourists can interact with and explore the projected surroundings, which motivates them to choose the place as their next travel destination. SpaceShift has a team of experienced photographers and <b>virtual reality developers in India</b>, who shoot engaging and <b>high-quality virtual tours</b> and <b>8k VR films</b> to help you leverage these technologies and stand out among others.
                 </p>
               </div>
             </Col>
@@ -100,15 +75,7 @@ export default function index() {
                 </div>
                 <div className={stylesTourism.whatWeOfferTitleCol2}>
                   <p>
-                    The most common use of stereoscopic VR films and custom
-                    virtual tours in tourism is as a passive marketing element.
-                    A study by the University of Massachusetts Amherst showed
-                    that virtual walkthroughs generate positive emotions towards
-                    a travel destination, even if it is in the form of an
-                    advertisement. This is because 360 videography makes people
-                    feel involved and hold their attention more than a text
-                    description, photo, or video is capable of. Thus, it is
-                    imperative that you use Virtual Reality to draw in tourists.
+                  The most common use of stereoscopic VR films and <b>custom virtual tours</b> in tourism is as a passive marketing element. A study by the University of Massachusetts Amherst showed that <b>virtual walkthroughs </b>generate positive emotions towards a travel destination, even if it is in the form of an advertisement. This is because <b>360 videography</b> makes people feel involved and hold their attention more than a text description, photo, or video is capable of. Thus, it is imperative that you use <b>Virtual Reality</b> to draw in tourists.
                   </p>
                 </div>
               </div>
@@ -119,13 +86,7 @@ export default function index() {
                   <div className={stylesTourism.tourismBottomContentWrapLeft}>
                     <h5>Helps With Decision Making</h5>
                     <p>
-                      Custom virtual tours teleport you from one place to
-                      another digitally, to provide a 360 visual experience of
-                      the travel destination. This lets them explore and
-                      evaluate the information provided about the surroundings.
-                      If the destination appeals to their visual senses and
-                      fulfills all set criteria, they start planning the trip
-                      and book it.
+                    <b>Custom virtual tours</b> teleport you from one place to another digitally, to provide a 360 visual experience of the travel destination. This lets them explore and evaluate the information provided about the surroundings. If the destination appeals to their visual senses and fulfills all set criteria, they start planning the trip and book it.
                     </p>
                   </div>
                   <div className={stylesTourism.tourismBottomContentWrapRight}>
@@ -144,7 +105,7 @@ export default function index() {
                   <div className={stylesTourism.tourismBottomContentWrapLeft}>
                     <h5>Find Tourist Attractions</h5>
                     <p>
-                    Since any key point of an area can be highlighted in custom virtual tours, it becomes easier to create hotspots to indicate the different types of tourist attractions along with the details of any given space.
+                    Since any key point of an area can be highlighted in <b>custom virtual tours</b>, it becomes easier to create hotspots to indicate the different types of tourist attractions along with the details of any given space.
                     </p>
                   </div>
                   
@@ -155,7 +116,7 @@ export default function index() {
                   <div className={stylesTourism.tourismBottomContentWrapLeft}>
                     <h5>Provide an Unforgettable and Unmatchable Experience</h5>
                     <p>
-                    Virtual tours are immersive and let people move from one place to another using navigational hotspots, similar to movement during physical visits. This experience cannot be replicated by other traditional content forms and leave a lasting impression. Thus, they will be more motivated to book a trip to the destination in the future.
+                    <b>Virtual tours</b> are immersive and let people move from one place to another using navigational hotspots, similar to movement during physical visits. This experience cannot be replicated by other traditional content forms and leave a lasting impression. Thus, they will be more motivated to book a trip to the destination in the future.
 
                     </p>
                   </div>
@@ -175,7 +136,7 @@ export default function index() {
                   <div className={stylesTourism.tourismBottomContentWrapLeft}>
                     <h5>Can be Integrated with Websites</h5>
                     <p>
-                    360 degree virtual tours can be embedded into any website, which helps increase the look and quality. Moreover, they keep the user engaged with your content, keeping them on your website longer, which boosts your website’s SEO. You can also share these virtual tours on social media for wider exposure and to drive website traffic.
+                    <b>360 degree virtual tours</b> can be embedded into any website, which helps increase the look and quality. Moreover, they keep the user engaged with your content, keeping them on your website longer, which boosts your website’s SEO. You can also share these <b>virtual tours</b> on social media for wider exposure and to drive website traffic.
 
                     </p>
                   </div>

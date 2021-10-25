@@ -55,40 +55,14 @@ export default function index() {
                 <div className={stylesEvents.eventsTopInfo}>
                   <h1>Events</h1>
                   <p>
-                    Event professionals need to deliver their best on several
-                    fronts, to make any event memorable and inspiring. Attendees
-                    analyze the return on investment before purchasing tickets
-                    and look forward to productive and transformative
-                    experiences. When trying to plan the event and presenting
-                    the promised deliverables, it is important to hold the
-                    attention of the attendees without overwhelming or draining
-                    them. Imagine this - people enter an enclosed space to
-                    attend a seminar and see the sails of the Sydney Opera House
-                    come to life. Wouldn’t that help elevate the customer
-                    experience and keep them more invested? 3D projection
-                    mapping lets convert any surface, be it a simple wall, a
-                    stage, a building, or a complete room into a digital canvas.
-                    Not only is it fascinating and visually impressive, but it
-                    also helps you ‘wow’ your guests and increases the return on
-                    investment for them.
+                  Event professionals need to deliver their best on several fronts, to make any event memorable and inspiring. Attendees analyze the return on investment before purchasing tickets and look forward to productive and transformative experiences. When trying to plan the event and presenting the promised deliverables, it is important to hold the attention of the attendees without overwhelming or draining them.  Imagine this - people enter an enclosed space to attend a seminar and see the sails of the Sydney Opera House come to life. Wouldn’t that help elevate the customer experience and keep them more invested? <b>3D projection mapping</b> lets convert any surface, be it a simple wall, a stage, a building, or a complete room into a digital canvas. Not only is it fascinating and visually impressive, but it also helps you ‘wow’ your guests and increases the return on investment for them.
                   </p>
                 </div>
               </div>
             </Col>
             <Col lg="12">
               <p className={stylesEvents.thevalueText}>
-                The value of real-life interaction never goes away, but there
-                are certain times when hosting an event online becomes
-                necessary. Wouldn’t it be great if the natural dynamics and
-                visual experiences of an offline event could be replicated for a
-                virtual event? Well, this is possible with the use of virtual
-                sets, that allow the background to be controlled and manipulated
-                in real-time to provide an equivalent visual experience of any
-                realistic venue to viewers at home. SpaceShift has an
-                experienced team of professional virtual reality content
-                creators and developers capable of producing quality content for
-                Virtual Production, making it one of the top Virtual Reality
-                companies in India.
+              The value of real-life interaction never goes away, but there are certain times when hosting an event online becomes necessary. Wouldn’t it be great if the natural dynamics and visual experiences of an offline event could be replicated for a virtual event? Well, this is possible with the use of virtual sets, that allow the background to be controlled and manipulated in real-time to provide an equivalent visual experience of any realistic venue to viewers at home. SpaceShift has an experienced team of professional <b>virtual reality content creators and developers </b>capable of producing quality content for Virtual Production, making it one of the top <b>Virtual Reality companies in India.</b>  
               </p>
             </Col>
           </Row>
@@ -111,15 +85,7 @@ export default function index() {
                 <div className={stylesEvents.EventsTitleRight}>
                   <h2>Benefits of Virtual Sets and 3D Projection Mapping</h2>
                   <p>
-                    The success of any event is measured by customer
-                    satisfaction and the value attendees get from it. If an
-                    event successfully strikes a chord with the
-                    viewers/attendees, they are bound to remember the brand and
-                    its creativity in the long run. 3D Projection Mapping and
-                    Virtual Sets help to hold the attention of people by
-                    offering visual experiences that complement the event’s set
-                    agenda. Thus, these technologies help stimulate their visual
-                    senses, and provide an experience to remember.
+                  The success of any event is measured by customer satisfaction and the value attendees get from it. If an event successfully strikes a chord with the viewers/attendees, they are bound to remember the brand and its creativity in the long run. <b>3D Projection Mapping</b> and <b>Virtual Sets</b> help to hold the attention of people by offering visual experiences that complement the event’s set agenda. Thus, these technologies help stimulate their visual senses, and provide an experience to remember.
                   </p>
                 </div>
               </div>
@@ -131,38 +97,19 @@ export default function index() {
                   <div className={stylesEvents.eventsBottomContentLeft}>
                     <h5>Engaging StoryTelling Method</h5>
                     <p>
-                      With 3D projection mapping, you can bring your imagination
-                      into reality, by transforming any physical space to fit
-                      your narrative and make the event more cohesive. To create
-                      custom content and project it on any 3D physical space,
-                      the surface is taken into consideration while building the
-                      content to offer a more realistic touch to it. For
-                      example, the Temple House in Miami transformed one of
-                      their halls into a cherry blossom forest for a wedding
-                      ceremony and replicated the “fall” of rose petals from the
-                      trees to add a touch of grandeur. Similarly, the Cambie
-                      Street Bridge, Vancouver was converted into a virtual
-                      ocean to celebrate British Columbia’s annual salmon
-                      migration.
+                    With <b>3D projection mapping</b>, you can bring your imagination into reality, by transforming any physical space to fit your narrative and make the event more cohesive. To create custom content and project it on any 3D physical space, the surface is taken into consideration while building the content to offer a more realistic touch to it. For example, the Temple House in Miami transformed one of their halls into a cherry blossom forest for a wedding ceremony and replicated the “fall” of rose petals from the trees to add a touch of grandeur. Similarly, the Cambie Street Bridge, Vancouver was converted into a virtual ocean to celebrate British Columbia’s annual salmon migration.<br></br><br></br>
+
+                    Virtual events can be as immersive and visually appealing as real-life ones. Moreover, virtual sets can be used to transform the background into a scene straight out of your fantasy. Nowadays, live-streamed concerts and product launches use innovative virtual setups for next-level content creation. For example, Twitch’s virtual event Glitchcon, which celebrated the gaming culture featured a gaming arena-style virtual stage to provide viewers with a complete visually stimulating event.
                     </p>
 
                     <h5>Reduce Overall Costs</h5>
                     <p>
-                      For virtual events, traveling to a place and setting up a
-                      complete studio for a few hours can prove to be costly.
-                      With 3D virtual stage sets, the speakers and attendees can
-                      be transported to any realistic venue virtually, and
-                      extended reality elements can be added for the benefit of
-                      both the viewer and speaker.{" "}
+                    For virtual events, traveling to a place and setting up a complete studio for a few hours can prove to be costly. With 3D virtual stage sets, the speakers and attendees can be transported to any realistic venue virtually, and extended reality elements can be added for the benefit of both the viewer and speaker. 
                     </p>
 
                     <h5>Helps Add Context and Depth</h5>
                     <p>
-                      It is undeniable that 3D projection mapping and virtual
-                      sets help make the event more visually appealing, but it
-                      also helps add more context and depth by showcasing
-                      displays and adding sound effects that help users
-                      visualize what the speaker is talking about.
+                    It is undeniable that <b>3D projection mapping </b>and virtual sets help make the event more visually appealing, but it also helps add more context and depth by showcasing displays and adding sound effects that help users visualize what the speaker is talking about.
                     </p>
                   </div>
                   <div className={stylesEvents.eventsBottomContentRight}>

@@ -150,6 +150,7 @@
 
 .whatWeOfferBoxMain .whatWeOfferCol6 {
   padding-right: 60px;
+  margin-bottom: 50px;
  
  
   h3{
@@ -188,6 +189,10 @@
 }
 .surveyText{
   margin-bottom: 0 !important;
+}
+.benefitList{
+  position: relative;
+  z-index: 99;
 }
 @media(max-width:1100px){
   .hospitalsTopContent {
