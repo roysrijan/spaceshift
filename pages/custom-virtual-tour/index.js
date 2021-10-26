@@ -98,7 +98,7 @@ export default function index() {
               <Accordion.Item eventKey="2">
                 <Accordion.Header>Added Features</Accordion.Header>
                 <Accordion.Body>
-                The virtual tour stages support customized features for every business, like a FAQ for clients or showing an organization's contact data to make it open for expected customers. 
+                The virtual tour stages support customized features for every business, like a FAQ for clients or showing an organization&#39;s contact data to make it open for expected customers. 
                 </Accordion.Body>
               </Accordion.Item>
 

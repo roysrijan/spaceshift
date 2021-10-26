@@ -65,7 +65,7 @@ export default function index() {
                   <h2>Introduction</h2>
                   <p>
                     A <b>3D virtual tour</b> is a sequential display of
-                    panoramic images that are "sewed" together to produce a
+                    panoramic images that are &#34;sewed&#34; together to produce a
                     &#34;virtual&#34; experience or an encounter of any
                     location. When created, the viewers can experience the
                     presence of a particular location without being there.
@@ -381,7 +381,7 @@ To view the application of Matterport SDK by Spaceshift to custom-create feature
                   <div className="tabContentLeftCol">
                     <h3> Precision</h3>
                     <p>
-                    The incredible, precise camera framework permits you to look over 10,000 square feet for each project. The results of the sweep are dimensionally exact, within 1%, and can create spatially precise schematic floor plans. This exactness empowers your clients to know precisely the thing they're getting before they even show up. 
+                    The incredible, precise camera framework permits you to look over 10,000 square feet for each project. The results of the sweep are dimensionally exact, within 1%, and can create spatially precise schematic floor plans. This exactness empowers your clients to know precisely the thing they&#39;re getting before they even show up. 
                     </p>
                   </div>
 

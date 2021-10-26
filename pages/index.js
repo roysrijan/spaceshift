@@ -27,7 +27,7 @@ import "react-alice-carousel/lib/alice-carousel.css";
 const handleDragStart = (e) => e.preventDefault();
 const items = [
   <div className="undertakenImgWrap">
-    <img src="/images/banner-1.jpg" onDragStart={handleDragStart} />
+    <img src="/images/banner-1.jpg" alt="Spaceshift" onDragStart={handleDragStart} />
     <div
       className={
         stylesHome["indusTabBoxImageInfo"] +
@@ -40,7 +40,7 @@ const items = [
     </div>
   </div>,
   <div className="undertakenImgWrap">
-    <img src="/images/banner-1.jpg" onDragStart={handleDragStart} />
+    <img src="/images/banner-1.jpg" alt="Spaceshift" onDragStart={handleDragStart} />
     <div
       className={
         stylesHome["indusTabBoxImageInfo"] +
@@ -53,7 +53,7 @@ const items = [
     </div>
   </div>,
   <div className="undertakenImgWrap">
-    <img src="/images/banner-1.jpg" onDragStart={handleDragStart} />
+    <img src="/images/banner-1.jpg" alt="Spaceshift" onDragStart={handleDragStart} />
     <div
       className={
         stylesHome["indusTabBoxImageInfo"] +
@@ -66,7 +66,7 @@ const items = [
     </div>
   </div>,
   <div className="undertakenImgWrap">
-    <img src="/images/banner-1.jpg" onDragStart={handleDragStart} />
+    <img src="/images/banner-1.jpg" alt="Spaceshift" onDragStart={handleDragStart} />
     <div
       className={
         stylesHome["indusTabBoxImageInfo"] +
@@ -79,7 +79,7 @@ const items = [
     </div>
   </div>,
   <div className="undertakenImgWrap">
-    <img src="/images/banner-1.jpg" onDragStart={handleDragStart} />
+    <img src="/images/banner-1.jpg" alt="Spaceshift" onDragStart={handleDragStart} />
     <div
       className={
         stylesHome["indusTabBoxImageInfo"] +
@@ -691,7 +691,7 @@ export default function Home() {
                     We make sure that our creative solutions construct a
                     positive impact on your customer’s mind
                   </p>
-                  <a class="coloredBt">View all</a>
+                  <a className="coloredBt">View all</a>
                 </div>
 
                 <div className={stylesHome.projectUndertakenBox2}>

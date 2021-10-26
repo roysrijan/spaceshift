@@ -103,13 +103,13 @@ export default function index() {
                   <p>
                     At the point when organizations put forth a noticeable
                     attempt to post new types of media and substance, they ask
-                    for customers' consideration; on that note, investing a
+                    for customers&#39; consideration; on that note, investing a
                     little energy does go a long way.  <br></br>
                     <br></br>
                     Posting new content tells your crowd you are continually
                     developing. As a rule, continually innovating means you will
-                    be here and not vanish tomorrow. It's a decent pointer of a
-                    marvelous brand that has most people's consideration. 
+                    be here and not vanish tomorrow. It&#39;s a decent pointer of a
+                    marvelous brand that has most people&#39;s consideration. 
                     <br></br>
                     <br></br>
                     New research recommends putting resources into VR

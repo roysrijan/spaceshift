@@ -49,7 +49,7 @@ export default function index() {
           <p>
           Street View, by Google Maps (commonly known as Google Street View), is a virtual depiction of our surroundings on Google Maps, consisting of millions of panoramic images. We, at Spaceshift, specifically focus on<b> Google street view for business.</b> Such 360 tours ensure an exclusive peek at your business or the surrounding environment without needing to be on-site, furthermore, enhancing your visibility. <br></br>
             <br></br>
-            According to Google, businesses that include images and<b> 360 Virtual tours </b>are twice as likely to produce viewer engagement and interest. With the increasing number of businesses that are competing for your potential audience's attention online, you would want to ensure that the customer's decision to check out your business is a no-brainer.
+            According to Google, businesses that include images and<b> 360 Virtual tours </b>are twice as likely to produce viewer engagement and interest. With the increasing number of businesses that are competing for your potential audience&#39;s attention online, you would want to ensure that the customer&#39;s decision to check out your business is a no-brainer.
             <br></br>
             <br></br>
             These tours add to trust-building and credibility in your brand, irrespective of your product offering. They accommodate your clients with an immersive experience that entices them to engage with your brand and experience the inner look of your location.
@@ -158,7 +158,7 @@ export default function index() {
                   <div className="tabContentLeftCol">
                     <h3>Address client&#39;s issue for exploring </h3>
                     <p>
-                    With Google Maps 360 View you can address clients' issues for research by giving them the data they would need to dive for different destinations in a more dependable manner. Additionally, it can build sales as clients are energized and prepared before putting a foot in your business. 
+                    With Google Maps 360 View you can address clients&#39; issues for research by giving them the data they would need to dive for different destinations in a more dependable manner. Additionally, it can build sales as clients are energized and prepared before putting a foot in your business. 
                     </p>
                   </div>
 
@@ -175,7 +175,7 @@ export default function index() {
                   <div className="tabContentLeftCol">
                     <h3>Improve upon the connection with your clients </h3>
                     <p>
-                    A ton of organizations attempt to bait clients to their business under pretenses. This makes a terrible encounter when clients understand the business isn't the thing they were expecting. Google 360 Degree Virtual Tour allows you to show the atmosphere of your restaurant or exhibit the nature of your business, so clients can see that your business coordinates with their accurate requirements. 
+                    A ton of organizations attempt to bait clients to their business under pretenses. This makes a terrible encounter when clients understand the business isn&#39;t the thing they were expecting. Google 360 Degree Virtual Tour allows you to show the atmosphere of your restaurant or exhibit the nature of your business, so clients can see that your business coordinates with their accurate requirements. 
                     </p>
                   </div>
 
@@ -192,7 +192,7 @@ export default function index() {
                   <div className="tabContentLeftCol">
                     <h3>Arrive at your target audience </h3>
                     <p>
-                    Suppose you're a sports bar whose potential audience is school football fans. To draw them in, you've hung up football banners and <b>memorabilia</b> all through your café. Flaunting the stylistic layout is an extraordinary method to arrive at them and <b>Google Virtual Tour</b> gives you the stage to do so. Out of nowhere, school football fans can take a <b>360 degree virtual tour</b> through your café and get snared, when they see your stylistic theme. 
+                    Suppose you&#39;re a sports bar whose potential audience is school football fans. To draw them in, you&#39;ve hung up football banners and <b>memorabilia</b> all through your café. Flaunting the stylistic layout is an extraordinary method to arrive at them and <b>Google Virtual Tour</b> gives you the stage to do so. Out of nowhere, school football fans can take a <b>360 degree virtual tour</b> through your café and get snared, when they see your stylistic theme. 
                     </p>
                   </div>
 
