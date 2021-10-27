@@ -26,7 +26,9 @@ import "react-alice-carousel/lib/alice-carousel.css";
 
 const handleDragStart = (e) => e.preventDefault();
 const items = [
-  <div className="undertakenImgWrap">
+
+  
+  <div key="1" className="undertakenImgWrap">
     <img src="/images/banner-1.jpg" alt="Spaceshift" onDragStart={handleDragStart} />
     <div
       className={
@@ -39,7 +41,9 @@ const items = [
       <span className={stylesHome.projectName}>Project Name</span>
     </div>
   </div>,
-  <div className="undertakenImgWrap">
+
+
+  <div key="2" className="undertakenImgWrap">
     <img src="/images/banner-1.jpg" alt="Spaceshift" onDragStart={handleDragStart} />
     <div
       className={
@@ -52,7 +56,7 @@ const items = [
       <span className={stylesHome.projectName}>Project Name</span>
     </div>
   </div>,
-  <div className="undertakenImgWrap">
+  <div key="3" className="undertakenImgWrap">
     <img src="/images/banner-1.jpg" alt="Spaceshift" onDragStart={handleDragStart} />
     <div
       className={
@@ -65,7 +69,7 @@ const items = [
       <span className={stylesHome.projectName}>Project Name</span>
     </div>
   </div>,
-  <div className="undertakenImgWrap">
+  <div key="4" className="undertakenImgWrap">
     <img src="/images/banner-1.jpg" alt="Spaceshift" onDragStart={handleDragStart} />
     <div
       className={
@@ -78,7 +82,7 @@ const items = [
       <span className={stylesHome.projectName}>Project Name</span>
     </div>
   </div>,
-  <div className="undertakenImgWrap">
+  <div key="5" className="undertakenImgWrap">
     <img src="/images/banner-1.jpg" alt="Spaceshift" onDragStart={handleDragStart} />
     <div
       className={
