@@ -202,7 +202,7 @@ export default function Home() {
             <Col lg="6" sm="6" className={stylesHome.whatWeOfferCol6}>
               <div className={stylesHome.whatWeOfferBox}>
                 {/* <Image src={whatWeOfferImg1} alt="Spaceshift" /> */}
-                <img src="/images/img-1.jpg" alt="Spaceshift" />
+                <img src="/images/google-streetview-360-thumbnail.webp" alt="Spaceshift" />
 
                 <h3>Google street view</h3>
                 <p>
@@ -215,7 +215,7 @@ export default function Home() {
             <Col lg="6" sm="6" className={stylesHome.whatWeOfferCol6}>
               <div className={stylesHome.whatWeOfferBox}>
                 {/* <Image src={whatWeOfferImg2} alt="Spaceshift" /> */}
-                <img src="/images/img-2.jpg" alt="Spaceshift" />
+                <img src="/images/3d-tours-thumbnail.webp" alt="Spaceshift" />
 
                 <h3>3D Tours</h3>
                 <p>
@@ -228,7 +228,7 @@ export default function Home() {
             <Col lg="6" sm="6" className={stylesHome.whatWeOfferCol6}>
               <div className={stylesHome.whatWeOfferBox}>
                 {/* <Image src={whatWeOfferImg3} alt="Spaceshift" /> */}
-                <img src="/images/img-3.jpg" alt="Spaceshift" />
+                <img src="/images/custom-virtual-tours-thumbnail.webp" alt="Spaceshift" />
 
                 <h3>Custom virtual tours</h3>
                 <p>
@@ -254,7 +254,7 @@ export default function Home() {
             <Col lg="6" sm="6" className={stylesHome.whatWeOfferCol6}>
               <div className={stylesHome.whatWeOfferBox}>
                 {/* <Image src={whatWeOfferImg5} alt="Spaceshift" /> */}
-                <img src="/images/img-5.jpg" alt="Spaceshift" />
+                <img src="/images/projection-mapping-thumbnail.webp" alt="Spaceshift" />
 
                 <h3>3D Projection mapping</h3>
                 <p>
@@ -267,7 +267,7 @@ export default function Home() {
             <Col lg="6" sm="6" className={stylesHome.whatWeOfferCol6}>
               <div className={stylesHome.whatWeOfferBox}>
                 {/* <Image src={whatWeOfferImg6} alt="Spaceshift" /> */}
-                <img src="/images/img-6.jpg" alt="Spaceshift" />
+                <img src="/images/photogrammetry-thumbnail.webp" alt="Spaceshift" />
 
                 <h3>Photogrammetry</h3>
                 <p>
@@ -398,7 +398,7 @@ export default function Home() {
                             <div className={stylesHome.indusTabBoxImage}>
                               {/* <Image src={indusTabImage} alt="Spaceshift" /> */}
                               <img
-                                src="/images/industries.jpg"
+                                src="/images/hospitality.webp"
                                 alt="Spaceshift"
                               />
 
@@ -433,7 +433,7 @@ export default function Home() {
                             <div className={stylesHome.indusTabBoxImage}>
                               {/* <Image src={indusTabImage} alt="Spaceshift" /> */}
                               <img
-                                src="/images/industries.jpg"
+                                src="/images/real-estate.webp"
                                 alt="Spaceshift"
                               />
 
@@ -468,7 +468,7 @@ export default function Home() {
                             <div className={stylesHome.indusTabBoxImage}>
                               {/* <Image src={indusTabImage} alt="Spaceshift" /> */}
                               <img
-                                src="/images/industries.jpg"
+                                src="/images/showrooms.webp"
                                 alt="Spaceshift"
                               />
                               <div className={stylesHome.indusTabBoxImageInfo}>
@@ -502,7 +502,7 @@ export default function Home() {
                             <div className={stylesHome.indusTabBoxImage}>
                               {/* <Image src={indusTabImage} alt="Spaceshift" /> */}
                               <img
-                                src="/images/industries.jpg"
+                                src="/images/tourism.webp"
                                 alt="Spaceshift"
                               />
                               <div className={stylesHome.indusTabBoxImageInfo}>
@@ -536,7 +536,7 @@ export default function Home() {
                             <div className={stylesHome.indusTabBoxImage}>
                               {/* <Image src={indusTabImage} alt="Spaceshift" /> */}
                               <img
-                                src="/images/industries.jpg"
+                                src="/images/educational.webp"
                                 alt="Spaceshift"
                               />
                               <div className={stylesHome.indusTabBoxImageInfo}>
@@ -571,7 +571,7 @@ export default function Home() {
                             <div className={stylesHome.indusTabBoxImage}>
                               {/* <Image src={indusTabImage} alt="Spaceshift" /> */}
                               <img
-                                src="/images/industries.jpg"
+                                src="/images/events.webp"
                                 alt="Spaceshift"
                               />
                               <div className={stylesHome.indusTabBoxImageInfo}>
@@ -606,7 +606,7 @@ export default function Home() {
                               {/* <Image src={indusTabImage} alt="Spaceshift" /> */}
 
                               <img
-                                src="/images/industries.jpg"
+                                src="/images/Hospitals.webp"
                                 alt="Spaceshift"
                               />
                               <div className={stylesHome.indusTabBoxImageInfo}>
@@ -640,7 +640,7 @@ export default function Home() {
                             <div className={stylesHome.indusTabBoxImage}>
                               {/* <Image src={indusTabImage} alt="Spaceshift" /> */}
                               <img
-                                src="/images/industries.jpg"
+                                src="/images/restoration.webp"
                                 alt="Spaceshift"
                               />
 
