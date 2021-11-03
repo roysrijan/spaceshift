@@ -170,7 +170,7 @@ export default function Home() {
                 Through the collaboration of in-house talent, SpaceShift aims at striving towards the best possible solutions for the clients. Inspiration is what people at SpaceShift put in their lives and work every day.
                 </p>
 
-                <a className="coloredBt">Explore more projects</a>
+                {/* <a className="coloredBt">Explore more projects</a> */}
               </div>
             </Col>
 
@@ -289,7 +289,7 @@ export default function Home() {
             <Col lg="12">
               <div className={stylesHome.whatWeOfferTitle}>
                 <div className="tinyTitle">
-                  <h5>What we offer</h5>
+                  <h5>Who we cater to</h5>
                 </div>
               </div>
               <div className={stylesHome.industriesWrap}>
@@ -375,7 +375,7 @@ export default function Home() {
                               </div>
                             </div>
 
-                            <a className="seeMoreBt">
+                            <a className="seeMoreBt" href="/restaurants-n-cafes">
                               <p>See more </p>{" "}
                               {/* <Image src={rightArrow} alt="Spaceshift" /> */}
                               <img
@@ -410,7 +410,7 @@ export default function Home() {
                               </div>
                             </div>
 
-                            <a className="seeMoreBt">
+                            <a className="seeMoreBt" href="/travel-n-hospitality">
                               <p>See more </p>{" "}
                               {/* <Image src={rightArrow} alt="Spaceshift" /> */}
                               <img
@@ -445,7 +445,7 @@ export default function Home() {
                               </div>
                             </div>
 
-                            <a className="seeMoreBt">
+                            <a className="seeMoreBt" href="/real-estate">
                               <p>See more </p>{" "}
                               {/* <Image src={rightArrow} alt="Spaceshift" /> */}
                               <img
@@ -479,7 +479,7 @@ export default function Home() {
                               </div>
                             </div>
 
-                            <a className="seeMoreBt">
+                            <a className="seeMoreBt" href="/retails">
                               <p>See more </p>{" "}
                               {/* <Image src={rightArrow} alt="Spaceshift" /> */}
                               <img
@@ -513,7 +513,7 @@ export default function Home() {
                               </div>
                             </div>
 
-                            <a className="seeMoreBt">
+                            <a className="seeMoreBt" href="/tourism">
                               <p>See more </p>{" "}
                               {/* <Image src={rightArrow} alt="Spaceshift" /> */}
                               <img
@@ -547,7 +547,7 @@ export default function Home() {
                               </div>
                             </div>
 
-                            <a className="seeMoreBt">
+                            <a className="seeMoreBt" href="/educational-institutes">
                               <p>See more </p>{" "}
                               {/* <Image src={rightArrow} alt="Spaceshift" /> */}
                               <img
@@ -582,7 +582,7 @@ export default function Home() {
                               </div>
                             </div>
 
-                            <a className="seeMoreBt">
+                            <a className="seeMoreBt" href="/events">
                               <p>See more </p>{" "}
                               {/* <Image src={rightArrow} alt="Spaceshift" /> */}
                               <img
@@ -617,7 +617,7 @@ export default function Home() {
                               </div>
                             </div>
 
-                            <a className="seeMoreBt">
+                            <a className="seeMoreBt" href="/hospitals-n-clinic">
                               <p>See more </p>{" "}
                               {/* <Image src={rightArrow} alt="Spaceshift" /> */}
                               <img
@@ -652,7 +652,7 @@ export default function Home() {
                               </div>
                             </div>
 
-                            <a className="seeMoreBt">
+                            <a className="seeMoreBt" href="/restoration"> 
                               <p>See more </p>{" "}
                               {/* <Image src={rightArrow} alt="Spaceshift" /> */}
                               <img
@@ -672,7 +672,7 @@ export default function Home() {
         </Container>
       </section>
 
-      <section
+      {/* <section
         className={
           stylesHome["projectUndertakenContainer"] + " " + "blockPadding"
         }
@@ -721,7 +721,7 @@ export default function Home() {
           </Row>
         </Container>
       </section>
-
+ */}
 
 
       <section
@@ -812,7 +812,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className={stylesHome.testimonialBox}>
+            {/* <div className={stylesHome.testimonialBox}>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Tincidunt amet eros felis neque blandit fermentum. Mattis erat
@@ -822,7 +822,7 @@ export default function Home() {
 
               <div className={stylesHome.testimonialAuthor}>
                 <div className={stylesHome.testimonialAuthorImgBox}>
-                  {/* <Image src={testimonialAuthor} alt="Spaceshift" /> */}
+                 
                   <img src="/images/testimonial-img.jpg" alt="Spaceshift" />
                 </div>
                 <div className={stylesHome.testimonialAuthorname}>
@@ -830,7 +830,7 @@ export default function Home() {
                   <p>Lorem ipsum dolor sit amet,</p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </Carousel>
         </div>
       </section>
