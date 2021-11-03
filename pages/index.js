@@ -363,7 +363,7 @@ export default function Home() {
                             <div className={stylesHome.indusTabBoxImage}>
                               {/* <Image src={indusTabImage} alt="Spaceshift" /> */}
                               <img
-                                src="/images/industries.jpg"
+                                src="/images/restaurants-cafes.webp"
                                 alt="Spaceshift"
                               />
 
