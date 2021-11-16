@@ -151,6 +151,7 @@ a:hover {
 .react-tabs__tab {
   padding: 0 !important;
   border: 0 !important;
+  width: 17%;
 }
 
 .react-tabs__tab--selected {
@@ -166,6 +167,7 @@ a:hover {
   padding: 15px 0;
   margin-top: 15px;
   padding-right: 54px;
+  text-align: left;
 }
 .react-tabs__tab--selected .whyGViewTabTitle span {
   border-top: 1px solid #3ec0b9;
@@ -184,7 +186,7 @@ a:hover {
   padding-top: 50px;
 }
 .tabContentMainInner {
-  width: 78%;
+  width: 84%;
   display: flex;
 }
 .tabContentLeftCol {
@@ -479,7 +481,9 @@ a:hover {
   .indusTabBoxImageInfoNew{
     width:70%
   }
- 
+  .react-tabs__tab{
+    width: auto;
+  }
 }
 
 @media (max-width: 767px) {

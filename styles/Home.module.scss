@@ -136,8 +136,9 @@
     background-color: rgba(255, 255, 255, 0.489);
     border: none;
     padding: 0 15px;
-    border-radius: 5px 0 0 5px;
+    border-radius: 5px;
     width: 250px;
+    margin: 0 5px;
   }
   button {
     height: 40px;
@@ -145,13 +146,27 @@
     text-transform: uppercase;
     font-size: 16px;
     border: none;
-    border-radius: 0 5px 5px 0;
+    border-radius: 5px;
     padding: 0 33px;
     &:hover {
       background-color: #000000;
     }
   }
 }
+
+.submitBt {
+  height: 40px;
+  background-color: #000000 !important;
+  text-transform: uppercase;
+  font-size: 16px;
+  border: none;
+  border-radius:5px;
+  padding: 0 33px;
+  &:hover {
+    background-color: #000000;
+  }
+}
+
 .manyReasonBoxForm input:focus {
   background-color: rgba(255, 255, 255, 0.489) !important;
   box-shadow: unset !important;
@@ -301,8 +316,13 @@
   }
   .manyReasonBoxForm {
     padding: 0 15px;
+    display: flex;
+    flex-direction: column;
   }
-
+  .manyReasonBoxForm input{
+    margin-bottom: 15px;
+    width: 100%;
+  }
   .indusTabBoxImageInfo {
     right: 0;
   }

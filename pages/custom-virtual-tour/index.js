@@ -26,7 +26,7 @@ export default function index() {
       <Header />
       <div className="innerPageHeaderWrap black-bg">
         {/* <Image src={customVirtualTourImg} alt="Spaceshift" /> */}
-<img src="/images/custom-virtual-tour.jpg" alt="Spaceshift"/>
+<img src="/images/custom-virtual-tours-cover.webp" alt="Spaceshift"/>
 
         <div className="innerPageHeaderTitle black-bg">
           <h2>Custom Virtual Tours</h2>

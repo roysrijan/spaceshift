@@ -14,6 +14,7 @@
 }
 .Tour3dContentBoxImg{
     width: 40%;
+    position: relative;
 }
 .storeContainer{
     background-color: #2B2B2B;
@@ -86,6 +87,20 @@ box-shadow:         0px 1px 5px 0px rgba(50, 50, 50, 0.11);
     color:#fff;
     text-align: center;
     padding-bottom: 0;
+}
+.whatWeOffermainWrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.playBt {
+    width: 79px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: none;
+    z-index: 999;
+    background: none;
+    transform: translate(-50%, -50%);
 }
 @media(max-width:900px){
     .whatisMatterportBox {

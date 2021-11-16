@@ -17,6 +17,7 @@ import stylesGstreet from "../../styles/GoogleStreet.module.scss";
 import Footer from "../components/footer";
 import Header from "../components/header";
 import "bootstrap/dist/css/bootstrap.css";
+import { useState } from "react";
 
 // import googleStreetviewImg from "../../public/images/google-street-header-banner.png";
 // import googleStreetviewImg2 from "../../public/images/img-7.jpg";
@@ -24,12 +25,14 @@ import "bootstrap/dist/css/bootstrap.css";
 // import googleStreetviewImg4 from "../../public/images/img-9.png";
 
 export default function index() {
+
+  const [play, setplay] = useState(false);
   return (
     <div className="globalWrap">
       <Header />
       <div className="innerPageHeaderWrap">
         {/* <Image src={googleStreetviewImg} alt="Spaceshift" /> */}
-        <img src="/images/google-street-header-banner.png" alt="Spaceshift" />
+        <img src="/images/google-stretview-360-cover.webp" alt="Spaceshift" />
 
         <div className="innerPageHeaderTitle">
           <h2>Google Street View</h2>
@@ -43,7 +46,16 @@ export default function index() {
 
       <section className={stylesGstreet["gstreetCol1Container"] + " " + ""}>
         {/* <Image src={googleStreetviewImg2} alt="Spaceshift" /> */}
-        <img src="/images/img-7.jpg" alt="Spaceshift" />
+
+        <div className={stylesGstreet.Tour3dContentBoxImg}>
+                  {/* <Image src={threedToursImg} alt="Spaceshift" /> */}
+                 {!play && (<> <img src="/images/gogle-streetview-360-on-a-phone.webp" alt="Spaceshift" /> 
+                 <button className={stylesGstreet.playBt} onClick={()=>setplay(true)}><img src="/images/play-icon.png" alt="Spaceshift" /></button></>)}
+                 
+                 { play && (<iframe width='100%' height='480' src='https://www.google.com/maps/uv?pb=!1s0x3a02772b28436de7%3A0xafdb64f50e38606!3m1!7e115!4shttps%3A%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOcNgU10Ks0qdZNYn9PGopEnvzUglCdmfzT9o5e%3Dw120-h160-k-no!5scafe%20drifter%20kolkata%20-%20Google%20Search!15sCgIgARICCAI&imagekey=!1e10!2sAF1QipOhgxGicXX65H2dMdYdG2YJD8GCatg9m9sI1DE5&hl=en&sa=X&ved=2ahUKEwiYusTRhpj0AhVVQH0KHat-Bf8Qoip6BAg8EAM' frameborder='0' allowfullscreen allow='xr-spatial-tracking' ></iframe>)}
+                </div>
+
+        
 
         <div className={stylesGstreet.gstreetCol1Content}>
           <p>
@@ -71,6 +83,8 @@ export default function index() {
       <section
         className={stylesGstreet["whyGViewContainer"] + " " + "blockPadding"}
       >
+
+<div className={stylesGstreet.whatWeOffermainWrapper}>
         <div className={stylesGstreet.whyGView}>
           <div className="tinyTitle">
             <h5>Google Street View for Business</h5>
@@ -220,6 +234,8 @@ export default function index() {
               </div>
             </TabPanel>
           </Tabs>
+        </div>
+      
         </div>
       </section>
 

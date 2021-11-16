@@ -10,6 +10,7 @@ import {
   Tabs,
   Tab,
   Sonnet,
+  Modal
 } from "react-bootstrap";
 
 import Carousel from "react-multi-carousel";
@@ -24,17 +25,21 @@ import "bootstrap/dist/css/bootstrap.css";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 
+
+
+
+
 const handleDragStart = (e) => e.preventDefault();
 const items = [
-
-  
   <div key="1" className="undertakenImgWrap">
-    <img src="/images/banner-1.jpg" alt="Spaceshift" onDragStart={handleDragStart} />
+    <img
+      src="/images/banner-1.jpg"
+      alt="Spaceshift"
+      onDragStart={handleDragStart}
+    />
     <div
       className={
-        stylesHome["indusTabBoxImageInfo"] +
-        " " +
-       "indusTabBoxImageInfoNew"
+        stylesHome["indusTabBoxImageInfo"] + " " + "indusTabBoxImageInfoNew"
       }
     >
       <span>01 --- 3D Tours</span>
@@ -42,14 +47,15 @@ const items = [
     </div>
   </div>,
 
-
   <div key="2" className="undertakenImgWrap">
-    <img src="/images/banner-1.jpg" alt="Spaceshift" onDragStart={handleDragStart} />
+    <img
+      src="/images/banner-1.jpg"
+      alt="Spaceshift"
+      onDragStart={handleDragStart}
+    />
     <div
       className={
-        stylesHome["indusTabBoxImageInfo"] +
-        " " +
-        "indusTabBoxImageInfoNew"
+        stylesHome["indusTabBoxImageInfo"] + " " + "indusTabBoxImageInfoNew"
       }
     >
       <span>02 --- 3D Tours</span>
@@ -57,12 +63,14 @@ const items = [
     </div>
   </div>,
   <div key="3" className="undertakenImgWrap">
-    <img src="/images/banner-1.jpg" alt="Spaceshift" onDragStart={handleDragStart} />
+    <img
+      src="/images/banner-1.jpg"
+      alt="Spaceshift"
+      onDragStart={handleDragStart}
+    />
     <div
       className={
-        stylesHome["indusTabBoxImageInfo"] +
-        " " +
-        "indusTabBoxImageInfoNew"
+        stylesHome["indusTabBoxImageInfo"] + " " + "indusTabBoxImageInfoNew"
       }
     >
       <span>03 --- 3D Tours</span>
@@ -70,12 +78,14 @@ const items = [
     </div>
   </div>,
   <div key="4" className="undertakenImgWrap">
-    <img src="/images/banner-1.jpg" alt="Spaceshift" onDragStart={handleDragStart} />
+    <img
+      src="/images/banner-1.jpg"
+      alt="Spaceshift"
+      onDragStart={handleDragStart}
+    />
     <div
       className={
-        stylesHome["indusTabBoxImageInfo"] +
-        " " +
-        "indusTabBoxImageInfoNew"
+        stylesHome["indusTabBoxImageInfo"] + " " + "indusTabBoxImageInfoNew"
       }
     >
       <span>04 --- 3D Tours</span>
@@ -83,19 +93,20 @@ const items = [
     </div>
   </div>,
   <div key="5" className="undertakenImgWrap">
-    <img src="/images/banner-1.jpg" alt="Spaceshift" onDragStart={handleDragStart} />
+    <img
+      src="/images/banner-1.jpg"
+      alt="Spaceshift"
+      onDragStart={handleDragStart}
+    />
     <div
       className={
-        stylesHome["indusTabBoxImageInfo"] +
-        " " +
-        "indusTabBoxImageInfoNew"
+        stylesHome["indusTabBoxImageInfo"] + " " + "indusTabBoxImageInfoNew"
       }
     >
       <span>05 --- 3D Tours</span>
       <span className={stylesHome.projectName}>Project Name</span>
     </div>
   </div>,
-  
 ];
 // import aboutVideo from "../public/images/about-video.png";
 
@@ -129,6 +140,9 @@ const responsive = {
 export default function Home() {
   return (
     <div className="globalWrap">
+
+
+
       <Header />
       <section
         className={
@@ -166,8 +180,14 @@ export default function Home() {
                 </div>
                 <h2>SpaceShift : India’s leading Virtual Tour Company</h2>
                 <p>
-                Through the realms of technology and the immersive experience was born the concept of <b>virtual reality</b> . SpaceShift has been the pioneer of providing world-class services in the virtual reality domain. <br></br> <br></br>
-                Through the collaboration of in-house talent, SpaceShift aims at striving towards the best possible solutions for the clients. Inspiration is what people at SpaceShift put in their lives and work every day.
+                  Through the realms of technology and the immersive experience
+                  was born the concept of <b>virtual reality</b> . SpaceShift
+                  has been the pioneer of providing world-class services in the
+                  virtual reality domain. <br></br> <br></br>
+                  Through the collaboration of in-house talent, SpaceShift aims
+                  at striving towards the best possible solutions for the
+                  clients. Inspiration is what people at SpaceShift put in their
+                  lives and work every day.
                 </p>
 
                 {/* <a className="coloredBt">Explore more projects</a> */}
@@ -202,11 +222,18 @@ export default function Home() {
             <Col lg="6" sm="6" className={stylesHome.whatWeOfferCol6}>
               <div className={stylesHome.whatWeOfferBox}>
                 {/* <Image src={whatWeOfferImg1} alt="Spaceshift" /> */}
-                <img src="/images/google-streetview-360-thumbnail.webp" alt="Spaceshift" />
+                <img
+                  src="/images/google-streetview-360-thumbnail.webp"
+                  alt="Spaceshift"
+                />
 
                 <h3>Google street view</h3>
                 <p>
-                Your customers can find you pretty easily with high-quality photos on your business listing. Thanks to the <b>360 virtual tour</b>  of your business, clients know exactly what to expect at the comfort of their home and fingertips
+                  Your customers can find you pretty easily with high-quality
+                  photos on your business listing. Thanks to the{" "}
+                  <b>360 virtual tour</b>  of your business, clients know
+                  exactly what to expect at the comfort of their home and
+                  fingertips
                 </p>
                 <a className="coloredBt">Click to Know More</a>
               </div>
@@ -219,7 +246,14 @@ export default function Home() {
 
                 <h3>3D Tours</h3>
                 <p>
-                3D tours would ensure that it becomes easier and time-friendly for the clients to witness the products of any business seamlessly. A <b>360 view </b> of your business would equally contribute to your marketing efforts. A majority of the businesses have connections with a<b> Matterport service provider in India</b> since it has been entrusted with world-class services with respect to 3D technology. 
+                  3D tours would ensure that it becomes easier and time-friendly
+                  for the clients to witness the products of any business
+                  seamlessly. A <b>360 view </b> of your business would equally
+                  contribute to your marketing efforts. A majority of the
+                  businesses have connections with a
+                  <b> Matterport service provider in India</b> since it has been
+                  entrusted with world-class services with respect to 3D
+                  technology. 
                 </p>
                 <a className="coloredBt">Click to Know More</a>
               </div>
@@ -228,11 +262,17 @@ export default function Home() {
             <Col lg="6" sm="6" className={stylesHome.whatWeOfferCol6}>
               <div className={stylesHome.whatWeOfferBox}>
                 {/* <Image src={whatWeOfferImg3} alt="Spaceshift" /> */}
-                <img src="/images/custom-virtual-tours-thumbnail.webp" alt="Spaceshift" />
+                <img
+                  src="/images/custom-virtual-tours-thumbnail.webp"
+                  alt="Spaceshift"
+                />
 
                 <h3>Custom virtual tours</h3>
                 <p>
-                <b> Custom virtual tours</b> create an immersive experience that is more powerful and effective than any other form of advertising. It tends to create familiarity and ease among the clients before they visit the physical premises.
+                  <b> Custom virtual tours</b> create an immersive experience
+                  that is more powerful and effective than any other form of
+                  advertising. It tends to create familiarity and ease among the
+                  clients before they visit the physical premises.
                 </p>
                 <a className="coloredBt">Click to Know More</a>
               </div>
@@ -245,7 +285,11 @@ export default function Home() {
 
                 <h3>Professional VR films</h3>
                 <p>
-                <b>Virtual reality production</b> showcases the benefits when you include it in your marketing strategy. It ensures 3 times the conversion of traditional video content and encourages engagement. Clients respond better if they have an immersive, 360-degree video to interact with.
+                  <b>Virtual reality production</b> showcases the benefits when
+                  you include it in your marketing strategy. It ensures 3 times
+                  the conversion of traditional video content and encourages
+                  engagement. Clients respond better if they have an immersive,
+                  360-degree video to interact with.
                 </p>
                 <a className="coloredBt">Click to Know More</a>
               </div>
@@ -254,11 +298,19 @@ export default function Home() {
             <Col lg="6" sm="6" className={stylesHome.whatWeOfferCol6}>
               <div className={stylesHome.whatWeOfferBox}>
                 {/* <Image src={whatWeOfferImg5} alt="Spaceshift" /> */}
-                <img src="/images/projection-mapping-thumbnail.webp" alt="Spaceshift" />
+                <img
+                  src="/images/projection-mapping-thumbnail.webp"
+                  alt="Spaceshift"
+                />
 
                 <h3>3D Projection mapping</h3>
                 <p>
-                Posters, banners, lights, and other stuff for an occasion can be time-consuming since you need to set up, transport, and dismantle each of them. <b>3D projection mapping </b>removes all such issues. All you need is an image or a theme developed by the apt software and a projector, and you are ready for a highly immersive and entertaining display.
+                  Posters, banners, lights, and other stuff for an occasion can
+                  be time-consuming since you need to set up, transport, and
+                  dismantle each of them. <b>3D projection mapping </b>removes
+                  all such issues. All you need is an image or a theme developed
+                  by the apt software and a projector, and you are ready for a
+                  highly immersive and entertaining display.
                 </p>
                 <a className="coloredBt">Click to Know More</a>
               </div>
@@ -267,11 +319,18 @@ export default function Home() {
             <Col lg="6" sm="6" className={stylesHome.whatWeOfferCol6}>
               <div className={stylesHome.whatWeOfferBox}>
                 {/* <Image src={whatWeOfferImg6} alt="Spaceshift" /> */}
-                <img src="/images/photogrammetry-thumbnail.webp" alt="Spaceshift" />
+                <img
+                  src="/images/photogrammetry-thumbnail.webp"
+                  alt="Spaceshift"
+                />
 
                 <h3>Photogrammetry</h3>
                 <p>
-                Photogrammetry helps to create a 3D model of the object which ensures a better output workflow. A replica, as we can say, in the form of a 3D model would always come in handy when proposing a deal and the client needs to see 3D visuals of your product offering.
+                  Photogrammetry helps to create a 3D model of the object which
+                  ensures a better output workflow. A replica, as we can say, in
+                  the form of a 3D model would always come in handy when
+                  proposing a deal and the client needs to see 3D visuals of
+                  your product offering.
                 </p>
                 <a className="coloredBt">Click to Know More</a>
               </div>
@@ -280,7 +339,6 @@ export default function Home() {
         </Container>
       </section>
 
-     
       <section
         className={stylesHome["industriesContainer"] + " " + "blockPadding"}
       >
@@ -375,7 +433,10 @@ export default function Home() {
                               </div>
                             </div>
 
-                            <a className="seeMoreBt" href="/restaurants-n-cafes">
+                            <a
+                              className="seeMoreBt"
+                              href="/restaurants-n-cafes"
+                            >
                               <p>See more </p>{" "}
                               {/* <Image src={rightArrow} alt="Spaceshift" /> */}
                               <img
@@ -410,7 +471,10 @@ export default function Home() {
                               </div>
                             </div>
 
-                            <a className="seeMoreBt" href="/travel-n-hospitality">
+                            <a
+                              className="seeMoreBt"
+                              href="/travel-n-hospitality"
+                            >
                               <p>See more </p>{" "}
                               {/* <Image src={rightArrow} alt="Spaceshift" /> */}
                               <img
@@ -547,7 +611,10 @@ export default function Home() {
                               </div>
                             </div>
 
-                            <a className="seeMoreBt" href="/educational-institutes">
+                            <a
+                              className="seeMoreBt"
+                              href="/educational-institutes"
+                            >
                               <p>See more </p>{" "}
                               {/* <Image src={rightArrow} alt="Spaceshift" /> */}
                               <img
@@ -570,10 +637,7 @@ export default function Home() {
                             </div>
                             <div className={stylesHome.indusTabBoxImage}>
                               {/* <Image src={indusTabImage} alt="Spaceshift" /> */}
-                              <img
-                                src="/images/events.webp"
-                                alt="Spaceshift"
-                              />
+                              <img src="/images/events.webp" alt="Spaceshift" />
                               <div className={stylesHome.indusTabBoxImageInfo}>
                                 <span>01 --- 3D Tours</span>
                                 <span className={stylesHome.projectName}>
@@ -652,7 +716,7 @@ export default function Home() {
                               </div>
                             </div>
 
-                            <a className="seeMoreBt" href="/restoration"> 
+                            <a className="seeMoreBt" href="/restoration">
                               <p>See more </p>{" "}
                               {/* <Image src={rightArrow} alt="Spaceshift" /> */}
                               <img
@@ -722,7 +786,6 @@ export default function Home() {
         </Container>
       </section>
  */}
-
 
       <section
         className={stylesHome["testimonialsContainer"] + " " + "blockPadding"}
@@ -853,10 +916,23 @@ export default function Home() {
                     type="text"
                     id="lname"
                     name="lname"
-                    placeholder="Enter your email"
+                    placeholder="Enter your Name"
                   />
-                  <Button>send</Button>
+                  <input
+                    type="text"
+                    id="lname"
+                    name="lname"
+                    placeholder="Enter your Email"
+                  />
+
+                  <input
+                    type="text"
+                    id="lname"
+                    name="lname"
+                    placeholder="Enter your Ph. No."
+                  />
                 </div>
+                <Button className={stylesHome.submitBt}>Submit</Button>
                 <p>No spam. Only releases, updates and discounts</p>
               </div>
             </Col>

@@ -17,6 +17,7 @@ import stylesThreeDTours from "../../styles/Tours3D.module.scss";
 import Footer from "../components/footer";
 import Header from "../components/header";
 import "bootstrap/dist/css/bootstrap.css";
+import { useState } from "react";
 
 // import threedToursBanner from "../../public/images/3d-tours-banner.jpg";
 // import threedToursImg from "../../public/images/img-12.jpg";
@@ -32,12 +33,14 @@ import "bootstrap/dist/css/bootstrap.css";
 // import googleStreetviewImg4 from "../../public/images/img-9.png";
 
 export default function index() {
+const [play, setplay] = useState(false);
+
   return (
     <div className="globalWrap">
       <Header />
       <div className="innerPageHeaderWrap">
         {/* <Image src={threedToursBanner} alt="Spaceshift" /> */}
-        <img src="/images/3d-tours-banner.jpg" alt="Spaceshift" />
+        <img src="/images/matterport-3d-tours-cover.webp" alt="Spaceshift" />
 
         <div className="innerPageHeaderTitle">
           <h2>3D Virtual Tours</h2>
@@ -58,7 +61,10 @@ export default function index() {
               <div className={stylesThreeDTours.Tour3dContentBox}>
                 <div className={stylesThreeDTours.Tour3dContentBoxImg}>
                   {/* <Image src={threedToursImg} alt="Spaceshift" /> */}
-                  <img src="/images/img-12.jpg" alt="Spaceshift" />
+                 {!play && (<> <img src="/images/img-12.jpg" alt="Spaceshift" /> 
+                 <button className={stylesThreeDTours.playBt} onClick={()=>setplay(true)}><img src="/images/play-icon.png" alt="Spaceshift" /></button></>)}
+                 
+                 { play && (<iframe width='100%' height='480' src='https://my.matterport.com/show/?m=f8cpb3pSgKC&play=1' frameborder='0' allowfullscreen allow='xr-spatial-tracking' ></iframe>)}
                 </div>
 
                 <div className={stylesThreeDTours.Tour3dContentBoxInfo}>
@@ -252,6 +258,8 @@ export default function index() {
           stylesThreeDTours["whyGViewContainer"] + " " + "blockPadding"
         }
       >
+
+<div className={stylesThreeDTours.whatWeOffermainWrapper}>
         <div className={stylesThreeDTours.whyGView}>
           <h2>Why Matterport?</h2>
         </div>
@@ -349,7 +357,7 @@ export default function index() {
 
                   <div className="tabContentLeftColImg">
                     {/* <Image src={googleStreetviewImg4} alt="Spaceshift" /> */}
-                    <img src="/images/img-9.png" alt="Spaceshift" />
+                    <img src="/images/4x43dt.webp" alt="Spaceshift" />
                   </div>
                 </div>
               </div>
@@ -411,6 +419,8 @@ To view the application of Matterport SDK by Spaceshift to custom-create feature
               </div>
             </TabPanel>
           </Tabs>
+        </div>
+     
         </div>
       </section>
       <Footer />
