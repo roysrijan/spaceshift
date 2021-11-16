@@ -63,12 +63,12 @@ export default function index() {
                    
                   </p>
                   {/* <Image src={IndustriesImg3} alt="Spaceshift" /> */}
-<img src="/images/img-31.jpg" alt="Spaceshift"/>
+<img src="/images/travel-spaceshift.webp" alt="Spaceshift"/>
 
                 </div>
                 <div className={stylesIndustries.highlightBoxImg}>
                   {/* <Image src={IndustriesImg2} alt="Spaceshift" /> */}
-<img src="/images/img-30.jpg" alt="Spaceshift"/>
+<img src="/images/hospitality-spaceshift.webp" alt="Spaceshift"/>
 
                 </div>
               </div>
@@ -109,7 +109,7 @@ export default function index() {
                 </div>
                 <div className={stylesIndustries.highlightBoxImg}>
                   {/* <Image src={IndustriesImg4} alt="Spaceshift" /> */}
-<img src="/images/img-32.jpg" alt="Spaceshift"/>
+<img src="/images/travel-experiences-in-vr.webp" alt="Spaceshift"/>
 
                 </div>
               </div>
@@ -176,7 +176,7 @@ export default function index() {
       <section>
         <div className={stylesIndustries.travelBottomImg}>
           {/* <Image src={IndustriesImg5} alt="Spaceshift" /> */}
-<img src="/images/img-33.jpg" alt="Spaceshift"/>
+<img src="/images/vr-travel-india.webp" alt="Spaceshift"/>
 
         </div>
       </section>

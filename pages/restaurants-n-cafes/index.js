@@ -50,12 +50,12 @@ export default function index() {
                 <div className={stylesIndustries.restaurantsImgWrap}>
                   <div className={stylesIndustries.restaurantsImgCol1}>
                     {/* <Image src={IndustriesImg2} alt="Spaceshift" /> */}
-<img src="/images/img-34.jpg" alt="Spaceshift"/>
+<img src="/images/cafe-food-photo1.webp" alt="Spaceshift"/>
 
                   </div>
                   <div className={stylesIndustries.restaurantsImgCol1}>
                     {/* <Image src={IndustriesImg3} alt="Spaceshift" /> */}
-<img src="/images/img-35.jpg" alt="Spaceshift"/>
+<img src="/images/cafe-food-photo2.webp" alt="Spaceshift"/>
 
                     
                   </div>
@@ -78,7 +78,7 @@ export default function index() {
               <div className={stylesIndustries.highlightBox}>
                 <div className={stylesIndustries.highlightBoxImg}>
                   {/* <Image src={IndustriesImg4} alt="Spaceshift" /> */}
-<img src="/images/img-36.jpg" alt="Spaceshift"/>
+<img src="/images/google-360-drifter-cafe-kolkata.webp" alt="Spaceshift"/>
 
                 </div>
                 <div className={stylesIndustries.highlightBoxContent}>

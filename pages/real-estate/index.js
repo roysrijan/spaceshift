@@ -40,7 +40,7 @@ export default function index() {
               <div className={stylesRealEstate.realestateTop}>
                 <div className={stylesRealEstate.realestateTopImgWrap}>
                   {/* <Image src={RealestateBannerImg} alt="Spaceshift" /> */}
-<img src="/images/real-estate-banner.jpg" alt="Spaceshift"/>
+<img src="/images/real-estate-cover.webp" alt="Spaceshift"/>
 
                 </div>
                 <div className={stylesRealEstate.realestateTopInfo}>
@@ -81,7 +81,7 @@ export default function index() {
               <div className={stylesRealEstate.realEstateMiddle}>
                 <div className={stylesRealEstate.realEstateMiddleImg}>
                   {/* <Image src={realestateImg} alt="Spaceshift" /> */}
-<img src="/images/img-38.jpg" alt="Spaceshift"/>
+<img src="/images/virtual-tour-services-india.webp" alt="Spaceshift"/>
 
                 </div>
                 <div className={stylesRealEstate.realEstateMiddleInfo}>
@@ -111,7 +111,7 @@ export default function index() {
 
                 <div className={stylesRealEstate.realEstateMiddleImg}>
                   {/* <Image src={realestateImg2} alt="Spaceshift" /> */}
-                  <img src="/images/img-39.jpg" alt="Spaceshift"/>
+                  <img src="/images/real-estate-3d-tour-hotspots.webp" alt="Spaceshift"/>
 
 
                 </div>
@@ -127,7 +127,7 @@ export default function index() {
               >
                 <div className={stylesRealEstate.realEstateMiddleImg}>
                   {/* <Image src={realestateImg3} alt="Spaceshift" /> */}
-                  <img src="/images/img-40.jpg" alt="Spaceshift"/>
+                  <img src="/images/real-estate-vr-services.webp" alt="Spaceshift"/>
 
 
                 </div>
@@ -157,12 +157,14 @@ export default function index() {
                 <div className={stylesRealEstate.realEstateBottomImgWrap}>
                   <div className={stylesRealEstate.realEstateBottomImg}>
                     {/* <Image src={realestateImg4} alt="Spaceshift" /> */}
-<img src="/images/img-41.jpg" alt="Spaceshift"/>
+<img src="/images/matterport-commercial-real-estate.webp" alt="Spaceshift"/>
 
                   </div>
                   <div className={stylesRealEstate.realEstateBottomImg}>
                     {/* <Image src={realestateImg5} alt="Spaceshift" /> */}
-<img src="/images/img-42.jpg" alt="Spaceshift"/>
+{/* <img src="/images/img-42.jpg" alt="Spaceshift"/> */}
+
+<img src="/images/matterport-services-india.webp" alt="Spaceshift"/>
 
                   </div>
                 </div>
