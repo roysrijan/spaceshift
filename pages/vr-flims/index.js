@@ -28,15 +28,19 @@ export default function index() {
       <div className="innerPageHeaderWrap">
         {/* <Image src={vrFlimsBanner} alt="Spaceshift" /> */}
         <img src="/images/vrfilms-banner.jpg" alt="Spaceshift" />
+        {/* <video autoPlay loop style={{ width: '500px', height: '500px' }}>
+        <source src="assets/video/1.9.mp4" />
+      </video> */}
+       
 
-        <div className="innerPageHeaderTitle">
+        {/* <div className="innerPageHeaderTitle">
           <h2>VR Films</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. At at amet
             tortor viverra.Lorem ipsum dolor sit amet, consectetur adipiscing
             elit.
           </p>
-        </div>
+        </div> */}
       </div>
 
       <section

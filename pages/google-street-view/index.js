@@ -7,6 +7,7 @@ import {
   Nav,
   Button,
   NavDropdown,
+  Modal
 } from "react-bootstrap";
 
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
@@ -22,11 +23,12 @@ import { useState } from "react";
 // import googleStreetviewImg from "../../public/images/google-street-header-banner.png";
 // import googleStreetviewImg2 from "../../public/images/img-7.jpg";
 // import googleStreetviewImg3 from "../../public/images/img-8.png";
-// import googleStreetviewImg4 from "../../public/images/img-9.png";
+// import googleStreetviewImg4 from "../../public/images/4x43dt.webp";
 
 export default function index() {
 
   const [play, setplay] = useState(false);
+
   return (
     <div className="globalWrap">
       <Header />
@@ -34,14 +36,14 @@ export default function index() {
         {/* <Image src={googleStreetviewImg} alt="Spaceshift" /> */}
         <img src="/images/google-stretview-360-cover.webp" alt="Spaceshift" />
 
-        <div className="innerPageHeaderTitle">
+        {/* <div className="innerPageHeaderTitle">
           <h2>Google Street View</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. At at amet
             tortor viverra.Lorem ipsum dolor sit amet, consectetur adipiscing
             elit.
           </p>
-        </div>
+        </div> */}
       </div>
 
       <section className={stylesGstreet["gstreetCol1Container"] + " " + ""}>
@@ -49,15 +51,22 @@ export default function index() {
 
         <div className={stylesGstreet.Tour3dContentBoxImg}>
                   {/* <Image src={threedToursImg} alt="Spaceshift" /> */}
-                 {!play && (<> <img src="/images/gogle-streetview-360-on-a-phone.webp" alt="Spaceshift" /> 
+                  <img src="/images/gogle-streetview-360-on-a-phone.webp" alt="Spaceshift" /> 
+                  <button onClick={()=>setplay(true)} className={stylesGstreet.playBt}><img src="/images/play-icon.png" alt="Spaceshift" /></button>
+
+
+
+
+                 {/* {!play && (<> <img src="/images/gogle-streetview-360-on-a-phone.webp" alt="Spaceshift" /> 
                  <button className={stylesGstreet.playBt} onClick={()=>setplay(true)}><img src="/images/play-icon.png" alt="Spaceshift" /></button></>)}
                  
-                 { play && (<iframe width='100%' height='480' src='https://www.google.com/maps/uv?pb=!1s0x3a02772b28436de7%3A0xafdb64f50e38606!3m1!7e115!4shttps%3A%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOcNgU10Ks0qdZNYn9PGopEnvzUglCdmfzT9o5e%3Dw120-h160-k-no!5scafe%20drifter%20kolkata%20-%20Google%20Search!15sCgIgARICCAI&imagekey=!1e10!2sAF1QipOhgxGicXX65H2dMdYdG2YJD8GCatg9m9sI1DE5&hl=en&sa=X&ved=2ahUKEwiYusTRhpj0AhVVQH0KHat-Bf8Qoip6BAg8EAM' frameborder='0' allowfullscreen allow='xr-spatial-tracking' ></iframe>)}
+                 { play && (<iframe width='100%' height='480' src='https://www.google.com/maps/uv?pb=!1s0x3a02772b28436de7%3A0xafdb64f50e38606!3m1!7e115!4shttps%3A%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOcNgU10Ks0qdZNYn9PGopEnvzUglCdmfzT9o5e%3Dw120-h160-k-no!5scafe%20drifter%20kolkata%20-%20Google%20Search!15sCgIgARICCAI&imagekey=!1e10!2sAF1QipOhgxGicXX65H2dMdYdG2YJD8GCatg9m9sI1DE5&hl=en&sa=X&ved=2ahUKEwiYusTRhpj0AhVVQH0KHat-Bf8Qoip6BAg8EAM' frameborder='0' allowfullscreen allow='xr-spatial-tracking' ></iframe>)} */}
                 </div>
 
         
 
         <div className={stylesGstreet.gstreetCol1Content}>
+        <h2>Google Street View</h2>
           <p>
           Street View, by Google Maps (commonly known as Google Street View), is a virtual depiction of our surroundings on Google Maps, consisting of millions of panoramic images. We, at Spaceshift, specifically focus on<b> Google street view for business.</b> Such 360 tours ensure an exclusive peek at your business or the surrounding environment without needing to be on-site, furthermore, enhancing your visibility. <br></br>
             <br></br>
@@ -69,12 +78,17 @@ export default function index() {
         </div>
       </section>
 
+
+      
+
       <section className={stylesGstreet["gstreetCol2Container"] + " " + ""}>
         <Container>
           <Row>
             <Col lg="12">
               {/* <Image src={googleStreetviewImg3} alt="Spaceshift" /> */}
-              <img src="/images/img-8.png" alt="Spaceshift" />
+              {/* <img src="/images/img-8.png" alt="Spaceshift" /> */}
+
+              <iframe src="https://www.google.com/maps/embed?pb=!4v1637050957858!6m8!1m7!1sCAoSLEFGMVFpcE1BUU9hdkFEMWdZcFBPanpTWWJudnBVUU1FVzN2MVNvWld2U1hJ!2m2!1d22.54360047!2d88.35192874!3f102!4f0!5f0.7820865974627469" width="100%" height="500" frameborder='0' allowfullscreen="" loading="lazy"></iframe>
             </Col>
           </Row>
         </Container>
@@ -177,7 +191,7 @@ export default function index() {
                   </div>
 
                   <div className="tabContentLeftColImg">
-                    <img src="/images/img-9.png" alt="Spaceshift" />
+                    <img src="/images/4x43dt.webp" alt="Spaceshift" />
                   </div>
                 </div>
               </div>
@@ -194,7 +208,7 @@ export default function index() {
                   </div>
 
                   <div className="tabContentLeftColImg">
-                    <img src="/images/img-9.png" alt="Spaceshift" />
+                    <img src="/images/4x43dt.webp" alt="Spaceshift" />
                   </div>
                 </div>
               </div>
@@ -211,7 +225,7 @@ export default function index() {
                   </div>
 
                   <div className="tabContentLeftColImg">
-                    <img src="/images/img-9.png" alt="Spaceshift" />
+                    <img src="/images/4x43dt.webp" alt="Spaceshift" />
                   </div>
                 </div>
               </div>
@@ -228,7 +242,7 @@ export default function index() {
                   </div>
 
                   <div className="tabContentLeftColImg">
-                    <img src="/images/img-9.png" alt="Spaceshift" />
+                    <img src="/images/4x43dt.webp" alt="Spaceshift" />
                   </div>
                 </div>
               </div>
@@ -238,6 +252,24 @@ export default function index() {
       
         </div>
       </section>
+
+      <Modal size="lg" show={play} onHide={()=>setplay(false)}>
+        <Modal.Header closeButton>
+          <Modal.Title>Google Street View</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <div>
+          {/* <iframe width='100%' height='480' src='https://my.matterport.com/show/?m=f8cpb3pSgKC&play=1' frameborder='0' allowfullscreen allow='xr-spatial-tracking' ></iframe> */}
+          <iframe src="https://www.google.com/maps/embed?pb=!4v1637069942596!6m8!1m7!1sCAoSLEFGMVFpcE0zS0tCdUFxc3JjZUowSVJ5X3daUFJScjRpWDFXeFhhOTVxVXJy!2m2!1d22.5527535!2d88.35248648!3f75.81!4f0!5f0.7820865974627469" width="100%" height="450" frameborder='0' allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </Modal.Body>
+        {/* <Modal.Footer>
+          <Button variant="secondary"  onClick={()=>setplay(false)}>
+            Close
+          </Button>
+        
+        </Modal.Footer> */}
+      </Modal>
 
       <Footer />
     </div>

@@ -403,6 +403,10 @@ a:hover {
 .alice-carousel__dots{
   display: none;
 }
+
+.innerPageHeaderWrap {
+  margin-top: 64px;
+}
 @media (min-width: 1400px) {
   .globalWrap .container {
     max-width: 1200px !important;

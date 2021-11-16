@@ -7,6 +7,7 @@ import {
   Nav,
   Button,
   NavDropdown,
+  Modal
 } from "react-bootstrap";
 
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
@@ -42,14 +43,14 @@ const [play, setplay] = useState(false);
         {/* <Image src={threedToursBanner} alt="Spaceshift" /> */}
         <img src="/images/matterport-3d-tours-cover.webp" alt="Spaceshift" />
 
-        <div className="innerPageHeaderTitle">
+        {/* <div className="innerPageHeaderTitle">
           <h2>3D Virtual Tours</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. At at amet
             tortor viverra.Lorem ipsum dolor sit amet, consectetur adipiscing
             elit.
           </p>
-        </div>
+        </div> */}
       </div>
 
       <section
@@ -61,14 +62,17 @@ const [play, setplay] = useState(false);
               <div className={stylesThreeDTours.Tour3dContentBox}>
                 <div className={stylesThreeDTours.Tour3dContentBoxImg}>
                   {/* <Image src={threedToursImg} alt="Spaceshift" /> */}
-                 {!play && (<> <img src="/images/img-12.jpg" alt="Spaceshift" /> 
+
+                  <img src="/images/img-12.jpg" alt="Spaceshift" /> 
+                  <button className={stylesThreeDTours.playBt} onClick={()=>setplay(true)}><img src="/images/play-icon.png" alt="Spaceshift" /></button>
+                 {/* {!play && (<> <img src="/images/img-12.jpg" alt="Spaceshift" /> 
                  <button className={stylesThreeDTours.playBt} onClick={()=>setplay(true)}><img src="/images/play-icon.png" alt="Spaceshift" /></button></>)}
                  
-                 { play && (<iframe width='100%' height='480' src='https://my.matterport.com/show/?m=f8cpb3pSgKC&play=1' frameborder='0' allowfullscreen allow='xr-spatial-tracking' ></iframe>)}
+                 { play && (<iframe width='100%' height='480' src='https://my.matterport.com/show/?m=f8cpb3pSgKC&play=1' frameborder='0' allowfullscreen allow='xr-spatial-tracking' ></iframe>)} */}
                 </div>
 
                 <div className={stylesThreeDTours.Tour3dContentBoxInfo}>
-                  <h2>Introduction</h2>
+                  <h2>3D Virtual Tours</h2>
                   <p>
                     A <b>3D virtual tour</b> is a sequential display of
                     panoramic images that are &#34;sewed&#34; together to produce a
@@ -423,6 +427,24 @@ To view the application of Matterport SDK by Spaceshift to custom-create feature
      
         </div>
       </section>
+
+      <Modal size="lg" show={play} onHide={()=>setplay(false)}>
+        <Modal.Header closeButton>
+          <Modal.Title>3D Virtual Tours</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <div>
+          {/* <iframe width='100%' height='480' src='https://my.matterport.com/show/?m=f8cpb3pSgKC&play=1' frameborder='0' allowfullscreen allow='xr-spatial-tracking' ></iframe> */}
+          <iframe width='100%' height='480' src='https://my.matterport.com/show/?m=f8cpb3pSgKC&play=1' frameborder='0' allowfullscreen allow='xr-spatial-tracking' ></iframe>
+          </div>
+        </Modal.Body>
+        {/* <Modal.Footer>
+          <Button variant="secondary"  onClick={()=>setplay(false)}>
+            Close
+          </Button>
+        
+        </Modal.Footer> */}
+      </Modal>
       <Footer />
     </div>
   );

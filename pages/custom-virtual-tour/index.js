@@ -28,14 +28,14 @@ export default function index() {
         {/* <Image src={customVirtualTourImg} alt="Spaceshift" /> */}
 <img src="/images/custom-virtual-tours-cover.webp" alt="Spaceshift"/>
 
-        <div className="innerPageHeaderTitle black-bg">
+        {/* <div className="innerPageHeaderTitle black-bg">
           <h2>Custom Virtual Tours</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. At at amet
             tortor viverra.Lorem ipsum dolor sit amet, consectetur adipiscing
             elit.
           </p>
-        </div>
+        </div> */}
       </div>
 
       <section
@@ -56,10 +56,16 @@ export default function index() {
 <img src="/images/img-10.png" alt="Spaceshift"/>
                
                 </div>
+
+                
+               
                 <p>
+                <h2>Custom Virtual Tours</h2>
                 &#34;Aim of every virtual tour production company should be to help the potential audience get a customized digital tour so that maximum customer engagement can take place&#34;<br></br><br></br>
                 <b>Custom virtual tours</b> are way more interactive and creative as compared to <b>Google 360 tour </b>or<b>Google Virtual Tour</b> , however, have a progression of customizable features that make it significantly more interactive and function as extraordinary marketing material. Furthermore, these custom virtual tours are an excellent choice as they are profoundly adjustable to the particular necessities of businesses. These tours are, actually, in the form of an html format and they tend to be embedded as another page of a website rather than being embedded as a portion of a page.
                 </p>
+
+
               </div>
             </Col>
           </Row>

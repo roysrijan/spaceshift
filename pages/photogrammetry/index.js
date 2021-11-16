@@ -19,7 +19,7 @@ import "bootstrap/dist/css/bootstrap.css";
 
 // import projectMappingBanner from "../../public/images/photogrammetry-banner.jpg";
 // import projectMappingImg1 from "../../public/images/img-22.jpg";
-// import projectMappingImg2 from "../../public/images/img-21.jpg";
+// import projectMappingImg2 from "../../public/images/faro-scanner-3d-faro-photogrammetry.webp";
 
 export default function index() {
   return (
@@ -27,16 +27,16 @@ export default function index() {
       <Header />
       <div className="innerPageHeaderWrap">
         {/* <Image src={projectMappingBanner} alt="Spaceshift" /> */}
-        <img src="/images/photogrammetry-banner.jpg" alt="Spaceshift" />
+        <img src="/images/photogram-cover.webp" alt="Spaceshift" />
 
-        <div className="innerPageHeaderTitle">
+        {/* <div className="innerPageHeaderTitle">
           <h2>Photogrammetry</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. At at amet
             tortor viverra.Lorem ipsum dolor sit amet, consectetur adipiscing
             elit.
           </p>
-        </div>
+        </div> */}
       </div>
 
       <section
@@ -50,10 +50,10 @@ export default function index() {
               <div className={stylesProjectMapping.introductionBox}>
                 <div className={stylesProjectMapping.introductionImg}>
                   {/* <Image src={projectMappingImg1} alt="Spaceshift" /> */}
-                  <img src="/images/img-22.jpg" alt="Spaceshift" />
+                  <img src="/images/durga-scan-photogrammetry.webp" alt="Spaceshift" />
                 </div>
                 <div className={stylesProjectMapping.introductionContent}>
-                  <h2>Introduction</h2>
+                <h2>Photogrammetry</h2>
                   <p>
                     Photogrammetry is the art, science, and technology of
                     obtaining reliable information about physical objects and
@@ -103,7 +103,7 @@ export default function index() {
                     <div className="moreAboutProjectMappingTabContent">
                       <div className="moreAboutProjectMappingTabContentImg">
                         {/* <Image src={projectMappingImg2} alt="Spaceshift" fluid /> */}
-                        <img src="/images/img-21.jpg" alt="Spaceshift" />
+                        <img src="/images/faro-scanner-3d-faro-photogrammetry.webp" alt="Spaceshift" />
                       </div>
                       <div className="moreAboutProjectMappingTabContentText">
                         <p>
@@ -117,7 +117,7 @@ export default function index() {
                     <div className="moreAboutProjectMappingTabContent">
                       <div className="moreAboutProjectMappingTabContentImg">
                         {/* <Image src={projectMappingImg2} alt="Spaceshift" /> */}
-                        <img src="/images/img-21.jpg" alt="Spaceshift" />
+                        <img src="/images/faro-scanner-3d-faro-photogrammetry.webp" alt="Spaceshift" />
                       </div>
                       <div className="moreAboutProjectMappingTabContentText">
                         <p>
@@ -134,7 +134,7 @@ export default function index() {
                     <div className="moreAboutProjectMappingTabContent">
                       <div className="moreAboutProjectMappingTabContentImg">
                         {/* <Image src={projectMappingImg2} alt="Spaceshift" /> */}
-                        <img src="/images/img-21.jpg" alt="Spaceshift" />
+                        <img src="/images/faro-scanner-3d-faro-photogrammetry.webp" alt="Spaceshift" />
                       </div>
                       <div className="moreAboutProjectMappingTabContentText">
                         <p>
@@ -149,7 +149,7 @@ Use photos to recreate small 3D objects, digital doubles or big 3D environments 
                     <div className="moreAboutProjectMappingTabContent">
                       <div className="moreAboutProjectMappingTabContentImg">
                         {/* <Image src={projectMappingImg2} alt="Spaceshift" /> */}
-                        <img src="/images/img-21.jpg" alt="Spaceshift" />
+                        <img src="/images/faro-scanner-3d-faro-photogrammetry.webp" alt="Spaceshift" />
                       </div>
                       <div className="moreAboutProjectMappingTabContentText">
                         <p>
@@ -164,7 +164,7 @@ Replace manual modelling and speed up your creative workflow. It&#39;s simple. U
                     <div className="moreAboutProjectMappingTabContent">
                       <div className="moreAboutProjectMappingTabContentImg">
                         {/* <Image src={projectMappingImg2} alt="Spaceshift" /> */}
-                        <img src="/images/img-21.jpg" alt="Spaceshift" />
+                        <img src="/images/faro-scanner-3d-faro-photogrammetry.webp" alt="Spaceshift" />
                       </div>
                       <div className="moreAboutProjectMappingTabContentText">
                         <p>
