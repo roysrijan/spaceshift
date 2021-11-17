@@ -10,9 +10,8 @@ import {
   Tabs,
   Tab,
   Sonnet,
-  Link
 } from "react-bootstrap";
-
+import Link from "next/link";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
@@ -24,10 +23,6 @@ import "bootstrap/dist/css/bootstrap.css";
 
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
-
-
-
-
 
 const handleDragStart = (e) => e.preventDefault();
 const items = [
@@ -140,9 +135,6 @@ const responsive = {
 export default function Home() {
   return (
     <div className="globalWrap">
-
-
-
       <Header />
       <section
         className={
@@ -432,10 +424,11 @@ export default function Home() {
                                 </span>
                               </div>
                             </div>
-
-                            <a 
-                              className="seeMoreBt"
+                            <Link
                               href="/restaurants-n-cafes"
+                            >
+                            <a
+                              className="seeMoreBt"
                             >
                               <p>See more </p>{" "}
                               {/* <Image src={rightArrow} alt="Spaceshift" /> */}
@@ -444,6 +437,7 @@ export default function Home() {
                                 alt="Spaceshift"
                               />
                             </a>
+                            </Link>
                           </div>
                         </Tab.Pane>
 
@@ -470,10 +464,12 @@ export default function Home() {
                                 </span>
                               </div>
                             </div>
-
-                            <a 
-                              className="seeMoreBt"
+                            <Link
                               href="/travel-n-hospitality"
+                            >
+                            <a
+                              className="seeMoreBt"
+                             
                             >
                               <p>See more </p>{" "}
                               {/* <Image src={rightArrow} alt="Spaceshift" /> */}
@@ -482,6 +478,7 @@ export default function Home() {
                                 alt="Spaceshift"
                               />
                             </a>
+                            </Link>
                           </div>
                         </Tab.Pane>
 
@@ -508,8 +505,8 @@ export default function Home() {
                                 </span>
                               </div>
                             </div>
-
-                            <a  className="seeMoreBt" href="/real-estate">
+                            <Link href="/real-estate">
+                            <a className="seeMoreBt">
                               <p>See more </p>{" "}
                               {/* <Image src={rightArrow} alt="Spaceshift" /> */}
                               <img
@@ -517,6 +514,7 @@ export default function Home() {
                                 alt="Spaceshift"
                               />
                             </a>
+                            </Link>
                           </div>
                         </Tab.Pane>
 
@@ -542,8 +540,8 @@ export default function Home() {
                                 </span>
                               </div>
                             </div>
-
-                            <a  className="seeMoreBt" href="/retails">
+                            <Link href="/retails">
+                            <a className="seeMoreBt">
                               <p>See more </p>{" "}
                               {/* <Image src={rightArrow} alt="Spaceshift" /> */}
                               <img
@@ -551,6 +549,7 @@ export default function Home() {
                                 alt="Spaceshift"
                               />
                             </a>
+                            </Link>
                           </div>
                         </Tab.Pane>
 
@@ -576,8 +575,8 @@ export default function Home() {
                                 </span>
                               </div>
                             </div>
-
-                            <a className="seeMoreBt" href="/tourism">
+                            <Link href="/tourism">
+                            <a className="seeMoreBt">
                               <p>See more </p>{" "}
                               {/* <Image src={rightArrow} alt="Spaceshift" /> */}
                               <img
@@ -585,6 +584,7 @@ export default function Home() {
                                 alt="Spaceshift"
                               />
                             </a>
+                            </Link>
                           </div>
                         </Tab.Pane>
 
@@ -610,10 +610,10 @@ export default function Home() {
                                 </span>
                               </div>
                             </div>
-
+                            <Link href="/educational-institutes">
                             <a
                               className="seeMoreBt"
-                              href="/educational-institutes"
+                              
                             >
                               <p>See more </p>{" "}
                               {/* <Image src={rightArrow} alt="Spaceshift" /> */}
@@ -622,6 +622,7 @@ export default function Home() {
                                 alt="Spaceshift"
                               />
                             </a>
+                            </Link>
                           </div>
                         </Tab.Pane>
 
@@ -645,8 +646,9 @@ export default function Home() {
                                 </span>
                               </div>
                             </div>
-
-                            <a className="seeMoreBt" href="/events">
+                            
+                            <Link href="/events">
+                            <a className="seeMoreBt" >
                               <p>See more </p>{" "}
                               {/* <Image src={rightArrow} alt="Spaceshift" /> */}
                               <img
@@ -654,6 +656,7 @@ export default function Home() {
                                 alt="Spaceshift"
                               />
                             </a>
+                            </Link>
                           </div>
                         </Tab.Pane>
 
@@ -680,15 +683,16 @@ export default function Home() {
                                 </span>
                               </div>
                             </div>
-
-                            <a className="seeMoreBt" href="/hospitals-n-clinic">
-                              <p>See more </p>{" "}
-                              {/* <Image src={rightArrow} alt="Spaceshift" /> */}
-                              <img
-                                src="/images/right-arrow.png"
-                                alt="Spaceshift"
-                              />
-                            </a>
+                            <Link href="/hospitals-n-clinic">
+                              <a className="seeMoreBt">
+                                <p>See more </p>{" "}
+                                {/* <Image src={rightArrow} alt="Spaceshift" /> */}
+                                <img
+                                  src="/images/right-arrow.png"
+                                  alt="Spaceshift"
+                                />
+                              </a>
+                            </Link>
                           </div>
                         </Tab.Pane>
 
@@ -716,14 +720,17 @@ export default function Home() {
                               </div>
                             </div>
 
-                            <a className="seeMoreBt" href="/restoration">
-                              <p>See more </p>{" "}
-                              {/* <Image src={rightArrow} alt="Spaceshift" /> */}
-                              <img
-                                src="/images/right-arrow.png"
-                                alt="Spaceshift"
-                              />
-                            </a>
+                            <Link href="/restoration">
+                              <a className="seeMoreBt">
+                                {" "}
+                                <p>See more </p>{" "}
+                                {/* <Image src={rightArrow} alt="Spaceshift" /> */}
+                                <img
+                                  src="/images/right-arrow.png"
+                                  alt="Spaceshift"
+                                />
+                              </a>
+                            </Link>
                           </div>
                         </Tab.Pane>
                       </Tab.Content>
