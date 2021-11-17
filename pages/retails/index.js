@@ -91,7 +91,7 @@ export default function index() {
 
                 </p>
                 {/* <Image src={retailsBannerImg3} alt="Spaceshift" /> */}
-<img src="/images/help-generste-sales-vr.webp" alt="Spaceshift"/>
+<img src="/images/help-generste-sales-virtual-tour.webp" alt="Spaceshift"/>
 
               </div>
             </Col>
@@ -108,7 +108,7 @@ export default function index() {
 
                 </p>
                 {/* <Image src={retailsBannerImg4} alt="Spaceshift" /> */}
-<img src="/images/provide-more-info-vr-tour.webp" alt="Spaceshift"/>
+<img src="/images/provice-more0info-virtual-tour.webp" alt="Spaceshift"/>
 
                 
               </div>
@@ -124,7 +124,7 @@ export default function index() {
                 <b>Matterport 3D Tours</b> are excellent marketing elements that are interactive and keep the potential clients engaged with the content online. This means that the tours help reduce the bounce rate of your website considerably, which results in better SEO and generates greater website revenue. Being a top <b>Matterport Service Provider in India</b>, SpaceShift shoots high-quality immersive content that helps captivate the attention of your audience.
                 </p>
                 {/* <Image src={retailsBannerImg3} alt="Spaceshift" /> */}
-<img src="/images/help-generste-sales-virtual-tour.webp" alt="Spaceshift"/>
+<img src="/images/help-generste-sales-vr.webp" alt="Spaceshift"/>
 
               </div>
             </Col>
@@ -140,7 +140,7 @@ export default function index() {
 
                 </p>
                 {/* <Image src={retailsBannerImg4} alt="Spaceshift" /> */}
-<img src="/images/provice-more0info-virtual-tour.webp" alt="Spaceshift"/>
+<img src="/images/provide-more-info-vr-tour.webp" alt="Spaceshift"/>
 
               </div>
             </Col>
