@@ -33,7 +33,7 @@ import { useState } from "react";
 // import googleStreetviewImg3 from "../../public/images/img-8.png";
 // import googleStreetviewImg4 from "../../public/images/img-9.png";
 
-export default function index() {
+export default function Tour() {
 const [play, setplay] = useState(false);
 
   return (

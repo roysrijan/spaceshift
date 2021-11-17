@@ -25,7 +25,7 @@ import { useState } from "react";
 // import googleStreetviewImg3 from "../../public/images/img-8.png";
 // import googleStreetviewImg4 from "../../public/images/4x43dt.webp";
 
-export default function index() {
+export default function View() {
 
   const [play, setplay] = useState(false);
 
