@@ -62,7 +62,7 @@ export default function index() {
                 <p>
                 <h2>Custom Virtual Tours</h2>
                 &#34;Aim of every virtual tour production company should be to help the potential audience get a customized digital tour so that maximum customer engagement can take place&#34;<br></br><br></br>
-                <b>Custom virtual tours</b> are way more interactive and creative as compared to <b>Google 360 tour </b>or<b>Google Virtual Tour</b> , however, have a progression of customizable features that make it significantly more interactive and function as extraordinary marketing material. Furthermore, these custom virtual tours are an excellent choice as they are profoundly adjustable to the particular necessities of businesses. These tours are, actually, in the form of an html format and they tend to be embedded as another page of a website rather than being embedded as a portion of a page.
+                Custom virtual tours are way more interactive and creative as compared to Google 360 tour orGoogle Virtual Tour , however, have a progression of customizable features that make it significantly more interactive and function as extraordinary marketing material. Furthermore, these custom virtual tours are an excellent choice as they are profoundly adjustable to the particular necessities of businesses. These tours are, actually, in the form of an html format and they tend to be embedded as another page of a website rather than being embedded as a portion of a page.
                 </p>
 
 
@@ -97,7 +97,7 @@ export default function index() {
               <Accordion.Item eventKey="1">
                 <Accordion.Header>Organized Spaces</Accordion.Header>
                 <Accordion.Body>
-                With <b>custom virtual tours</b>, we help you display different parts of your space and connect them to a custom navigation menu within the tour where the client can teleport from one part to the other by a click of a button. If you look at the floorplan image of the business outlet on the<b> [right or left]</b>, you can see that it has labeled its different rooms so the viewers can easily move from one space to another by accessing them from the navigation menu.
+                With custom virtual tours, we help you display different parts of your space and connect them to a custom navigation menu within the tour where the client can teleport from one part to the other by a click of a button. If you look at the floorplan image of the business outlet on the [right or left], you can see that it has labeled its different rooms so the viewers can easily move from one space to another by accessing them from the navigation menu.
                 </Accordion.Body>
               </Accordion.Item>
 

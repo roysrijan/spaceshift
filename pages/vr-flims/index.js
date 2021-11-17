@@ -52,7 +52,7 @@ export default function index() {
               <div className={stylesVrFlims.vrFlimsContainer1Box}>
                 <div className={stylesVrFlims.vrFlimsContainer1Img}>
                   {/* <Image src={vrFlimsImg1} alt="Spaceshift" /> */}
-                  <img src="/images/img-17.jpg" alt="Spaceshift" />
+                  <img src="/images/360-vr-video-stereo-production.webp" alt="Spaceshift" />
                 </div>
                 <div className={stylesVrFlims.vrFlimsContainer1Content}>
                   <h2>Professional VR Films</h2>
@@ -124,7 +124,7 @@ export default function index() {
 
                 <div className={stylesVrFlims.vrFlimsContainer1Img}>
                   {/* <Image src={vrFlimsImg3} alt="Spaceshift" /> */}
-                  <img src="/images/img-18.jpg" alt="Spaceshift" />
+                  <img src="/images/insta-360-pro-on-custom-rover.webp" alt="Spaceshift" />
                 </div>
               </div>
             </Col>
@@ -140,7 +140,7 @@ export default function index() {
                 <h2>Observe this use case of vivid VR promoting</h2>
                 <div className={stylesVrFlims.vrFlimsContainer2Img}>
                   {/* <Image src={vrFlimsImg4} alt="Spaceshift" /> */}
-                  <img src="/images/img-19.jpg" alt="Spaceshift" />
+                  <img src="/images/thomas-cook-vr-usecase.webp" alt="Spaceshift" />
                 </div>
                 <div className={stylesVrFlims.vrFlimsContainer2Content}>
                   <p>

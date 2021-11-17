@@ -39,12 +39,12 @@ export default function index() {
                 <div className={stylesHospitalsNClinic.hospitalsTopContent}>
                   <h1>Hospitals and Clinics</h1>
                   <p>
-                  Healthcare is a rapidly evolving industry, that utilizes the most advanced technologies to its advantage. The web has the answer to everything and lets patients search for well-equipped and reputed local healthcare providers and facilities. Previously, the only way that people could get an idea of the facilities provided was by looking at the pictures or by physically visiting the healthcare center. Now, with the use of recent technologies like <b>custom virtual tours</b>, patients can visit a facility virtually, right from their computers or mobile devices. These tours help showcase the high-end equipment and facilities a hospital provides to assure patients and their families that they are in good hands.
+                  Healthcare is a rapidly evolving industry, that utilizes the most advanced technologies to its advantage. The web has the answer to everything and lets patients search for well-equipped and reputed local healthcare providers and facilities. Previously, the only way that people could get an idea of the facilities provided was by looking at the pictures or by physically visiting the healthcare center. Now, with the use of recent technologies like custom virtual tours, patients can visit a facility virtually, right from their computers or mobile devices. These tours help showcase the high-end equipment and facilities a hospital provides to assure patients and their families that they are in good hands.
                   </p>
                 </div>
                 <div className={stylesHospitalsNClinic.hospitalsTopImg}>
                   {/* <Image src={HospitalBannerImg} alt="Spaceshift" /> */}
-<img src="/images/hospitals-banner.png" alt="Spaceshift"/>
+<img src="/images/virtual-tour-for-hospitals-banner.webp" alt="Spaceshift"/>
 
                 </div>
               </div>
@@ -64,7 +64,7 @@ export default function index() {
           <Row>
             <Col lg="12">
               <p className={stylesHospitalsNClinic.virtualText}>
-              <b>Virtual walkthroughs</b> are interactive and are accessible through all devices, which makes it easier for prospective patients to get more comfortable with the services. Most people feel uncomfortable visiting a new and unknown space, and <b>custom virtual tours </b>can help them relax by providing them an idea of what they can expect, by using an immersive 360 view of the complete facility.
+              Virtual walkthroughs are interactive and are accessible through all devices, which makes it easier for prospective patients to get more comfortable with the services. Most people feel uncomfortable visiting a new and unknown space, and custom virtual tours can help them relax by providing them an idea of what they can expect, by using an immersive 360 view of the complete facility.
               </p>
             </Col>
           </Row>
@@ -89,12 +89,12 @@ export default function index() {
               <div className={stylesHospitalsNClinic.hospitalBottomImgCol}>
                 <div className={stylesHospitalsNClinic.hospitalBottomImg}>
                   {/* <Image src={HospitalImg} alt="Spaceshift" /> */}
-<img src="/images/img-43.jpg" alt="Spaceshift"/>
+<img src="/images/vr-tours-for-hospital-1.webp" alt="Spaceshift"/>
 
                 </div>
                 <div className={stylesHospitalsNClinic.hospitalBottomImg2}>
                   {/* <Image src={HospitalImg2} alt="Spaceshift" /> */}
-<img src="/images/img-44.jpg" alt="Spaceshift"/>
+<img src="/images/vr-tours-for-hospital-2.webp" alt="Spaceshift"/>
 
                 </div>
               </div>
@@ -102,32 +102,32 @@ export default function index() {
                 <div className={stylesHospitalsNClinic.hospitalBottomInfoBox}>
                   <h5>Visualize the Equipment Used and Services Offered</h5>
                   <p>
-                  With interactive <b>360 virtual tours</b>, it is easier for patients to see the machines and rooms up close. This is generally not possible during any physical visit as they are mostly in use or aren’t available for patients to view as per their will. In most cases, visualizing these features is crucial for the patient and their family to help decide whether the center is well-equipped to provide them with the best possible treatment.
+                  With interactive 360 virtual tours, it is easier for patients to see the machines and rooms up close. This is generally not possible during any physical visit as they are mostly in use or aren’t available for patients to view as per their will. In most cases, visualizing these features is crucial for the patient and their family to help decide whether the center is well-equipped to provide them with the best possible treatment.
                   </p>
                 </div>
                 <div className={stylesHospitalsNClinic.hospitalBottomInfoBox}>
                   <h5>Long-Term Patients can View Cabins and Rooms</h5>
                   <p>
-                  Staying in an unknown place for a long time can be scary for some patients. <b>Virtual walkthroughs </b>of the private cabins and rooms let the user explore the same, which can provide a sense of confidence and reassurance. It also provides a basic knowledge of what they can expect during their stay at the hospital.
+                  Staying in an unknown place for a long time can be scary for some patients. Virtual walkthroughs of the private cabins and rooms let the user explore the same, which can provide a sense of confidence and reassurance. It also provides a basic knowledge of what they can expect during their stay at the hospital.
                   </p>
                 </div>
                 <div className={stylesHospitalsNClinic.hospitalBottomInfoBox}>
                   <h5>Draws the Attention of the Local Community</h5>
                   <p>
-                  High quality <b>virtual tours</b> on your website help keep your visitors engaged, which reduces the bounce rate of your website, helping you perform better from the SEO point of view. This helps improve your position in searches and also puts you in an advantageous position compared to your competitors. Moreover, <b>virtual tours </b>are accessible remotely 24/7, which makes it easier for people to check it out from the comfort of their homes.
+                  High quality virtual tours on your website help keep your visitors engaged, which reduces the bounce rate of your website, helping you perform better from the SEO point of view. This helps improve your position in searches and also puts you in an advantageous position compared to your competitors. Moreover, virtual tours are accessible remotely 24/7, which makes it easier for people to check it out from the comfort of their homes.
 
                   </p>
                 </div>
                 <div className={stylesHospitalsNClinic.hospitalBottomInfoBox}>
                   <h5>Benefits New Staff Members</h5>
                   <p>
-                  Visiting practitioners, new medical staff, and those applying for a job can use these <b>360 virtual tours</b> to get a sense of the environment they will work in. Moreover, these tours can be used to brief the new joinees the various spaces in the workplace and the use of the available equipments, digitally.
+                  Visiting practitioners, new medical staff, and those applying for a job can use these 360 virtual tours to get a sense of the environment they will work in. Moreover, these tours can be used to brief the new joinees the various spaces in the workplace and the use of the available equipments, digitally.
                   </p>
                 </div>
                 <div className={stylesHospitalsNClinic.hospitalBottomInfoBox}>
                   <h5>Non-Local Patients Can Experience the Facility</h5>
                   <p>
-                  Not all patients come from local areas and look further from home, for better and more complicated health care solutions. In some cases, doctors might transfer or refer the patient to some other hospital for better treatment. This is when <b>high quality virtual tours </b>become more than a visual experience and provide an opportunity for potential patients to examine the offered services and make well-informed decisions for their well-being.
+                  Not all patients come from local areas and look further from home, for better and more complicated health care solutions. In some cases, doctors might transfer or refer the patient to some other hospital for better treatment. This is when high quality virtual tours become more than a visual experience and provide an opportunity for potential patients to examine the offered services and make well-informed decisions for their well-being.
                   </p>
                 </div>
              

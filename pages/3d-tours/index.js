@@ -74,7 +74,7 @@ const [play, setplay] = useState(false);
                 <div className={stylesThreeDTours.Tour3dContentBoxInfo}>
                   <h2>3D Virtual Tours</h2>
                   <p>
-                    A <b>3D virtual tour</b> is a sequential display of
+                    A 3D virtual tour is a sequential display of
                     panoramic images that are &#34;sewed&#34; together to produce a
                     &#34;virtual&#34; experience or an encounter of any
                     location. When created, the viewers can experience the
@@ -82,7 +82,7 @@ const [play, setplay] = useState(false);
                     Viewers are shown to be 150% more engaged and interested
                     with a virtual tour than they are with 2D imagery.<br></br>
                     <br></br>
-                    Our <b>3D virtual tours</b> include sound effects, for
+                    Our 3D virtual tours include sound effects, for
                     instance, music or a voiceover describing the product or the
                     point of interest. We also offer buttons that can be clicked
                     on by viewers who want to take a still picture of a specific
@@ -211,10 +211,10 @@ const [play, setplay] = useState(false);
                   <h2>Matterport Service</h2>
                   <br></br>
                   <p>
-                  Being a <b>Matterport service provider</b>, one thing organizations can generally be guaranteed of, i.e., a-list and consistent experience with regards to virtual visiting. Matterport 3D real estate services are among perhaps the best ones. <br></br>
+                  Being a Matterport service provider, one thing organizations can generally be guaranteed of, i.e., a-list and consistent experience with regards to virtual visiting. Matterport 3D real estate services are among perhaps the best ones. <br></br>
                     <br></br>
 
-                    <b>Matterport 3D virtual tours</b> digitize and enable fully immersive three-dimensional settings that can support viewing your space from various angles, build functionality on top of it, and get precise measures. Putting it another way, it is a sort of active media that puts the viewer in the driver&#39;s seat, which can help in increasing engagement and contributing in-depth information on the layouts.
+                    Matterport 3D virtual tours digitize and enable fully immersive three-dimensional settings that can support viewing your space from various angles, build functionality on top of it, and get precise measures. Putting it another way, it is a sort of active media that puts the viewer in the driver&#39;s seat, which can help in increasing engagement and contributing in-depth information on the layouts.
 
 
 
@@ -411,7 +411,7 @@ To view the application of Matterport SDK by Spaceshift to custom-create feature
                   <div className="tabContentLeftCol">
                     <h3>Versatility</h3>
                     <p>
-                    <b> Matterport 3D walkthrough</b> is amazingly versatile and permits you to scan any space. You can add the data you need and effectively share it. The only constraint is your creative mind. 
+                     Matterport 3D walkthrough is amazingly versatile and permits you to scan any space. You can add the data you need and effectively share it. The only constraint is your creative mind. 
                     </p>
                   </div>
 
@@ -429,9 +429,12 @@ To view the application of Matterport SDK by Spaceshift to custom-create feature
       </section>
 
       <Modal size="lg" show={play} onHide={()=>setplay(false)}>
-        <Modal.Header closeButton>
+        {/* <Modal.Header closeButton>
           <Modal.Title>Google Street View</Modal.Title>
-        </Modal.Header>
+        </Modal.Header> */}
+        <Button className="modalClose" onClick={()=>setplay(false)}>
+      <img src="/images/close.png" alt="Spaceshift" />
+          </Button>
         <Modal.Body>
           <div>
           {/* <iframe width='100%' height='480' src='https://my.matterport.com/show/?m=f8cpb3pSgKC&play=1' frameborder='0' allowfullscreen allow='xr-spatial-tracking' ></iframe> */}

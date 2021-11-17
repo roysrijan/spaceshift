@@ -36,7 +36,7 @@ export default function Footer() {
               <ul>
                 <li>
                   <p className={footerStyles.p1}>
-                    Inspiration is what people at <b> SpaceShift</b> put in
+                    Inspiration is what people at <b>SpaceShift</b> put in
                     their lives & work every day.
                   </p>
                 </li>

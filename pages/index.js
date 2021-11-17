@@ -173,7 +173,7 @@ export default function Home() {
                 <h2>SpaceShift : India’s leading Virtual Tour Company</h2>
                 <p>
                   Through the realms of technology and the immersive experience
-                  was born the concept of <b>virtual reality</b> . SpaceShift
+                  was born the concept of virtual reality . SpaceShift
                   has been the pioneer of providing world-class services in the
                   virtual reality domain. <br></br> <br></br>
                   Through the collaboration of in-house talent, SpaceShift aims
@@ -223,7 +223,7 @@ export default function Home() {
                 <p>
                   Your customers can find you pretty easily with high-quality
                   photos on your business listing. Thanks to the{" "}
-                  <b>360 virtual tour</b>  of your business, clients know
+                  360 virtual tour  of your business, clients know
                   exactly what to expect at the comfort of their home and
                   fingertips
                 </p>
@@ -240,10 +240,10 @@ export default function Home() {
                 <p>
                   3D tours would ensure that it becomes easier and time-friendly
                   for the clients to witness the products of any business
-                  seamlessly. A <b>360 view </b> of your business would equally
+                  seamlessly. A 360 view  of your business would equally
                   contribute to your marketing efforts. A majority of the
                   businesses have connections with a
-                  <b> Matterport service provider in India</b> since it has been
+                   Matterport service provider in India since it has been
                   entrusted with world-class services with respect to 3D
                   technology. 
                 </p>
@@ -261,7 +261,7 @@ export default function Home() {
 
                 <h3>Custom virtual tours</h3>
                 <p>
-                  <b> Custom virtual tours</b> create an immersive experience
+                   Custom virtual tours create an immersive experience
                   that is more powerful and effective than any other form of
                   advertising. It tends to create familiarity and ease among the
                   clients before they visit the physical premises.
@@ -277,7 +277,7 @@ export default function Home() {
 
                 <h3>Professional VR films</h3>
                 <p>
-                  <b>Virtual reality production</b> showcases the benefits when
+                  Virtual reality production showcases the benefits when
                   you include it in your marketing strategy. It ensures 3 times
                   the conversion of traditional video content and encourages
                   engagement. Clients respond better if they have an immersive,
@@ -299,7 +299,7 @@ export default function Home() {
                 <p>
                   Posters, banners, lights, and other stuff for an occasion can
                   be time-consuming since you need to set up, transport, and
-                  dismantle each of them. <b>3D projection mapping </b>removes
+                  dismantle each of them. 3D projection mapping removes
                   all such issues. All you need is an image or a theme developed
                   by the apt software and a projector, and you are ready for a
                   highly immersive and entertaining display.

@@ -68,9 +68,9 @@ export default function View() {
         <div className={stylesGstreet.gstreetCol1Content}>
         <h2>Google Street View</h2>
           <p>
-          Street View, by Google Maps (commonly known as Google Street View), is a virtual depiction of our surroundings on Google Maps, consisting of millions of panoramic images. We, at Spaceshift, specifically focus on<b> Google street view for business.</b> Such 360 tours ensure an exclusive peek at your business or the surrounding environment without needing to be on-site, furthermore, enhancing your visibility. <br></br>
+          Street View, by Google Maps (commonly known as Google Street View), is a virtual depiction of our surroundings on Google Maps, consisting of millions of panoramic images. We, at Spaceshift, specifically focus on Google street view for business. Such 360 tours ensure an exclusive peek at your business or the surrounding environment without needing to be on-site, furthermore, enhancing your visibility. <br></br>
             <br></br>
-            According to Google, businesses that include images and<b> 360 Virtual tours </b>are twice as likely to produce viewer engagement and interest. With the increasing number of businesses that are competing for your potential audience&#39;s attention online, you would want to ensure that the customer&#39;s decision to check out your business is a no-brainer.
+            According to Google, businesses that include images and 360 Virtual tours are twice as likely to produce viewer engagement and interest. With the increasing number of businesses that are competing for your potential audience&#39;s attention online, you would want to ensure that the customer&#39;s decision to check out your business is a no-brainer.
             <br></br>
             <br></br>
             These tours add to trust-building and credibility in your brand, irrespective of your product offering. They accommodate your clients with an immersive experience that entices them to engage with your brand and experience the inner look of your location.
@@ -220,7 +220,7 @@ export default function View() {
                   <div className="tabContentLeftCol">
                     <h3>Arrive at your target audience </h3>
                     <p>
-                    Suppose you&#39;re a sports bar whose potential audience is school football fans. To draw them in, you&#39;ve hung up football banners and <b>memorabilia</b> all through your café. Flaunting the stylistic layout is an extraordinary method to arrive at them and <b>Google Virtual Tour</b> gives you the stage to do so. Out of nowhere, school football fans can take a <b>360 degree virtual tour</b> through your café and get snared, when they see your stylistic theme. 
+                    Suppose you&#39;re a sports bar whose potential audience is school football fans. To draw them in, you&#39;ve hung up football banners and memorabilia all through your café. Flaunting the stylistic layout is an extraordinary method to arrive at them and Google Virtual Tour gives you the stage to do so. Out of nowhere, school football fans can take a 360 degree virtual tour through your café and get snared, when they see your stylistic theme. 
                     </p>
                   </div>
 
@@ -237,7 +237,7 @@ export default function View() {
                   <div className="tabContentLeftCol">
                     <h3>A convenient and comfortable experience</h3>
                     <p>
-                    <b>Google 360 Degree Virtual Tour</b> can be made use of at various occasions and since the present shoppers are fretful and used to discover answers to the entirety of their inquiries rapidly and effectively on Google, <b>Google Street View</b> is an extraordinary platform to give them the content they are looking for in the most immersive way possible.
+                    Google 360 Degree Virtual Tour can be made use of at various occasions and since the present shoppers are fretful and used to discover answers to the entirety of their inquiries rapidly and effectively on Google, Google Street View is an extraordinary platform to give them the content they are looking for in the most immersive way possible.
                     </p>
                   </div>
 
@@ -254,9 +254,12 @@ export default function View() {
       </section>
 
       <Modal size="lg" show={play} onHide={()=>setplay(false)}>
-        <Modal.Header closeButton>
+      <Button className="modalClose" onClick={()=>setplay(false)}>
+      <img src="/images/close.png" alt="Spaceshift" />
+          </Button>
+        {/* <Modal.Header closeButton>
           <Modal.Title>Google Street View</Modal.Title>
-        </Modal.Header>
+        </Modal.Header> */}
         <Modal.Body>
           <div>
           {/* <iframe width='100%' height='480' src='https://my.matterport.com/show/?m=f8cpb3pSgKC&play=1' frameborder='0' allowfullscreen allow='xr-spatial-tracking' ></iframe> */}

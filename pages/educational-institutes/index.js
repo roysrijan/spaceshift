@@ -54,7 +54,7 @@ export default function index() {
                 </p>
                 <div className={stylesIndustries.educationBoxImg}>
                   {/* <Image src={IndustriesImg} alt="Spaceshift" /> */}
-<img src="/images/education-banner.jpg" alt="Spaceshift"/>
+<img src="/images/virtual-tour-for-school-cover.webp" alt="Spaceshift"/>
 
                 </div>
               </div>
@@ -73,7 +73,7 @@ export default function index() {
               <div className={stylesIndustries.highlightBox}>
                 <div className={stylesIndustries.highlightBoxImg}>
                   {/* <Image src={IndustriesImg2} alt="Spaceshift" /> */}
-<img src="/images/img-28.jpg" alt="Spaceshift"/>
+<img src="/images/virtual-tour-of-school-student-chilling.webp" alt="Spaceshift"/>
 
                 </div>
                 <div className={stylesIndustries.highlightBoxContent}>
@@ -82,7 +82,7 @@ export default function index() {
                   Surveys suggest that virtual tours help increase one’s interest in a business by two times and attracting the attention of people is exactly what you need. Visiting the institute for in-depth scrutiny is not possible for every parent and virtual tours come in really handy. Parents and students analyze the location and accessibility of the institute, along with its facilities such as the hostel, library, playground, laboratory, art rooms, etc. before choosing an institute for their child. Always make sure that your virtual tour highlights these key components along with the location and surroundings. The visual experience becomes a key factor in their decision-making and helps provide as much visual information as possible, via the internet.
                   </p>
                   {/* <Image src={IndustriesImg3} alt="Spaceshift" /> */}
-<img src="/images/img-29.jpg" alt="Spaceshift"/>
+<img src="/images/virtual-tour-for-school-blackboard-maths.webp" alt="Spaceshift"/>
 
                 </div>
               </div>
@@ -179,7 +179,7 @@ export default function index() {
 
                 </p>
                 {/* <Image src={retailsBannerImg3} alt="Spaceshift" /> */}
-<img src="/images/img-48.jpg" alt="Spaceshift"/>
+<img src="/images/virtual-tours-builds-an-effective-first-impression.webp" alt="Spaceshift"/>
 
               </div>
             </Col>
@@ -196,7 +196,7 @@ export default function index() {
 
                 </p>
                 {/* <Image src={retailsBannerImg4} alt="Spaceshift" /> */}
-<img src="/images/img-48.jpg" alt="Spaceshift"/>
+<img src="/images/vr-tours-highlights-your-institutes-features.webp" alt="Spaceshift"/>
 
               </div>
             </Col>
@@ -211,7 +211,7 @@ export default function index() {
                 The virtual tours have various navigational hotspots which help users navigate from one space to another. Parents can click on these arrows to move from one space to another, such as the auditorium to the music room or any other physical space of your property. This paints a better picture of your facilities and helps them visualize it. Students who might not have the convenience to visit the institute physically can check out the institute through virtual tours.
                 </p>
                 {/* <Image src={retailsBannerImg3} alt="Spaceshift" /> */}
-<img src="/images/img-47.jpg" alt="Spaceshift"/>
+<img src="/images/virtual-teleportation-from-one-place-to-another.webp" alt="Spaceshift"/>
 
               </div>
             </Col>
@@ -227,7 +227,7 @@ export default function index() {
 
                 </p>
                 {/* <Image src={retailsBannerImg4} alt="Spaceshift" /> */}
-<img src="/images/img-48.jpg" alt="Spaceshift"/>
+<img src="/images/stay-ahead-of-competition-with-virtual-tours.webp" alt="Spaceshift"/>
 
               </div>
             </Col>
@@ -243,7 +243,7 @@ export default function index() {
 
                 </p>
                 {/* <Image src={retailsBannerImg3} alt="Spaceshift" /> */}
-<img src="/images/img-48.jpg" alt="Spaceshift"/>
+<img src="/images/virtual-tours-improve-websites-performance.webp" alt="Spaceshift"/>
 
               </div>
             </Col>

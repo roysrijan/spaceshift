@@ -2,7 +2,7 @@
 
 /* 
 <img src="/images/logo.png" alt="Spaceshift"/>
-<b></b>
+
 import googleStreetviewImg from "../public/images/google-street-header-banner.png";
 
 <Image src={aboutVideo} alt="Spaceshift" />
@@ -406,6 +406,23 @@ a:hover {
 
 .innerPageHeaderWrap {
   margin-top: 64px;
+}
+.modalClose{
+  position: absolute;
+  background: none !important;
+  height: 50px;
+  width: 50px;
+  z-index: 99;
+  border: none !important;
+  right: -42px;
+  top: -34px;
+
+}
+.modalClose:focus{
+  outline: none;
+}
+.modalClose img{
+  width: 100%;
 }
 @media (min-width: 1400px) {
   .globalWrap .container {
