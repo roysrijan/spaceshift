@@ -39,7 +39,7 @@ export default function index() {
                   <h1>Tourism</h1>
                   <div className={stylesTourism.tourismTopBoxImg}>
                     {/* <Image src={tourismBannerImg} alt="Spaceshift" /> */}
-<img src="/images/tourism-banner.jpg" alt="Spaceshift"/>
+<img src="/images/vr-in-tourism-cover.webp" alt="Spaceshift"/>
 
                   </div>
                 </div>
@@ -91,7 +91,7 @@ export default function index() {
                   </div>
                   <div className={stylesTourism.tourismBottomContentWrapRight}>
                     {/* <Image src={tourismImg1} alt="Spaceshift" /> */}
-<img src="/images/img-49.jpg" alt="Spaceshift"/>
+<img src="/images/vr-helps-with-decision-making.webp" alt="Spaceshift"/>
                     
                   </div>
                 </div>
@@ -99,7 +99,7 @@ export default function index() {
                 <div className={stylesTourism["tourismBottomContentBox"]+ " " + stylesTourism["tourismBottomContentBoxRe"]}>
                 <div className={stylesTourism.tourismBottomContentWrapRight}>
                     {/* <Image src={tourismImg2} alt="Spaceshift" /> */}
-<img src="/images/img-50.jpg" alt="Spaceshift"/>
+<img src="/images/hotspots-virtual-tours-finds-tourist-attractions.webp" alt="Spaceshift"/>
 
                   </div>
                   <div className={stylesTourism.tourismBottomContentWrapLeft}>
@@ -122,7 +122,7 @@ export default function index() {
                   </div>
                   <div className={stylesTourism.tourismBottomContentWrapRight}>
                     {/* <Image src={tourismImg3} alt="Spaceshift" /> */}
-<img src="/images/img-51.jpg" alt="Spaceshift"/>
+<img src="/images/vr-provides-an-unforgettable-experience.webp" alt="Spaceshift"/>
 
                   </div>
                 </div>
@@ -130,7 +130,7 @@ export default function index() {
                 <div className={stylesTourism["tourismBottomContentBox"]+ " " + stylesTourism["tourismBottomContentBoxRe"]}>
                 <div className={stylesTourism.tourismBottomContentWrapRight}>
                     {/* <Image src={tourismImg4} alt="Spaceshift" /> */}
-<img src="/images/img-52.jpg" alt="Spaceshift"/>
+<img src="/images/virtual-tours-integrate-with-websites.webp" alt="Spaceshift"/>
 
                   </div>
                   <div className={stylesTourism.tourismBottomContentWrapLeft}>
