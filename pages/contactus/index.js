@@ -79,7 +79,7 @@ export default function Home() {
               <div className={stylesContact.contactGenQuesBoxContainer}>
                 <div className={stylesContact.contactGenQuesBox1}>
                   <span>Get In Touch</span>
-                  <h2>Have a General Question? submit the form right away</h2>
+                  <h2>Have a General Question?</h2>
                 </div>
                 <div className={stylesContact.contactGenQuesBox2}>
                   <input

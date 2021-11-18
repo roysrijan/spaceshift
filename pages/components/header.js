@@ -77,7 +77,7 @@ export default function Header() {
                   Restoration
                 </NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="#home">Blog</Nav.Link>
+              {/* <Nav.Link href="#home">Blog</Nav.Link> */}
               <Nav.Link href="/contactus">Contact us</Nav.Link>
             </Nav>
           </Navbar.Collapse>

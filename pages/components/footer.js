@@ -113,11 +113,9 @@ export default function Footer() {
             </div>
           </Col>
 
-          <Col lg="12">
-            <p className={footerStyles.copyRight}>Copiright 2017 - 2021 @Space Shift Productions LLP</p>
-          </Col>
+         
 
-          {/* <Col lg="3">
+          <Col lg="3">
             <div className={footerStyles.footerBoxServices}>
               <h2>Get in touch</h2>
               <div className={footerStyles.newsletterWrap}>
@@ -127,6 +125,7 @@ export default function Footer() {
                     id="lname"
                     name="lname"
                     placeholder="Enter your email"
+                    readOnly
                   />
                   <Button>
                   
@@ -158,8 +157,12 @@ export default function Footer() {
               </div>
             </div>
           </Col>
+
+          <Col lg="12">
+            <p className={footerStyles.copyRight}>Copiright 2017 - 2021 @Space Shift Productions LLP</p>
+          </Col>
        
-        */}
+       
         </Row>
       </Container>
     </footer>

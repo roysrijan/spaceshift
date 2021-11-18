@@ -227,7 +227,9 @@ export default function Home() {
                   exactly what to expect at the comfort of their home and
                   fingertips
                 </p>
+                <Link href="/google-street-view">
                 <a className="coloredBt">Click to Know More</a>
+                </Link>
               </div>
             </Col>
 
@@ -247,7 +249,9 @@ export default function Home() {
                   entrusted with world-class services with respect to 3D
                   technology. 
                 </p>
+                <Link href="/3d-tours">
                 <a className="coloredBt">Click to Know More</a>
+                </Link>
               </div>
             </Col>
 
@@ -266,7 +270,10 @@ export default function Home() {
                   advertising. It tends to create familiarity and ease among the
                   clients before they visit the physical premises.
                 </p>
+                <Link href="/custom-virtual-tour">
                 <a className="coloredBt">Click to Know More</a>
+                </Link>
+                
               </div>
             </Col>
 
@@ -283,7 +290,9 @@ export default function Home() {
                   engagement. Clients respond better if they have an immersive,
                   360-degree video to interact with.
                 </p>
+                <Link href="/vr-flims">
                 <a className="coloredBt">Click to Know More</a>
+                </Link>
               </div>
             </Col>
 
@@ -304,7 +313,9 @@ export default function Home() {
                   by the apt software and a projector, and you are ready for a
                   highly immersive and entertaining display.
                 </p>
+                <Link href="/project-mapping">
                 <a className="coloredBt">Click to Know More</a>
+                </Link>
               </div>
             </Col>
 
@@ -324,7 +335,9 @@ export default function Home() {
                   proposing a deal and the client needs to see 3D visuals of
                   your product offering.
                 </p>
+                <Link href="/photogrammetry">
                 <a className="coloredBt">Click to Know More</a>
+                </Link>
               </div>
             </Col>
           </Row>
@@ -416,13 +429,13 @@ export default function Home() {
                                 src="/images/restaurants-cafes.webp"
                                 alt="Spaceshift"
                               />
-
+{/* 
                               <div className={stylesHome.indusTabBoxImageInfo}>
                                 <span>01 --- 3D Tours</span>
                                 <span className={stylesHome.projectName}>
                                   Project Name
                                 </span>
-                              </div>
+                              </div> */}
                             </div>
                             <Link
                               href="/restaurants-n-cafes"
@@ -457,12 +470,14 @@ export default function Home() {
                                 alt="Spaceshift"
                               />
 
-                              <div className={stylesHome.indusTabBoxImageInfo}>
+                              {/* <div className={stylesHome.indusTabBoxImageInfo}>
                                 <span>01 --- 3D Tours</span>
                                 <span className={stylesHome.projectName}>
                                   Project Name
                                 </span>
                               </div>
+                             */}
+                            
                             </div>
                             <Link
                               href="/travel-n-hospitality"
@@ -498,12 +513,12 @@ export default function Home() {
                                 alt="Spaceshift"
                               />
 
-                              <div className={stylesHome.indusTabBoxImageInfo}>
+                              {/* <div className={stylesHome.indusTabBoxImageInfo}>
                                 <span>01 --- 3D Tours</span>
                                 <span className={stylesHome.projectName}>
                                   Project Name
                                 </span>
-                              </div>
+                              </div> */}
                             </div>
                             <Link href="/real-estate">
                             <a className="seeMoreBt">
@@ -533,12 +548,12 @@ export default function Home() {
                                 src="/images/showrooms.webp"
                                 alt="Spaceshift"
                               />
-                              <div className={stylesHome.indusTabBoxImageInfo}>
+                              {/* <div className={stylesHome.indusTabBoxImageInfo}>
                                 <span>01 --- 3D Tours</span>
                                 <span className={stylesHome.projectName}>
                                   Project Name
                                 </span>
-                              </div>
+                              </div> */}
                             </div>
                             <Link href="/retails">
                             <a className="seeMoreBt">
@@ -568,12 +583,12 @@ export default function Home() {
                                 src="/images/tourism.webp"
                                 alt="Spaceshift"
                               />
-                              <div className={stylesHome.indusTabBoxImageInfo}>
+                              {/* <div className={stylesHome.indusTabBoxImageInfo}>
                                 <span>01 --- 3D Tours</span>
                                 <span className={stylesHome.projectName}>
                                   Project Name
                                 </span>
-                              </div>
+                              </div> */}
                             </div>
                             <Link href="/tourism">
                             <a className="seeMoreBt">
@@ -603,12 +618,12 @@ export default function Home() {
                                 src="/images/educational.webp"
                                 alt="Spaceshift"
                               />
-                              <div className={stylesHome.indusTabBoxImageInfo}>
+                              {/* <div className={stylesHome.indusTabBoxImageInfo}>
                                 <span>01 --- 3D Tours</span>
                                 <span className={stylesHome.projectName}>
                                   Project Name
                                 </span>
-                              </div>
+                              </div> */}
                             </div>
                             <Link href="/educational-institutes">
                             <a
@@ -639,12 +654,12 @@ export default function Home() {
                             <div className={stylesHome.indusTabBoxImage}>
                               {/* <Image src={indusTabImage} alt="Spaceshift" /> */}
                               <img src="/images/events.webp" alt="Spaceshift" />
-                              <div className={stylesHome.indusTabBoxImageInfo}>
+                              {/* <div className={stylesHome.indusTabBoxImageInfo}>
                                 <span>01 --- 3D Tours</span>
                                 <span className={stylesHome.projectName}>
                                   Project Name
                                 </span>
-                              </div>
+                              </div> */}
                             </div>
                             
                             <Link href="/events">
@@ -676,12 +691,12 @@ export default function Home() {
                                 src="/images/Hospitals.webp"
                                 alt="Spaceshift"
                               />
-                              <div className={stylesHome.indusTabBoxImageInfo}>
+                              {/* <div className={stylesHome.indusTabBoxImageInfo}>
                                 <span>01 --- 3D Tours</span>
                                 <span className={stylesHome.projectName}>
                                   Project Name
                                 </span>
-                              </div>
+                              </div> */}
                             </div>
                             <Link href="/hospitals-n-clinic">
                               <a className="seeMoreBt">
@@ -712,12 +727,12 @@ export default function Home() {
                                 alt="Spaceshift"
                               />
 
-                              <div className={stylesHome.indusTabBoxImageInfo}>
+                              {/* <div className={stylesHome.indusTabBoxImageInfo}>
                                 <span>01 --- 3D Tours</span>
                                 <span className={stylesHome.projectName}>
                                   Project Name
                                 </span>
-                              </div>
+                              </div> */}
                             </div>
 
                             <Link href="/restoration">
@@ -794,7 +809,7 @@ export default function Home() {
       </section>
  */}
 
-      <section
+      {/* <section
         className={stylesHome["testimonialsContainer"] + " " + "blockPadding"}
       >
         <Container>
@@ -816,8 +831,7 @@ export default function Home() {
         <div className={stylesHome.carouselWrap}>
           <Carousel
             responsive={responsive}
-            // autoPlay={true}
-            // autoPlaySpeed={3000}
+           
             keyBoardControl={true}
             itemClass="carousel-item-padding-40-px"
             partialVisbile={true}
@@ -832,7 +846,7 @@ export default function Home() {
 
               <div className={stylesHome.testimonialAuthor}>
                 <div className={stylesHome.testimonialAuthorImgBox}>
-                  {/* <Image src={testimonialAuthor} alt="Spaceshift" /> */}
+                  
                   <img src="/images/testimonial-img.jpg" alt="Spaceshift" />
                 </div>
                 <div className={stylesHome.testimonialAuthorname}>
@@ -852,7 +866,7 @@ export default function Home() {
 
               <div className={stylesHome.testimonialAuthor}>
                 <div className={stylesHome.testimonialAuthorImgBox}>
-                  {/* <Image src={testimonialAuthor} alt="Spaceshift" /> */}
+                  
                   <img src="/images/testimonial-img.jpg" alt="Spaceshift" />
                 </div>
                 <div className={stylesHome.testimonialAuthorname}>
@@ -872,7 +886,7 @@ export default function Home() {
 
               <div className={stylesHome.testimonialAuthor}>
                 <div className={stylesHome.testimonialAuthorImgBox}>
-                  {/* <Image src={testimonialAuthor} alt="Spaceshift" /> */}
+                 
                   <img src="/images/testimonial-img.jpg" alt="Spaceshift" />
                 </div>
                 <div className={stylesHome.testimonialAuthorname}>
@@ -880,7 +894,7 @@ export default function Home() {
                   <p>Lorem ipsum dolor sit amet,</p>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* <div className={stylesHome.testimonialBox}>
               <p>
@@ -901,9 +915,9 @@ export default function Home() {
                 </div>
               </div>
             </div> */}
-          </Carousel>
-        </div>
-      </section>
+          {/* </Carousel> */}
+        {/* </div>
+      </section> */}
 
       <section
         className={stylesHome["newsletterContainer"] + " " + "blockPadding"}

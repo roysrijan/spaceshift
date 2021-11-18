@@ -234,6 +234,11 @@ color: #000;
 }
 .realEstateBottomImgWrap{
   width: 100%;
+  flex-direction: column;
+}
+.realEstateBottomImg{
+  padding-right: 0;
+  margin-bottom: 15px;
 }
 .realEstateBottomContent{
   width: 100%;
