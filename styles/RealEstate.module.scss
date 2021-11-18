@@ -2,6 +2,8 @@
   display: flex;
   align-items: center;
 }
+
+
 .realestateTopImgWrap {
   width: 40%;
   position: relative;
@@ -235,6 +237,7 @@ color: #000;
 .realEstateBottomImgWrap{
   width: 100%;
   flex-direction: column;
+  order: 2;
 }
 .realEstateBottomImg{
   padding-right: 0;
@@ -259,4 +262,7 @@ color: #000;
 .realEstateBottomContentBox{
   width: 100%;
 }
+.realEstateBottomImgForMob{
+  display: none;
+ }
 }

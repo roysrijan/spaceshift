@@ -568,6 +568,19 @@ a:hover {
   .indusTabBoxImageInfoNew{
     width:70%
   }
+  .modalClose {
+    position: absolute;
+    background: #000 !important;
+    height: 40px;
+    width: 40px;
+    z-index: 99;
+    border: none !important;
+    right: 0;
+    top: 0;
+    background: red;
+    border-radius: 80px !important;
+    padding: 5px !important;
+}
 }
 
 /* .navbar-light .navbar-toggler-icon {

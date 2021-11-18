@@ -47,14 +47,14 @@ export default function View() {
                   {/* <Image src={RealestateBannerImg} alt="Spaceshift" /> */}
 
 
-                  <img src="/images/real-estate-cover.webp" alt="Spaceshift"/>
-                  <button className={stylesRealEstate.playBt} onClick={()=>setplay(true)}><img src="/images/play-icon.png" alt="Spaceshift" /></button>
+                  <img src="/images/real-estate-cover.webp" alt="Spaceshift" />
+                  <button className={stylesRealEstate.playBt} onClick={() => setplay(true)}><img src="/images/play-icon.png" alt="Spaceshift" /></button>
 
                 </div>
                 <div className={stylesRealEstate.realestateTopInfo}>
                   <h1>Real Estate</h1>
                   <p>
-                  The Real Estate industry is lucrative and has constant business growth, which creates great competition among realtors and makes it necessary for them to adopt new marketing strategies. Moreover, recent technological developments need to be introduced to the industries, so that they can keep the consumers engaged digitally and stay up-to-date. Currently, Matterport 3D tours and 360 degree virtual tours have emerged as effective and powerful marketing tools for the global market, and we suggest you start using them as soon as possible.
+                    The Real Estate industry is lucrative and has constant business growth, which creates great competition among realtors and makes it necessary for them to adopt new marketing strategies. Moreover, recent technological developments need to be introduced to the industries, so that they can keep the consumers engaged digitally and stay up-to-date. Currently, Matterport 3D tours and 360 degree virtual tours have emerged as effective and powerful marketing tools for the global market, and we suggest you start using them as soon as possible.
                   </p>
                 </div>
               </div>
@@ -73,7 +73,7 @@ export default function View() {
           <Row>
             <Col lg="12">
               <p>
-              Surveys reveal that 74% of real estate agents using  Matterport 3D walkthroughs get more deals compared to those who haven’t taken advantage of the technology yet. Potential customers get a good sense of the space with Matterport tours, which motivates them to get in touch with the listed property agents. SpaceShift has a team of Matterport experts, who are capable of shooting and producing high-quality tours, making it a top Matterport Service Provider in India.
+                Surveys reveal that 74% of real estate agents using  Matterport 3D walkthroughs get more deals compared to those who haven’t taken advantage of the technology yet. Potential customers get a good sense of the space with Matterport tours, which motivates them to get in touch with the listed property agents. SpaceShift has a team of Matterport experts, who are capable of shooting and producing high-quality tours, making it a top Matterport Service Provider in India.
               </p>
             </Col>
           </Row>
@@ -89,7 +89,7 @@ export default function View() {
               <div className={stylesRealEstate.realEstateMiddle}>
                 <div className={stylesRealEstate.realEstateMiddleImg}>
                   {/* <Image src={realestateImg} alt="Spaceshift" /> */}
-<img src="/images/virtual-tour-services-india.webp" alt="Spaceshift"/>
+                  <img src="/images/virtual-tour-services-india.webp" alt="Spaceshift" />
 
                 </div>
                 <div className={stylesRealEstate.realEstateMiddleInfo}>
@@ -98,7 +98,7 @@ export default function View() {
                     You?
                   </h2>
                   <p>
-                  Photographs play an important role in showcasing any property, but the biggest drawback is that they lack interactivity. This can be overcome with 360 Virtual Tours, which gives your clients a realistic sense of the look of the property in high resolution, remotely. What’s better than this? Well, Matterport 3D walkthroughs help you navigate in between the floors and get a dollhouse view of the property. This lets you see how every room is connected, and the Inside View gives you an idea about how each room looks and its dimensions.
+                    Photographs play an important role in showcasing any property, but the biggest drawback is that they lack interactivity. This can be overcome with 360 Virtual Tours, which gives your clients a realistic sense of the look of the property in high resolution, remotely. What’s better than this? Well, Matterport 3D walkthroughs help you navigate in between the floors and get a dollhouse view of the property. This lets you see how every room is connected, and the Inside View gives you an idea about how each room looks and its dimensions.
                   </p>
                 </div>
               </div>
@@ -113,13 +113,13 @@ export default function View() {
               >
                 <div className={stylesRealEstate.realEstateMiddleInfo}>
                   <p>
-                  Consumers are looking for easier ways to engage and research about the property before visiting. To achieve that, focusing on Virtual tours is important. Experiencing the location remotely as and when required, helps consumers conduct thorough research and schedule a visit only if the property fits their criteria. This saves both of your valuable time, that you can dedicate to other potential customers. Moreover, you can embed the 3D Matterport Virtual Tour on your website and share it across all social media platforms for better reach.
+                    Consumers are looking for easier ways to engage and research about the property before visiting. To achieve that, focusing on Virtual tours is important. Experiencing the location remotely as and when required, helps consumers conduct thorough research and schedule a visit only if the property fits their criteria. This saves both of your valuable time, that you can dedicate to other potential customers. Moreover, you can embed the 3D Matterport Virtual Tour on your website and share it across all social media platforms for better reach.
                   </p>
                 </div>
 
                 <div className={stylesRealEstate.realEstateMiddleImg}>
                   {/* <Image src={realestateImg2} alt="Spaceshift" /> */}
-                  <img src="/images/real-estate-3d-tour-hotspots.webp" alt="Spaceshift"/>
+                  <img src="/images/real-estate-3d-tour-hotspots.webp" alt="Spaceshift" />
 
 
                 </div>
@@ -135,13 +135,13 @@ export default function View() {
               >
                 <div className={stylesRealEstate.realEstateMiddleImg}>
                   {/* <Image src={realestateImg3} alt="Spaceshift" /> */}
-                  <img src="/images/real-estate-vr-services.webp" alt="Spaceshift"/>
+                  <img src="/images/real-estate-vr-services.webp" alt="Spaceshift" />
 
 
                 </div>
                 <div className={stylesRealEstate.realEstateMiddleInfo}>
                   <p>
-                  Real Estate listings with Matterport tours are clicked 40% times more often than those using only still photos, revealing the importance of virtual reality in standing out from the crowd. According to Realtor’s report in 2020, listings with virtual tours receive 87% more views than those without interactive tours. Hence, Matterport 3D Virtual Tours help you draw potential customers to your website and increases the revenue from it.
+                    Real Estate listings with Matterport tours are clicked 40% times more often than those using only still photos, revealing the importance of virtual reality in standing out from the crowd. According to Realtor’s report in 2020, listings with virtual tours receive 87% more views than those without interactive tours. Hence, Matterport 3D Virtual Tours help you draw potential customers to your website and increases the revenue from it.
                   </p>
                 </div>
               </div>
@@ -163,16 +163,16 @@ export default function View() {
             <Col lg="12">
               <div className={stylesRealEstate.realEstateBottom}>
                 <div className={stylesRealEstate.realEstateBottomImgWrap}>
-                  <div className={stylesRealEstate.realEstateBottomImg}>
+                  <div className={stylesRealEstate["realEstateBottomImg"] + " " + stylesRealEstate["realEstateBottomImgForMob"]}>
                     {/* <Image src={realestateImg4} alt="Spaceshift" /> */}
-<img src="/images/matterport-commercial-real-estate.webp" alt="Spaceshift"/>
+                    <img src="/images/matterport-commercial-real-estate.webp" alt="Spaceshift" />
 
                   </div>
                   <div className={stylesRealEstate.realEstateBottomImg}>
                     {/* <Image src={realestateImg5} alt="Spaceshift" /> */}
-{/* <img src="/images/img-42.jpg" alt="Spaceshift"/> */}
+                    {/* <img src="/images/img-42.jpg" alt="Spaceshift"/> */}
 
-<img src="/images/matterport-services-india.webp" alt="Spaceshift"/>
+                    <img src="/images/matterport-services-india.webp" alt="Spaceshift" />
 
                   </div>
                 </div>
@@ -192,7 +192,7 @@ export default function View() {
                     >
                       <h5>Provides More Information than Pictures</h5>
                       <p>
-                      Matterport 3D Virtual Tours are interactive and let the user explore the property digitally, by letting them move from one space to another, and enable them to look around in 360 degrees, with just a few clicks. Moreover, Mattertags can be used to embed pop-up notes, links, and videos to provide relevant and important information to potential clients.
+                        Matterport 3D Virtual Tours are interactive and let the user explore the property digitally, by letting them move from one space to another, and enable them to look around in 360 degrees, with just a few clicks. Moreover, Mattertags can be used to embed pop-up notes, links, and videos to provide relevant and important information to potential clients.
                       </p>
                     </div>
                   </div>
@@ -212,7 +212,7 @@ export default function View() {
                     >
                       <h5>Excellent Customer Experience</h5>
                       <p>
-                      Matterport 3D Virtual Tours offer the most transparent, informational, and immersive customer experience at the comfort of the client’s home. 99% of sellers say that a  Matterport 3D Showcase  gave their property listing a competitive edge and 82% of them wanted to shift to a real estate agent offering 3D tours. The sellers said that 3D virtual tours give the client the control to manipulate the tour and see what they want to, instead of keeping complete control in the hands of the agent/seller.
+                        Matterport 3D Virtual Tours offer the most transparent, informational, and immersive customer experience at the comfort of the client’s home. 99% of sellers say that a  Matterport 3D Showcase  gave their property listing a competitive edge and 82% of them wanted to shift to a real estate agent offering 3D tours. The sellers said that 3D virtual tours give the client the control to manipulate the tour and see what they want to, instead of keeping complete control in the hands of the agent/seller.
                       </p>
                     </div>
                   </div>
@@ -231,7 +231,7 @@ export default function View() {
                     >
                       <h5>Leaves a Long-Lasting Impression</h5>
                       <p>
-                      With a Matterport 3D virtual tour, prospective customers can perform their walkthrough of the property from anywhere and anytime. Statistics reveal that 9 out of 10 buyers are more compelled by a listing with a Matterport 3D showcase. This is because interactive media provides the users a close to the real-life experience of a physical tour of the property.
+                        With a Matterport 3D virtual tour, prospective customers can perform their walkthrough of the property from anywhere and anytime. Statistics reveal that 9 out of 10 buyers are more compelled by a listing with a Matterport 3D showcase. This is because interactive media provides the users a close to the real-life experience of a physical tour of the property.
                       </p>
                     </div>
                   </div>
@@ -250,7 +250,7 @@ export default function View() {
                     >
                       <h5>Passive Marketing Element</h5>
                       <p>
-                      Matterport 3D Virtual Tours  are excellent marketing elements that keep the potential clients engaged by letting them interact with the content online. This means that the bounce rate of your website is reduced considerably, which results in better SEO and greater website revenue. Being an experienced  Matterport Service Provider , SpaceShift shoots high-quality immersive content that helps captivate the attention of your audience.
+                        Matterport 3D Virtual Tours  are excellent marketing elements that keep the potential clients engaged by letting them interact with the content online. This means that the bounce rate of your website is reduced considerably, which results in better SEO and greater website revenue. Being an experienced  Matterport Service Provider , SpaceShift shoots high-quality immersive content that helps captivate the attention of your audience.
                       </p>
                     </div>
                   </div>
@@ -269,7 +269,7 @@ export default function View() {
                     >
                       <h5>Get The Exact Dimensions of the Space</h5>
                       <p>
-                      The Matterport 3D tour has a Measurement Mode, that lets users measure any part of the space, on any device. This helps eliminate the need for continuous physical visits and enables smarter space planning and utilization.
+                        The Matterport 3D tour has a Measurement Mode, that lets users measure any part of the space, on any device. This helps eliminate the need for continuous physical visits and enables smarter space planning and utilization.
                       </p>
                     </div>
                   </div>
@@ -288,7 +288,7 @@ export default function View() {
                     >
                       <h5>Saves Time that You Can Dedicate on Genuine Leads</h5>
                       <p>
-                      Digital tours help attract qualified and prospective clients by giving them a vivid and complete representation of the property. This helps the clients filter out properties according to their needs and pursue the listing only if it fulfills their criteria. Thus, you save time that you can dedicate to leads who are genuinely interested in the listing.
+                        Digital tours help attract qualified and prospective clients by giving them a vivid and complete representation of the property. This helps the clients filter out properties according to their needs and pursue the listing only if it fulfills their criteria. Thus, you save time that you can dedicate to leads who are genuinely interested in the listing.
                       </p>
                     </div>
                   </div>
@@ -298,13 +298,13 @@ export default function View() {
           </Row>
         </Container>
       </section>
-      <Modal size="lg" show={play} onHide={()=>setplay(false)}>
-        <Button className="modalClose" onClick={()=>setplay(false)}>
-      <img src="/images/close.png" alt="Spaceshift" />
-          </Button>
+      <Modal size="lg" show={play} onHide={() => setplay(false)}>
+        <Button className="modalClose" onClick={() => setplay(false)}>
+          <img src="/images/close.png" alt="Spaceshift" />
+        </Button>
         <Modal.Body>
-          <div>   
-          <iframe width='100%' height='480' src='https://my.matterport.com/show/?m=vYN1Ch8PB9H' frameBorder='0' allowFullScreen allow='xr-spatial-tracking'></iframe>
+          <div>
+            <iframe width='100%' height='480' src='https://my.matterport.com/show/?m=vYN1Ch8PB9H' frameBorder='0' allowFullScreen allow='xr-spatial-tracking'></iframe>
           </div>
         </Modal.Body>
       </Modal>
