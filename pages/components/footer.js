@@ -114,7 +114,7 @@ export default function Footer() {
           </Col>
 
           <Col lg="12">
-            <p className={footerStyles.copyRight}>Copiright 2016 - 2021 @Space Shift Productions LLP</p>
+            <p className={footerStyles.copyRight}>Copiright 2017 - 2021 @Space Shift Productions LLP</p>
           </Col>
 
           {/* <Col lg="3">

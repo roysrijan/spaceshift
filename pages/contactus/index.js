@@ -57,7 +57,7 @@ export default function Home() {
 <img src="/images/contact-icon-3.png" alt="Spaceshift"/>
 
                       <h3>Email</h3>
-                      <p>Info@Spaceshift.in </p>
+                      <p>Info@Spaceshift.tech </p>
                     </li>
                   </ul>
                 </div>
