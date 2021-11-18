@@ -62,6 +62,18 @@ export default function index() {
           </Row>
         </Container>
       </section>
+
+
+      <section className={stylesRetails["retailsIframeWrap"] + " " + ""} >
+        <Container>
+          <Row>
+            <Col lg="12">
+            <iframe width='100%' height='480' src='https://my.3dinteractivetours.uk/tour/steelite-london-showroom' frameBorder='0' allowFullScreen allow='xr-spatial-tracking'></iframe>
+             </Col>
+          </Row>
+        </Container>
+      </section>
+
       <section
         className={
           stylesRetails["retailBottomContainer"] + " " + "blockPadding"

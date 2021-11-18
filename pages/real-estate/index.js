@@ -7,6 +7,7 @@ import {
   Nav,
   Button,
   NavDropdown,
+  Modal
 } from "react-bootstrap";
 
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
@@ -17,6 +18,8 @@ import stylesRealEstate from "../../styles/RealEstate.module.scss";
 import Footer from "../components/footer";
 import Header from "../components/header";
 import "bootstrap/dist/css/bootstrap.css";
+import { useState } from "react";
+
 
 // import RealestateBannerImg from "../../public/images/real-estate-banner.jpg";
 // import realestateImg from "../../public/images/img-38.jpg";
@@ -25,7 +28,9 @@ import "bootstrap/dist/css/bootstrap.css";
 // import realestateImg4 from "../../public/images/img-41.jpg";
 // import realestateImg5 from "../../public/images/img-42.jpg";
 
-export default function index() {
+export default function View() {
+  const [play, setplay] = useState(false);
+
   return (
     <div className="globalWrap">
       <Header />
@@ -40,7 +45,10 @@ export default function index() {
               <div className={stylesRealEstate.realestateTop}>
                 <div className={stylesRealEstate.realestateTopImgWrap}>
                   {/* <Image src={RealestateBannerImg} alt="Spaceshift" /> */}
-<img src="/images/real-estate-cover.webp" alt="Spaceshift"/>
+
+
+                  <img src="/images/real-estate-cover.webp" alt="Spaceshift"/>
+                  <button className={stylesRealEstate.playBt} onClick={()=>setplay(true)}><img src="/images/play-icon.png" alt="Spaceshift" /></button>
 
                 </div>
                 <div className={stylesRealEstate.realestateTopInfo}>
@@ -290,7 +298,18 @@ export default function index() {
           </Row>
         </Container>
       </section>
+      <Modal size="lg" show={play} onHide={()=>setplay(false)}>
+        <Button className="modalClose" onClick={()=>setplay(false)}>
+      <img src="/images/close.png" alt="Spaceshift" />
+          </Button>
+        <Modal.Body>
+          <div>   
+          <iframe width='100%' height='480' src='https://my.matterport.com/show/?m=vYN1Ch8PB9H' frameBorder='0' allowFullScreen allow='xr-spatial-tracking'></iframe>
+          </div>
+        </Modal.Body>
+      </Modal>
 
+      <Footer />
       <Footer />
     </div>
   );

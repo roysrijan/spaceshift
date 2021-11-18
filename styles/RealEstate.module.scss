@@ -4,6 +4,7 @@
 }
 .realestateTopImgWrap {
   width: 40%;
+  position: relative;
 }
 .realestateTopInfo {
   width: 60%;
@@ -135,6 +136,16 @@ color: #000;
     right: 107px;
     bottom: -45px;
     z-index: -1;
+}
+.playBt {
+  width: 79px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border: none;
+  z-index: 999;
+  background: none;
+  transform: translate(-50%, -50%);
 }
 @media(max-width:1100px){
   .realEstateBottom{

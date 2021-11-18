@@ -68,6 +68,18 @@ export default function index() {
           </Row>
         </Container>
       </section>
+
+
+      <section className={stylesEvents["retailsIframeWrap"] + " " + ""} >
+        <Container>
+          <Row>
+            <Col lg="12">
+            <iframe width="100%" height="500" src="https://www.youtube.com/embed/K8EZjrHLfZ0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+             </Col>
+          </Row>
+        </Container>
+      </section>
+
       <section
         className={stylesEvents["eventsBottomContainer"] + " " + "blockPadding"}
       >

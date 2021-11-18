@@ -90,6 +90,21 @@ export default function index() {
           </Row>
         </Container>
       </section>
+
+
+      <section className={stylesIndustries["retailsIframeWrap"] + " " + ""} >
+        <Container>
+          <Row>
+            <Col lg="12">
+            <iframe width='100%' height='480' src='https://my.3dtours.co.za/tour/university-of-johannesburg-uj-interactive-virtual-tour?s=fcf21a1f05fd4ed7a72a7b48753f3ee8&x=-1.5777200026307532&y=-85.61381067848777&m=UDVVMnlOR01zdVg=' frameBorder='0' allowFullScreen allow='xr-spatial-tracking'></iframe>
+             </Col>
+          </Row>
+        </Container>
+      </section>
+
+
+
+
       <section
         className={stylesIndustries["benefitContainer"] + " " + "blockPadding" + " " +stylesIndustries["eduBotContainer"]}
       >

@@ -52,7 +52,7 @@ export default function View() {
         <div className={stylesGstreet.Tour3dContentBoxImg}>
                   {/* <Image src={threedToursImg} alt="Spaceshift" /> */}
                   <img src="/images/gogle-streetview-360-on-a-phone.webp" alt="Spaceshift" /> 
-                  <button onClick={()=>setplay(true)} className={stylesGstreet.playBt}><img src="/images/play-icon.png" alt="Spaceshift" /></button>
+                  {/* <button onClick={()=>setplay(true)} className={stylesGstreet.playBt}><img src="/images/play-icon.png" alt="Spaceshift" /></button> */}
 
 
 
@@ -88,7 +88,7 @@ export default function View() {
               {/* <Image src={googleStreetviewImg3} alt="Spaceshift" /> */}
               {/* <img src="/images/img-8.png" alt="Spaceshift" /> */}
 
-              <iframe src="https://www.google.com/maps/embed?pb=!4v1637050957858!6m8!1m7!1sCAoSLEFGMVFpcE1BUU9hdkFEMWdZcFBPanpTWWJudnBVUU1FVzN2MVNvWld2U1hJ!2m2!1d22.54360047!2d88.35192874!3f102!4f0!5f0.7820865974627469" width="100%" height="500" frameBorder='0' allowFullScreen="" loading="lazy"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!4v1637069942596!6m8!1m7!1sCAoSLEFGMVFpcE0zS0tCdUFxc3JjZUowSVJ5X3daUFJScjRpWDFXeFhhOTVxVXJy!2m2!1d22.5527535!2d88.35248648!3f75.81!4f0!5f0.7820865974627469" width="100%" height="500" frameBorder='0' allowFullScreen="" loading="lazy"></iframe>
             </Col>
           </Row>
         </Container>

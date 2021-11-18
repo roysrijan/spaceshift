@@ -24,6 +24,7 @@
   align-items: center;
   .highlightBoxImg {
     width: 40%;
+    position: relative;
     img{
       width: 100%;
     }
@@ -194,6 +195,22 @@
   position: relative;
   z-index: 99;
 }
+.playBt {
+  width: 79px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border: none;
+  z-index: 999;
+  background: none;
+  transform: translate(-50%, -50%);
+}
+
+.retailsIframeWrap{
+  padding-bottom:60px;
+}
+
+
 @media(max-width:1100px){
   .hospitalsTopContent {
     padding-top: 12px;

@@ -40,6 +40,9 @@ p{
 }
 .storeContainerFbox .storeContainerFboxInner .storeBox{
     padding-right: 30px;
+    img{
+        border-radius: 11px;
+    }
 }
 .storeContainerFbox .storeContainerFboxInner:nth-child(2n) .storeBox{
     padding-left: 30px;

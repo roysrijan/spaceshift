@@ -7,7 +7,9 @@ import {
   Nav,
   Button,
   NavDropdown,
+  Modal
 } from "react-bootstrap";
+import { useState } from "react";
 
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
@@ -24,7 +26,9 @@ import "bootstrap/dist/css/bootstrap.css";
 // import IndustriesImg4 from "../../public/images/img-32.jpg";
 // import IndustriesImg5 from "../../public/images/img-33.jpg";
 
-export default function index() {
+export default function View() {
+
+  const [play, setplay] = useState(false);
   return (
     <div className="globalWrap">
       <Header />
@@ -109,7 +113,10 @@ export default function index() {
                 </div>
                 <div className={stylesIndustries.highlightBoxImg}>
                   {/* <Image src={IndustriesImg4} alt="Spaceshift" /> */}
-<img src="/images/travel-experiences-in-vr.webp" alt="Spaceshift"/>
+
+
+                  <img src="/images/travel-experiences-in-vr.webp" alt="Spaceshift"/>
+                  <button className={stylesIndustries.playBt} onClick={()=>setplay(true)}><img src="/images/play-icon.png" alt="Spaceshift" /></button>
 
                 </div>
               </div>
@@ -180,6 +187,19 @@ export default function index() {
 
         </div>
       </section>
+
+      
+      <Modal size="lg" show={play} onHide={()=>setplay(false)}>
+        <Button className="modalClose" onClick={()=>setplay(false)}>
+      <img src="/images/close.png" alt="Spaceshift" />
+          </Button>
+        <Modal.Body>
+          <div>   
+          <iframe width='100%' height='480' src='https://my.matterport.com/show/?m=xkqd2Tt2UmS' frameBorder='0' allowFullScreen allow='xr-spatial-tracking'></iframe>
+          </div>
+        </Modal.Body>
+      </Modal>
+
       <Footer />
     </div>
   );

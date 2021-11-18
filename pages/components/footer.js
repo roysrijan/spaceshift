@@ -40,25 +40,23 @@ export default function Footer() {
                     their lives & work every day.
                   </p>
                 </li>
-                <li>
-                  {/* <Image src={locationicon} alt="Spaceshift" /> */}
+                {/* <li>
                   <img src="/images/location-icon.png" alt="Spaceshift" />
 
                   <p>Location</p>
                 </li>
 
                 <li>
-                  {/* <Image src={contactIcon} alt="Spaceshift" /> */}
                   <img src="/images/contact-info-icon.png" alt="Spaceshift" />
 
                   <p>Contact Info</p>
-                </li>
+                </li> */}
 
                 <li>
                   {/* <Image src={linkIcon} alt="Spaceshift" /> */}
                   <img src="/images/link-icon.png" alt="Spaceshift" />
 
-                  <p>www.spaceshift.in</p>
+                  <p>www.spaceshift.tech</p>
                 </li>
               </ul>
             </div>
@@ -96,7 +94,7 @@ export default function Footer() {
                   </li>
                 </ul>
 
-                <ul>
+                {/* <ul>
                   <li>
                     <a href="#">Industries</a>
                   </li>
@@ -110,12 +108,16 @@ export default function Footer() {
                       <a>FAQ</a>
                     </Link>
                   </li>
-                </ul>
+                </ul> */}
               </span>
             </div>
           </Col>
 
-          <Col lg="3">
+          <Col lg="12">
+            <p className={footerStyles.copyRight}>Copiright 2016 - 2021 @Space Shift Productions LLP</p>
+          </Col>
+
+          {/* <Col lg="3">
             <div className={footerStyles.footerBoxServices}>
               <h2>Get in touch</h2>
               <div className={footerStyles.newsletterWrap}>
@@ -127,7 +129,7 @@ export default function Footer() {
                     placeholder="Enter your email"
                   />
                   <Button>
-                    {/* <Image src={newsletterSendIcon} alt="Spaceshift" /> */}
+                  
                     <img src="/images/newsletter-send.png" alt="Spaceshift" />
                   </Button>
                 </Form>
@@ -137,29 +139,27 @@ export default function Footer() {
                 <h2>Social networks</h2>
                 <div>
                   <a>
-                    {" "}
-                    {/* <Image src={google} alt="Spaceshift" /> */}
+                   
                     <img src="/images/insta.png" alt="Spaceshift" />
                   </a>
                   <a>
-                    {" "}
-                    {/* <Image src={twitter} alt="Spaceshift" /> */}
+                  
                     <img src="/images/twitter.png" alt="Spaceshift" />
                   </a>
                   <a>
-                    {" "}
-                    {/* <Image src={facebook} alt="Spaceshift" /> */}
+                   
                     <img src="/images/facebook.png" alt="Spaceshift" />
                   </a>
                   <a>
-                    {" "}
-                    {/* <Image src={insta} alt="Spaceshift" /> */}
+                   
                     <img src="/images/insta.png" alt="Spaceshift" />
                   </a>
                 </div>
               </div>
             </div>
           </Col>
+       
+        */}
         </Row>
       </Container>
     </footer>

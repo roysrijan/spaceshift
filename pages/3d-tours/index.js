@@ -74,19 +74,14 @@ const [play, setplay] = useState(false);
                 <div className={stylesThreeDTours.Tour3dContentBoxInfo}>
                   <h2>3D Virtual Tours</h2>
                   <p>
-                    A 3D virtual tour is a sequential display of
-                    panoramic images that are &#34;sewed&#34; together to produce a
-                    &#34;virtual&#34; experience or an encounter of any
-                    location. When created, the viewers can experience the
-                    presence of a particular location without being there.
-                    Viewers are shown to be 150% more engaged and interested
-                    with a virtual tour than they are with 2D imagery.<br></br>
-                    <br></br>
-                    Our 3D virtual tours include sound effects, for
-                    instance, music or a voiceover describing the product or the
-                    point of interest. We also offer buttons that can be clicked
-                    on by viewers who want to take a still picture of a specific
-                    part of the tour.
+                  A 3D Virtual Tour is a 360 walkthrough inside a 3d model of an existing space which is captured by a camera system with depth censors. This camera with depth sensors can measure the accurate distance from the camera to the the objects around it resulting in formation of Point Cloud data from which a 3d model of the space is built. When created, the viewers can experience the presence of that exact location without being there. Viewers are shown to be 150% more engages and interested in 3D Virtual Tours than they are in 2d imagery.
+                  <br></br>  <br></br>
+We use Matterport 3D technology for creating the 3D Tours. Utilising Matterport SDK and API, we do custom development and create unique custom tailor-made tours as per client requirements. Our 3D Tours can include sound effects, music or voice over, point of interest, product grouping for e-commerce, etc.
+
+
+
+
+
                   </p>
                 </div>
               </div>
@@ -438,7 +433,7 @@ To view the application of Matterport SDK by Spaceshift to custom-create feature
         <Modal.Body>
           <div>
           {/* <iframe width='100%' height='480' src='https://my.matterport.com/show/?m=f8cpb3pSgKC&play=1' frameborder='0' allowfullscreen allow='xr-spatial-tracking' ></iframe> */}
-          <iframe src="https://www.google.com/maps/embed?pb=!4v1637069942596!6m8!1m7!1sCAoSLEFGMVFpcE0zS0tCdUFxc3JjZUowSVJ5X3daUFJScjRpWDFXeFhhOTVxVXJy!2m2!1d22.5527535!2d88.35248648!3f75.81!4f0!5f0.7820865974627469" width="100%" height="450" frameBorder='0' allowFullScreen="" loading="lazy"></iframe>
+          <iframe src='https://my.matterport.com/show/?m=mDzjK66C811' width="100%" height="450" frameBorder='0' allowFullScreen="" loading="lazy"></iframe>
           </div>
         </Modal.Body>
         {/* <Modal.Footer>

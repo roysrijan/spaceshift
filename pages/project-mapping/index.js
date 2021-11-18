@@ -7,6 +7,7 @@ import {
   Nav,
   Button,
   NavDropdown,
+  Modal
 } from "react-bootstrap";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
@@ -16,12 +17,16 @@ import stylesProjectMapping from "../../styles/projectMapping.module.scss";
 import Footer from "../components/footer";
 import Header from "../components/header";
 import "bootstrap/dist/css/bootstrap.css";
+import { useState } from "react";
+
 
 // import projectMappingBanner from "../../public/images/project-mapping-banner.jpg";
 // import projectMappingImg1 from "../../public/images/img-20.jpg";
 // import projectMappingImg2 from "../../public/images/img-21.jpg";
 
-export default function index() {
+export default function View() {
+const [play, setplay] = useState(false);
+
   return (
     <div className="globalWrap">
       <Header />
@@ -51,10 +56,13 @@ export default function index() {
                 <div className={stylesProjectMapping.introductionImg}>
                   {/* <Image src={projectMappingImg1} alt="Spaceshift" /> */}
                   <img src="/images/nazrul-tirtha-projection-mapping.webp" alt="Spaceshift" />
+                  <button className={stylesProjectMapping.playBt} onClick={()=>setplay(true)}><img src="/images/play-icon.png" alt="Spaceshift" /></button>
+
                 </div>
                 <div className={stylesProjectMapping.introductionContent}>
                 <h2>Projection Mapping</h2>
                   <p>
+                  
                     3D projection mapping, known as simply &#34;projection
                     mapping&#34; or video mapping, is the art and science of
                     utilizing physical spaces and objects as the surface for
@@ -85,25 +93,28 @@ export default function index() {
                 <h2>What are they?</h2>
 
                 <div className={stylesProjectMapping.whatAreTheyBoxContent}>
-                  <div className={stylesProjectMapping.whatAreThey}>
+                <div className={stylesProjectMapping.whatAreThey}>
                     <h3>01</h3>
+                    <h4>Surface</h4>
+                    <p>Physical space on which projection takes place</p>
+                  </div>
+
+
+                  <div className={stylesProjectMapping.whatAreThey}>
+                    <h3>02</h3>
                     <h4>Content</h4>
                     <p>The Visuals projected</p>
                   </div>
 
                   <div className={stylesProjectMapping.whatAreThey}>
-                    <h3>02</h3>
+                    <h3>03</h3>
                     <h4>Projection Hardware</h4>
                     <p>
                       Equipment that is responsible for doing the projection
                     </p>
                   </div>
 
-                  <div className={stylesProjectMapping.whatAreThey}>
-                    <h3>03</h3>
-                    <h4>Surface</h4>
-                    <p>Physical space on which projection takes place</p>
-                  </div>
+                 
 
                   <div className={stylesProjectMapping.whatAreThey}>
                     <h3>04</h3>
@@ -130,13 +141,14 @@ export default function index() {
         <Container>
           <Row>
             <Col lg="12">
-              <h2>More about CPSM in Projection Mapping</h2>
+              <h2>More about SCPM in Projection Mapping</h2>
               <div className="moreAboutProjectMapping">
                 <Tabs>
                   <TabList>
                   <Tab>Surface</Tab>
+                  <Tab>Content</Tab>
                   <Tab>Projection</Tab>
-                    <Tab>Content</Tab>
+                   
                     
                     
                     <Tab>Mapping</Tab>
@@ -169,41 +181,6 @@ export default function index() {
                       </div>
                     </div>
                   </TabPanel>
-
-                  <TabPanel>
-                    <div className="moreAboutProjectMappingTabContent">
-                      <div className="moreAboutProjectMappingTabContentImg">
-                        {/* <Image src={projectMappingImg2} alt="Spaceshift" /> */}
-                        <img src="/images/projection-mapping-durga-puja-projection.webp" alt="Spaceshift" />
-                      </div>
-                      <div className="moreAboutProjectMappingTabContentText">
-                        <p>
-                          It can be said with utmost certainty that most
-                          projection mapping couldn&#39;t be done using a simple
-                          conference room projector. Due to the fact that
-                          projection mapping requires tons of lights to produce
-                          its effects, a majority of the expense for projection
-                          mapping goes into hardware. Now, there are two
-                          components or groups when talking about projectors-
-                          &#34;Standard&#34; and &#34;Large Venue&#34;.{" "}
-                          <br></br>
-                          <br></br>
-                          Standard projectors are the ones that you would find
-                          in a boardroom or an education setting. These
-                          projectors tend to work better for smaller surfaces,
-                          for instance, entertaining the guests or product
-                          displays. Large venue projectors are way larger,
-                          brighter, and demand special power deliberation. Large
-                          venue projectors requiring events are usually more
-                          expansive in scope since due to the nature of these
-                          projectors, extra support hardware like electrical
-                          generators and truss are required.
-                        </p>
-                      </div>
-                    </div>
-                  </TabPanel>
-
-                 
 
                   <TabPanel>
                     <div className="moreAboutProjectMappingTabContent">
@@ -248,6 +225,43 @@ export default function index() {
                   </TabPanel>
 
                  
+
+                  <TabPanel>
+                    <div className="moreAboutProjectMappingTabContent">
+                      <div className="moreAboutProjectMappingTabContentImg">
+                        {/* <Image src={projectMappingImg2} alt="Spaceshift" /> */}
+                        <img src="/images/projection-mapping-durga-puja-projection.webp" alt="Spaceshift" />
+                      </div>
+                      <div className="moreAboutProjectMappingTabContentText">
+                        <p>
+                          It can be said with utmost certainty that most
+                          projection mapping couldn&#39;t be done using a simple
+                          conference room projector. Due to the fact that
+                          projection mapping requires tons of lights to produce
+                          its effects, a majority of the expense for projection
+                          mapping goes into hardware. Now, there are two
+                          components or groups when talking about projectors-
+                          &#34;Standard&#34; and &#34;Large Venue&#34;.{" "}
+                          <br></br>
+                          <br></br>
+                          Standard projectors are the ones that you would find
+                          in a boardroom or an education setting. These
+                          projectors tend to work better for smaller surfaces,
+                          for instance, entertaining the guests or product
+                          displays. Large venue projectors are way larger,
+                          brighter, and demand special power deliberation. Large
+                          venue projectors requiring events are usually more
+                          expansive in scope since due to the nature of these
+                          projectors, extra support hardware like electrical
+                          generators and truss are required.
+                        </p>
+                      </div>
+                    </div>
+                  </TabPanel>
+
+                 
+
+                
                   <TabPanel>
                     <div className="moreAboutProjectMappingTabContent">
                       <div className="moreAboutProjectMappingTabContentImg">
@@ -277,7 +291,26 @@ export default function index() {
           </Row>
         </Container>
       </section>
-
+      <Modal size="lg" show={play} onHide={()=>setplay(false)}>
+        {/* <Modal.Header closeButton>
+          <Modal.Title>Google Street View</Modal.Title>
+        </Modal.Header> */}
+        <Button className="modalClose" onClick={()=>setplay(false)}>
+      <img src="/images/close.png" alt="Spaceshift" />
+          </Button>
+        <Modal.Body>
+          <div>
+          {/* <iframe width='100%' height='480' src='https://my.matterport.com/show/?m=f8cpb3pSgKC&play=1' frameborder='0' allowfullscreen allow='xr-spatial-tracking' ></iframe> */}
+          <iframe width="100%" height="500" src="https://www.youtube.com/embed/-ndxM8lJIXY" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+          </div>
+        </Modal.Body>
+        {/* <Modal.Footer>
+          <Button variant="secondary"  onClick={()=>setplay(false)}>
+            Close
+          </Button>
+        
+        </Modal.Footer> */}
+      </Modal>
       <Footer />
     </div>
   );

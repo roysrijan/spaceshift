@@ -7,6 +7,7 @@ import {
   Nav,
   Button,
   NavDropdown,
+  Modal
 } from "react-bootstrap";
 
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
@@ -17,6 +18,7 @@ import stylesIndustries from "../../styles/Industries.module.scss";
 import Footer from "../components/footer";
 import Header from "../components/header";
 import "bootstrap/dist/css/bootstrap.css";
+import { useState } from "react";
 
 // import IndustriesImg from "../../public/images/education-banner.jpg";
 // import IndustriesImg2 from "../../public/images/img-34.jpg";
@@ -24,7 +26,9 @@ import "bootstrap/dist/css/bootstrap.css";
 // import IndustriesImg4 from "../../public/images/img-36.jpg";
 // import googleStreetviewImg4 from "../../public/images/img-9.png";
 
-export default function index() {
+export default function View() {
+
+  const [play, setplay] = useState(false);
   return (
     <div className="globalWrap">
       <Header />
@@ -78,7 +82,11 @@ export default function index() {
               <div className={stylesIndustries.highlightBox}>
                 <div className={stylesIndustries.highlightBoxImg}>
                   {/* <Image src={IndustriesImg4} alt="Spaceshift" /> */}
-<img src="/images/google-360-drifter-cafe-kolkata.webp" alt="Spaceshift"/>
+
+
+                  <img src="/images/google-360-drifter-cafe-kolkata.webp" alt="Spaceshift"/>
+                  <button className={stylesIndustries.playBt} onClick={()=>setplay(true)}><img src="/images/play-icon.png" alt="Spaceshift" /></button>
+
 
                 </div>
                 <div className={stylesIndustries.highlightBoxContent}>
@@ -148,6 +156,19 @@ export default function index() {
           </Row>
         </Container>
       </section>
+
+
+      <Modal size="lg" show={play} onHide={()=>setplay(false)}>
+        <Button className="modalClose" onClick={()=>setplay(false)}>
+      <img src="/images/close.png" alt="Spaceshift" />
+          </Button>
+        <Modal.Body>
+          <div>   
+          <iframe src="https://www.google.com/maps/embed?pb=!4v1637072612227!6m8!1m7!1sCAoSLEFGMVFpcE9oZ3hHaWNYWDY1SDJkTWRZZEcyWUpEOEdDYXRnOW05c0kxREU1!2m2!1d22.5170478!2d88.360331!3f357.89737635311!4f-0.3439397969507212!5f0.7820865974627469" width="100%" height="450" frameBorder='0' allowFullScreen="" loading="lazy"></iframe>
+          </div>
+        </Modal.Body>
+      </Modal>
+
       <Footer />
     </div>
   );

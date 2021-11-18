@@ -31,9 +31,7 @@ export default function Home() {
               <div className={stylesContact.contactUsBox}>
                 <h1>Contact Us</h1>
                 <p>
-                  Vestibulum ac diam sit amet quam vehicula elementum sed sit
-                  amet dui. Lorem ipsum dolor sit amet, consectetur adipiscing
-                  elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Feel free to get in touch with us right away
                 </p>
 
                 <div className={stylesContact.addressEmailwrap}>
@@ -43,7 +41,7 @@ export default function Home() {
 <img src="/images/contact-icon-1.png" alt="Spaceshift"/>
 
                       <h3>Address</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur </p>
+                      <p>Kolkata / Goa </p>
                     </li>
 
                     <li>
@@ -51,7 +49,7 @@ export default function Home() {
 <img src="/images/contact-icon-2.png" alt="Spaceshift"/>
 
                       <h3>Call Us</h3>
-                      <p>(236) 236-6236 </p>
+                      <p>+91 9830693914</p>
                     </li>
 
                     <li>
@@ -81,7 +79,7 @@ export default function Home() {
               <div className={stylesContact.contactGenQuesBoxContainer}>
                 <div className={stylesContact.contactGenQuesBox1}>
                   <span>Get In Touch</span>
-                  <h2>Have a General Question? Send Us an email</h2>
+                  <h2>Have a General Question? submit the form right away</h2>
                 </div>
                 <div className={stylesContact.contactGenQuesBox2}>
                   <input
