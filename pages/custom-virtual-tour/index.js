@@ -27,7 +27,10 @@ export default function index() {
       <div className="innerPageHeaderWrap black-bg">
         {/* <Image src={customVirtualTourImg} alt="Spaceshift" /> */}
 {/* <img src="/images/custom-virtual-tours-cover.webp" alt="Spaceshift"/> */}
-<iframe width="100%" height="640" frameBorder="0" allowFullScreen allow="xr-spatial-tracking; gyroscope; accelerometer" scrolling="no" src="http://s3.amazonaws.com/b360/diplomat/index.html?fbclid=IwAR2HhrYcrnHOs49ZsttopLlJ2kImLxDl_mlG9_3dAeN3ESV0-qLfa5norAI"></iframe>
+{/* <iframe width="100%" height="640" frameBorder="0" allowFullScreen allow="xr-spatial-tracking; gyroscope; accelerometer" scrolling="no" src="http://s3.amazonaws.com/b360/diplomat/index.html?fbclid=IwAR2HhrYcrnHOs49ZsttopLlJ2kImLxDl_mlG9_3dAeN3ESV0-qLfa5norAI"></iframe> */}
+
+<iframe width="100%" height="640" frameBorder="0" allowFullScreen allow="xr-spatial-tracking; gyroscope; accelerometer" scrolling="no" src="https://kuula.co/share/collection/7kCQZ?logo=1&info=0&fs=1&vr=1&sd=1&initload=0&thumbs=1"></iframe>
+
         {/* <div className="innerPageHeaderTitle black-bg">
           <h2>Custom Virtual Tours</h2>
           <p>
