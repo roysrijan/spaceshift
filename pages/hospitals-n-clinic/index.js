@@ -71,6 +71,17 @@ export default function index() {
         </Container>
       </section>
 
+      <section className={stylesHospitalsNClinic["bhtWrap"] + " " + "blockPadding"} >
+        <Container>
+          <Row>
+            <Col lg="12">
+            <iframe width="100%" height="640" frameBorder="0" allowFullScreen allow="xr-spatial-tracking; gyroscope; accelerometer" scrolling="no" src="https://bhtclinic.com.tr/bhtclinic360/?fbclid=IwAR0sSxBfm0Cn8yrOQS2BKLlfx8eVB-vFhLS1wZQ6VLDo1bj5Rby3eqXpY3c"></iframe>
+             </Col>
+          </Row>
+        </Container>
+      </section>
+
+
       <section
         className={
           stylesHospitalsNClinic["hospitalBottomContainer"] +

@@ -147,13 +147,8 @@ export default function Home() {
           <Row>
             <Col lg="6" sm="8">
               <section className={stylesHome.topPart}>
-                <h1>Sparks of imagination light up every design</h1>
-                <p>
-                  Through the realms of technology and the immersive experience
-                  was born the concept of virtual reality. SpaceShift has been
-                  the pioneer of providing world-class services in the virtual
-                  reality domain.
-                </p>
+                <h1>SpaceShift | India’s leading Virtual Tour Company</h1>
+               <p>We focus on creating and developing immersive experiences through VR, AR & MR.</p>
               </section>
             </Col>
           </Row>
@@ -165,18 +160,18 @@ export default function Home() {
       >
         <Container>
           <Row>
-            <Col lg="7">
+            <Col lg="7"  className={stylesHome.aboutUscontentM}>
               <div className={stylesHome.aboutUscontent}>
                 <div className="tinyTitle">
                   <h5>About Us</h5>
                 </div>
-                <h2>SpaceShift : India’s leading Virtual Tour Company</h2>
+                {/* <h2>SpaceShift : India’s leading Virtual Tour Company</h2> */}
                 <p>
-                  Through the realms of technology and the immersive experience
-                  was born the concept of virtual reality . SpaceShift
+                  Through the realms of technology and immersive experiences
+                  was born the concept of Virtual Reality . SpaceShift
                   has been the pioneer of providing world-class services in the
-                  virtual reality domain. <br></br> <br></br>
-                  Through the collaboration of in-house talent, SpaceShift aims
+                  Virtual Reality domain. <br></br> <br></br>
+                  With in-house talent collaboration, SpaceShift aims
                   at striving towards the best possible solutions for the
                   clients. Inspiration is what people at SpaceShift put in their
                   lives and work every day.
@@ -926,7 +921,7 @@ export default function Home() {
           <Row>
             <Col lg="12">
               <div className={stylesHome.manyReasonBox}>
-                <h2>There are many reasons to get down</h2>
+                
                 <p>
                   Interested in knowing how SpaceShift can do wonders for your
                   business with its cutting-edge technology?
@@ -938,12 +933,14 @@ export default function Home() {
                     id="lname"
                     name="lname"
                     placeholder="Enter your Name"
+                    readOnly
                   />
                   <input
                     type="text"
                     id="lname"
                     name="lname"
                     placeholder="Enter your Email"
+                    readOnly
                   />
 
                   <input
@@ -951,10 +948,11 @@ export default function Home() {
                     id="lname"
                     name="lname"
                     placeholder="Enter your Ph. No."
+                    readOnly
                   />
                 </div>
                 <Button className={stylesHome.submitBt}>Submit</Button>
-                <p>No spam. Only releases, updates and discounts</p>
+               
               </div>
             </Col>
           </Row>
