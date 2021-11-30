@@ -167,6 +167,14 @@ export default function Home() {
                 </div>
                 {/* <h2>SpaceShift : India’s leading Virtual Tour Company</h2> */}
                 <p>
+
+                SpaceShift has been the pioneer in providing world-class immersive technology services, revolutionizing the way people experience and engage with content.<br></br> <br></br>
+
+Through the collaboration of in-house talents, SpaceShift aims at striving towards the best possible solutions for businesses that can separate them from others.<br></br> <br></br>
+
+Interested in knowing how SpaceShift can do wonders for your business?
+
+{/* 
                   Through the realms of technology and immersive experiences
                   was born the concept of Virtual Reality . SpaceShift
                   has been the pioneer of providing world-class services in the
@@ -174,10 +182,13 @@ export default function Home() {
                   With in-house talent collaboration, SpaceShift aims
                   at striving towards the best possible solutions for the
                   clients. Inspiration is what people at SpaceShift put in their
-                  lives and work every day.
+                  lives and work every day. */}
                 </p>
 
-                {/* <a className="coloredBt">Explore more projects</a> */}
+                
+                <a className="coloredBt">Click here</a>
+               
+               
               </div>
             </Col>
 
