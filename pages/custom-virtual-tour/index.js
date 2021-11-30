@@ -79,7 +79,13 @@ export default function index() {
         <Container>
           <Row>
             <Col lg="12">
-            <iframe width="100%" height="640" frameBorder="0" allowFullScreen allow="xr-spatial-tracking; gyroscope; accelerometer" scrolling="no" src="https://bhtclinic.com.tr/bhtclinic360/?fbclid=IwAR0sSxBfm0Cn8yrOQS2BKLlfx8eVB-vFhLS1wZQ6VLDo1bj5Rby3eqXpY3c"></iframe>
+            {/* <iframe width="100%" height="640" frameBorder="0" allowFullScreen allow="xr-spatial-tracking; gyroscope; accelerometer" scrolling="no" src="https://bhtclinic.com.tr/bhtclinic360/?fbclid=IwAR0sSxBfm0Cn8yrOQS2BKLlfx8eVB-vFhLS1wZQ6VLDo1bj5Rby3eqXpY3c"></iframe> */}
+
+
+            <iframe width="100%" height="640" frameBorder="0" allowFullScreen allow="xr-spatial-tracking; gyroscope; accelerometer" scrolling="no" src="http://s3.amazonaws.com/b360/diplomat/index.html?fbclid=IwAR2HhrYcrnHOs49ZsttopLlJ2kImLxDl_mlG9_3dAeN3ESV0-qLfa5norAI"></iframe>
+
+
+            
              </Col>
           </Row>
         </Container>
