@@ -163,7 +163,7 @@
   text-transform: uppercase;
   font-size: 16px;
   border: none;
-  border-radius:5px;
+  border-radius: 5px;
   padding: 0 33px;
   &:hover {
     background-color: #000000;
@@ -263,10 +263,10 @@
 .projectUndertakenContainer {
   background-color: #d2efee;
 }
-.topPart p{
+.topPart p {
   font-size: 25px;
 }
-.aboutUscontentM{
+.aboutUscontentM {
   display: flex;
   align-items: center;
 }
@@ -279,16 +279,13 @@
   }
 }
 
-@media(max-width:1100px){
+@media (max-width: 1100px) {
   .projectUndertakenBox1 {
     width: 50%;
-}
-.projectUndertakenBox2 {
-  width: 50%;
- 
-
-}
-
+  }
+  .projectUndertakenBox2 {
+    width: 50%;
+  }
 }
 @media (max-width: 800px) {
   .whatWeOfferBoxMain .whatWeOfferCol6 {
@@ -298,7 +295,7 @@
     background-size: 100% auto;
   }
   .topPart {
-    padding: 120px 0 40px 0;
+    padding: 411px 0 0 0 !important;
   }
 
   .whatWeOfferBox a {
@@ -329,7 +326,7 @@
     display: flex;
     flex-direction: column;
   }
-  .manyReasonBoxForm input{
+  .manyReasonBoxForm input {
     margin-bottom: 15px;
     width: 100%;
   }
@@ -342,7 +339,13 @@
   .testimonialsContainer {
     padding-left: 0;
   }
-
+  .aboutUsContainer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .coloredBt {
+    margin-bottom: 38px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -370,11 +373,11 @@
   .whatWeOfferBoxMain {
     padding: 0 13px;
   }
-  .projectUndertakenBox{
+  .projectUndertakenBox {
     flex-direction: column;
   }
-    .projectUndertakenBox1 {
-      width: 100%;
+  .projectUndertakenBox1 {
+    width: 100%;
   }
   .projectUndertakenBox2 {
     width: 100%;

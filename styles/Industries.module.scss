@@ -250,7 +250,9 @@
 .whatWeOfferBoxMain .whatWeOfferCol6:nth-child(2n) {
   padding-left: 30px;
 }
-
+.educationBox h1{
+  text-align: center;
+}
 }
 @media(max-width:767px){
 
@@ -313,7 +315,7 @@
 
 .whatWeOfferBoxMain .whatWeOfferCol6 {
   padding-right: 10px;
-  margin-top: 52px;
+  //margin-top: 52px;
 }
 .whatWeOfferBoxMain .whatWeOfferCol6:nth-child(2n) {
   padding-left: 10px;
@@ -333,5 +335,8 @@
 }
 .travelContentP{
   text-align: left;
+}
+.benefitContainer{
+  padding-bottom: 0;
 }
 }
